@@ -1,0 +1,146 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import classnames from 'classnames';
+import { useForm } from 'react-hook-form';
+import { yupResolver } from '@hookform/resolvers/yup';
+
+// app
+import styles from './MultiSelect.styles';
+import { Button, FormContainer, FormText, Warning } from 'components';
+import * as utils from 'utils';
+
+// mui
+import { Box, Checkbox, Collapse, Fade, InputAdornment, List, ListItem, ListItemIcon, ListItemText, makeStyles } from '@material-ui/core';
+import CloseIcon from '@material-ui/icons/Close';
+import SearchIcon from '@material-ui/icons/Search';
+
+MultiSelectView.propTypes = {
+  id: PropTypes.string.isRequired,
+  field: PropTypes.object.isRequired,
+  query: PropTypes.string,
+  options: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+      name: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  selectedItems: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+      name: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  search: PropTypes.bool,
+  placeholder: PropTypes.string,
+  max: PropTypes.number,
+  labels: PropTypes.shape({
+    maxReached: PropTypes.string,
+  }),
+  handlers: PropTypes.shape({
+    onClear: PropTypes.func.isRequired,
+    onToggleOption: PropTypes.func.isRequired,
+  }),
+};
+
+export function MultiSelectView({ id, field, query, options, selectedItems, search, max, labels, handlers }) {
+  const classes = makeStyles(styles, { name: 'MultiSelect' })();
+
+  const validationSchema = utils.form.getValidationSchema([field]);
+
+  const { control, reset, handleSubmit } = useForm({
+    ...(validationSchema && { resolver: yupResolver(validationSchema) }),
+  });
+
+  const valuesIds = selectedItems.map((v) => v.id);
+  const isMaxReached = Boolean(max && selectedItems?.length >= max);
+
+  const ClearBtn = (
+    <Button
+      size="small"
+      variant="text"
+      icon={CloseIcon}
+      onClick={handlers.onClear(reset)}
+      nestedClasses={{ btn: classes.clearBtn }}
+      data-testid={`multi-select-clear-${id}`}
+    />
+  );
+
+  return (
+    <Box className={classes.root}>
+      {search && (
+        <FormContainer
+          onSubmit={handleSubmit(handlers.onSearch)}
+          nestedClasses={{ root: classes.form }}
+          data-testid="form-multi-select-search"
+        >
+          <FormText
+            {...field}
+            control={control}
+            muiComponentProps={{
+              ...field.muiComponentProps,
+              fullWidth: true,
+              classes: {
+                root: classnames({
+                  [classes.input]: true,
+                }),
+              },
+              InputProps: {
+                startAdornment: (
+                  <InputAdornment position="start" classes={{ root: classes.adornmentStart }}>
+                    <SearchIcon />
+                  </InputAdornment>
+                ),
+                endAdornment: (
+                  <InputAdornment position="end" classes={{ root: classes.adornmentEnd }}>
+                    {query ? ClearBtn : <span />}
+                  </InputAdornment>
+                ),
+              },
+            }}
+          />
+        </FormContainer>
+      )}
+
+      {Boolean(max) && (
+        <Collapse in={isMaxReached}>
+          <Fade in={isMaxReached}>
+            <Box mt={1} mb={1}>
+              <Warning type="info" icon text={labels.maxReached || utils.string.t('filters.multiSelect.maxReached', { max })} />
+            </Box>
+          </Fade>
+        </Collapse>
+      )}
+
+      <List dense className={classes.list}>
+        {options.map((option) => {
+          const labelId = `multi-select-checkbox-list-label-${option.id}`;
+          const isSelected = valuesIds.includes(option.id);
+
+          return (
+            <ListItem
+              key={option.id}
+              button
+              onClick={() => {
+                handlers.onToggleOption(option);
+              }}
+              disabled={isMaxReached && !isSelected}
+              classes={{ root: classes.listItem }}
+            >
+              <ListItemIcon classes={{ root: classes.listItemIcon }}>
+                <Checkbox
+                  checked={isSelected}
+                  color="primary"
+                  tabIndex={-1}
+                  disableRipple
+                  disabled={isMaxReached && !isSelected}
+                  inputProps={{ 'aria-labelledby': labelId }}
+                />
+              </ListItemIcon>
+              <ListItemText id={labelId} primary={option.name} />
+            </ListItem>
+          );
+        })}
+      </List>
+    </Box>
+  );
+}

@@ -1,0 +1,5043 @@
+{
+  "admin": {
+    "addEditMarkets": "Add/Edit Markets",
+    "client": "Client",
+    "createOffice": "Create Office",
+    "createUser": "Create User",
+    "currentEdgeTitle": "Admin (Core)",
+    "department": "Department",
+    "department_plural": "Departments",
+    "editOffice": "Edit Office",
+    "editUser": "Edit User",
+    "emailAddress": "Email Address",
+    "filter": "Filter",
+    "form": {
+      "accounts": {
+        "label": "Account(s)"
+      },
+      "admin": {
+        "label": "Admin"
+      },
+      "carriers": {
+        "label": "Carriers"
+      },
+      "client": {
+        "label": "Client"
+      },
+      "clientOffice": {
+        "label": "Client Office(s)"
+      },
+      "clients": {
+        "label": "Clients"
+      },
+      "coverholderRole": {
+        "label": "Coverholder"
+      },
+      "departments": {
+        "label": "Department(s)"
+      },
+      "email": {
+        "label": "Email address"
+      },
+      "firstName": {
+        "label": "First name"
+      },
+      "lastName": {
+        "label": "Last name"
+      },
+      "marketParent": {
+        "label": "Market Parent"
+      },
+      "markets": {
+        "label": "Market(s)"
+      },
+      "office": {
+        "label": "Office"
+      },
+      "phone": {
+        "label": "Contact phone"
+      },
+      "products": {
+        "label": "Quote & Bind",
+        "labelProducts": "Products"
+      },
+      "reportsAdmin": {
+        "label": "Reports Admin"
+      },
+      "role": {
+        "label": "Role*"
+      }
+    },
+    "fullName": "Full name",
+    "market": "Market",
+    "marketParent": "Market Parent",
+    "market_plural": "Markets",
+    "noClients": "No Clients",
+    "noMarketParents": "No Market Parents",
+    "noMarkets": "No Markets",
+    "noOffices": "No Offices",
+    "office": "Office",
+    "office_plural": "Offices",
+    "quoteBindTitle": "Quote & Bind",
+    "role": "Role",
+    "searchByClient": "Search by client",
+    "searchByDepartment": "Search by department",
+    "searchByFullName": "Search by user",
+    "searchByMarketParent": "Search by market parent",
+    "sendVerificationEmail": "Send Verification Email",
+    "title": "Admin",
+    "user": "User",
+    "user_plural": "Users"
+  },
+  "administration": {
+    "extendedAdminTitle": "Admin (Extended)",
+    "title": "Admin",
+    "users": {
+      "create": {
+        "claimGroupsList": {
+          "claimsAdmin": "Claim Admin",
+          "claimsBackOfficeArdonagh": "Claim - Back Office - Ardonagh",
+          "claimsBackOfficeMphasis": "Claim - Back Office - Mphasis"
+        },
+        "createButton": "Create User",
+        "label": {
+          "businessProcess": "Business Process",
+          "department": "Department",
+          "email": "Email Address*",
+          "firstName": "First Name*",
+          "groups": "Groups",
+          "lastName": "Last Name*",
+          "phone": "Contact Number",
+          "role": "Role",
+          "team": "Team",
+          "xbInstance": "XB Instance"
+        },
+        "title": "Create User",
+        "validation": {
+          "departmentsXbInstances": "Select at least one department for every XB Instances"
+        }
+      },
+      "delete": {
+        "confirmText": "Are you sure you want to deactivate {{name}}?",
+        "title": "Deactivate User"
+      },
+      "edit": {
+        "title": "Edit User"
+      },
+      "gridDataEmptyWarning": "No users have yet been added",
+      "searchPlaceholder": "Search by name",
+      "table": {
+        "cols": {
+          "businessProcess": "Business Process",
+          "departments": "Departments",
+          "email": "Email Address",
+          "fullName": "Full Name",
+          "groups": "Groups",
+          "role": "Role",
+          "xbInstance": "XB Instance"
+        }
+      }
+    }
+  },
+  "advancedSearch": {
+    "categories": {
+      "clientOfficeParents": "Client Office Parent",
+      "clients": "Clients",
+      "departments": "Departments",
+      "insureds": "Insureds",
+      "markets": "Markets",
+      "policies": "Policies"
+    },
+    "fetchError": "There was a problem with the search.<br>Please try again.",
+    "noResult": "No Result Found",
+    "placeholder": "Search clients, insureds, policies, markets, departments..."
+  },
+  "app": {
+    "account": "Account",
+    "account_plural": "Accounts",
+    "actions": "Actions",
+    "add": "Add",
+    "addEndorsement": "Add Endorsement",
+    "addLocation": "Add Location",
+    "addUser": "Add User",
+    "addingLocations": "Adding Locations",
+    "address": "Address",
+    "all": "All",
+    "amount": "Amount",
+    "apiResponseFail": "FAIL",
+    "apiResponseSuccess": "SUCCESS",
+    "apply": "Apply",
+    "approvalsPending": "Approvals Pending",
+    "approve": "Approve",
+    "approved": "Approved",
+    "assign": "Assign",
+    "assignTo": "Assign To",
+    "assignToMe": "Assign to Me",
+    "attachDocuments": "Attach Documents",
+    "authenticating": "Authenticating...",
+    "authorised": "Authorised",
+    "back": "Back",
+    "backToPrevious": "Back",
+    "broker": "Broker",
+    "broker_plural": "Brokers",
+    "broking": "Broking",
+    "businessType": "Business Type",
+    "cancel": "Cancel",
+    "chooseTechnician": "Choose Technician",
+    "chooseUser": "Choose User",
+    "city": "City",
+    "claim": "Claim",
+    "clear": "Clear",
+    "clearAll": "Clear All",
+    "client": "Client",
+    "client_plural": "Clients",
+    "close": "Close",
+    "cobroker": "Co-Broker",
+    "cobroker_plural": "Co-Brokers",
+    "collapse": "Collapse",
+    "company": "Company",
+    "complete": "Complete",
+    "confidential": "Confidential",
+    "configuring": "Configuring...",
+    "confirm": "Confirm",
+    "confirmation": "Confirmation",
+    "continue": "Continue",
+    "contract": "Contract",
+    "contract_plural": "Contracts",
+    "copyright": "{{appname}} &copy;",
+    "count": "Count",
+    "country": "Country",
+    "create": "Create",
+    "createdAt": "Created",
+    "current": "Current",
+    "date": "Date",
+    "dateFrom": "From",
+    "dateStart": "Start Date",
+    "dateTo": "To",
+    "datepicker": "datepicker",
+    "delete": "Delete",
+    "deleteUser": "Delete User",
+    "department": "Department",
+    "department_plural": "Departments",
+    "description": "Description",
+    "document": "Document",
+    "documentType": "Document Type",
+    "download": "Download",
+    "downloadExcelTemplate": "Excel Template",
+    "downloadFile": "Downloading file...",
+    "draft": "DRAFT",
+    "edit": "Edit",
+    "emailCc": "Cc",
+    "emailDraft": "Draft",
+    "emailExistingAttachmentLabel": "Use Existing Files",
+    "emailInbox": "Inbox",
+    "emailSent": "Sent",
+    "emailSubject": "Subject",
+    "emailTo": "To",
+    "excess": "Excess",
+    "exit": "Exit",
+    "expand": "Expand",
+    "expired": "Expired",
+    "expiryDate": "Expiry Date",
+    "facility": "Facility",
+    "facility_plural": "Facilities",
+    "field": "field",
+    "field_plural": "fields",
+    "file": "File",
+    "fileUpload": "File Upload",
+    "file_plural": "Files",
+    "filename": "Filename",
+    "filter": "Filter",
+    "folder": "Folder",
+    "folderHintText": "Create a folder to upload your document",
+    "fullscreen": "Full screen",
+    "fullscreenExit": "Exit Fullscreen",
+    "geocoding": "Geocoding",
+    "go": "Go",
+    "goBack": "Go Back",
+    "gxb": "GXB",
+    "high": "High",
+    "home": "Home",
+    "inception": "Inception",
+    "inceptionDate": "Inception Date",
+    "inputDate": "DD-MM-YYYY",
+    "insured": "Insured",
+    "insured_plural": "Insureds",
+    "insurerLabel": "Select NonBereau Insurer",
+    "introduction": "Introduction",
+    "invalidDate": "DD-MM-YYYY",
+    "key": "Key",
+    "leadUser": "Lead",
+    "loading": "Loading...",
+    "loading_locations": "Loading locations...",
+    "location": "Location",
+    "location_plural": "Locations",
+    "locationsCount": "Locations Count",
+    "loggingOut": "Logging out...",
+    "login": "Log in",
+    "logout": "Log out",
+    "link": "Link",
+    "market": "Market",
+    "market_plural": "Markets",
+    "medium": "Medium",
+    "migrated": "Migrated",
+    "mostRecent": "Most Recent",
+    "na": "N/A",
+    "new": "New",
+    "newEmail": "New Email",
+    "next": "Next",
+    "no": "No",
+    "noDocuments": "No documents uploaded",
+    "noMoreItems": "No more items",
+    "noNotifications": "No notifications",
+    "notAvailable": "Not Available",
+    "notFound": "Not Found",
+    "office": "Office",
+    "office_plural": "Offices",
+    "ok": "OK",
+    "optional": "optional",
+    "or": "or",
+    "okProceed": "Ok, Proceed",
+    "page": "Page",
+    "parentCompany": "Parent Company",
+    "pasteFromExcel": "Paste From Excel",
+    "placement": "Placement",
+    "policy": "Policy",
+    "preBindForm": "Pre-Bind Form",
+    "premium": "Premium",
+    "premium_plural": "Premiums",
+    "preview": "Preview",
+    "product": "Product",
+    "product_plural": "Products",
+    "propertyNotFound": "{{property}} not found",
+    "quote": "Quote",
+    "quote_plural": "Quotes",
+    "reAssign": "Re-Assign",
+    "reInsured": "(Re)Insured",
+    "reInsured_plural": "(Re)Insureds",
+    "reQuote": "Re-Quote",
+    "coverageComparison": "Coverage comparison",
+    "redirectAnalytics": "or click here to login to Analytics",
+    "refresh": "Refresh",
+    "reject": "Reject",
+    "remove": "Remove",
+    "removeAll": "Remove All",
+    "renewal": "Renewal",
+    "reply": "Reply",
+    "report": "Report",
+    "reportGroup": "Report Group",
+    "reporting": "Reporting",
+    "reportingGroup": "My Reports",
+    "requiredFields": "* Required Fields",
+    "reset": "Reset",
+    "result": "result",
+    "result_plural": "results",
+    "save": "Save",
+    "saveClose": "Save & Close",
+    "saveDraft": "Save as Draft",
+    "saveEdit": "Save & Edit",
+    "saveNext": "Save & Next",
+    "search": "Search...",
+    "searchClear": "Reset search results",
+    "searchForProperty": "Search for {{property}}",
+    "searchLabel": "Search",
+    "searchResult": "{{count}} $t(format.lowercase, { 'value': { 'label':'app.result', 'count':'{{count}}' } }) for <strong>\"{{query}}\"</strong>",
+    "searchResultIn": "{{count}} $t(format.lowercase, { 'value': { 'label':'app.result', 'count':'{{count}}' } }) for <strong>\"{{query}}\"</strong> in {{category}}",
+    "searchText": "Search",
+    "seeAll": "see all",
+    "seeLess": "see less",
+    "seeMore": "see more",
+    "select": "Select...",
+    "selectAll": "Select/deselect All",
+    "selectDate": "Select a date...",
+    "send": "Send",
+    "sessionExpire": "Your session is expired due to inactivity. Please extend your session to continue.",
+    "sessionTimeout": "Session Timeout",
+    "set": "Set",
+    "signIn": "Sign in",
+    "signInToApp": "Sign in to continue to EDGE",
+    "somethingWentWrong": "Something went wrong, please try again later",
+    "state": "State",
+    "status": "Status",
+    "staySignedIn": "Stay Signed In",
+    "streetAddress": "Street Address",
+    "skipUpload": "Skip Upload",
+    "submit": "Submit",
+    "team": "Team",
+    "technicianNotFound": "Technician Not Found",
+    "template": "Template",
+    "title": "Title",
+    "tiv": "TIV",
+    "total": "Total",
+    "totalInsurableValue": "Total Insurable Value",
+    "trip": "Trip",
+    "tryAgain": "Try again",
+    "type": "Type",
+    "typeSearch": "Type a search to get results...",
+    "underwriter": "Underwriter",
+    "update": "Update",
+    "updateApp": "New Update available! Click Update button to reload the webapp and see the latest changes.",
+    "upload": "Upload",
+    "uploadDocuments": "Upload Documents",
+    "uploadedBy": "Uploaded By",
+    "uploadedDate": "Uploaded Date",
+    "user": "User",
+    "users": "Users",
+    "validUntil": "Valid Until",
+    "various": "Various",
+    "version": "Version",
+    "view": "View",
+    "viewalldocuments": "View all documents",
+    "visit": "Visit",
+    "visit_plural": "Visits",
+    "warning": "Warning",
+    "writeComment": "Write a comment...",
+    "xbInstance": "XB Instance",
+    "year": "Year",
+    "yearOfAccounts": "Year of Accounts",
+    "yes": "Yes",
+    "editableTableNoData": "No data to display",
+    "copyButtonToolTip": "Copy data from above line",
+    "undoButtonToolTip": "Undo Changes",
+    "editRowTooltip": "Click here to edit",
+    "name": "Name",
+    "actionId": "Action ID",
+    "apiFetchingError": "There is an issue while fetching the data, Please try again later",
+    "skipUploadStep": "Skip Upload Step",
+    "noDataDisplay": "No Data to display"
+  },
+  "chart": {
+    "legend": {
+      "premium": "$t(app.premium) ({{currency}})"
+    },
+    "tooltip": {
+      "accounts": "$t(app.account, { 'count':{{count}} }): {{count}}",
+      "amount": "$t(app.amount): $t(format.currency, { 'value': { 'number':{{amount}}, 'currency':'{{currency}}' } })",
+      "locations": "$t(app.location, { 'count':{{count}} }): {{count}}",
+      "placement": "$t(app.placement): {{id}}",
+      "premium": "$t(app.premium): $t(format.currency, { 'value': { 'number':{{amount}}, 'currency':'{{currency}}' } })",
+      "tiv": "$t(app.tiv): $t(format.currency, { 'value': { 'number':{{amount}}, 'currency':'{{currency}}' } })",
+      "total": "$t(app.total): $t(format.currency, { 'value': { 'number':{{amount}}, 'currency':'{{currency}}' } })"
+    }
+  },
+  "chartKey": {
+    "colorHint": "Hover over and click on a color to set your own."
+  },
+  "chartZoomLevel": {
+    "resetOverride": "Reset to zoom level",
+    "viewingLocationsBy": "Viewing locations by:",
+    "zoomLevelLabel": "Zoom level: {{level}}"
+  },
+  "claims": {
+    "manageDocumentLabels": {
+      "searchPlaceholder": "Search claim package",
+      "claimFile": "Claim File",
+      "gxb": "GXB",
+      "filename": "Filename",
+      "uploadedby": "Uploaded by",
+      "uploadedon": "Uploaded on",
+      "loss": "Loss",
+      "claim": "Claim",
+      "copyToClipBoardMessage": "Link Copied to Clipboard"
+    },
+    "acknowledgement": {
+      "generateLetter": "Generate Acknowledgement",
+      "letter": "Generate Acknowledgement Letter",
+      "newClaim": "Add new claim for this loss",
+      "title": "Acknowledgement"
+    },
+    "stepperLabel": {
+      "registerLoss": "Enter Loss Information",
+      "searchPolicy": "Search Policy",
+      "enterClaimInformation": "Enter Claim Information",
+      "previewInfo": "Preview Information",
+      "acknowledgement": "Acknowledgement"
+    },
+    "modalStepperLabel": {
+      "createLoss": "Create Loss",
+      "linkPolicies": "Link Policies",
+      "createClaim": "Create Claim",
+      "manageDocuments": "Manage Documents",
+      "confirmation": "Confirmation",
+      "title": "Loss and Claim Registration"
+    },
+    "registerLoss": {
+      "taskFunction": "Task Function",
+      "saveDraft": "SAVE DRAFT"
+    },
+    "actions": {
+      "complexityRulesManagement": "Complexity Rules Management",
+      "processing": "Claims Processing",
+      "registerNewLoss": "Register New Loss"
+    },
+    "addNewClaim": "Add New Claim",
+    "allClaims": "All Claims",
+    "attachments": {
+      "attachmentId": "Attachment Id",
+      "attachments": "Attachments",
+      "noAttachmentFound": "No Attachment(s) Found",
+      "type": "Type"
+    },
+    "audits": {
+      "columns": {
+        "changedBy": "Changed By",
+        "changedDateTime": "Changed Date & Time",
+        "changedFrom": "Changed From",
+        "changedTo": "Changed To",
+        "createdBy": "Created By",
+        "createdDateTime": "Created Date & Time",
+        "event": "Event",
+        "newValue": "New Value",
+        "oldValue": "Original Value",
+        "reason": "Reason for Change"
+      },
+      "notifications": {
+        "getFailure": "There was an error fetching audit trail. Please try again."
+      }
+    },
+    "claimDetailsLabel": {
+      "priority": "Priority",
+      "taskSelection": "Task to trigger"
+    },
+    "claimDetailsSidebar": {
+      "coloum": {
+        "client": "Client",
+        "coverHolder": "Coverholder",
+        "dateTimeCreated": "Date & Time created",
+        "lossDetails": "Loss Details",
+        "lossQualifier": "Loss Qualifier",
+        "ucr": "UCR",
+        "viewDetails": "View all details"
+      }
+    },
+    "claimId": "Claim ID",
+    "claimInformation": {
+      "adjustorName": "Adjuster Name",
+      "adjustorRef": "Adjuster Reference",
+      "adjustorRefShort": "Adj. Reference",
+      "adjustorType": "Adjuster Type",
+      "assignedTo": "Assigned To",
+      "autoGenerated": "Auto Generated",
+      "beAdjuster": "BE Adjuster",
+      "bordereauClaim": "Bordereau Claim",
+      "bordereauPeriod": "Bordereau Period",
+      "certificateExpiryDate": "Certificate Expiry Date",
+      "certificateInceptionDate": "Certificate Inception Date",
+      "certificateNumber": "Certificate Number",
+      "chooseAdjuster": "Choose Adjuster",
+      "claimPreviewTitle": "CLAIM REF. {{claimRef}} | CONTRACT/POLICY REF | INSURED",
+      "claimReceivedDateTime": "Claim Received Date & Time",
+      "receivedDateTooltipMessage": "Claim Received Date & Time refers to the Date and Time when Claims Handler has first received the FNOL email. Please make sure to upload FNOL email received in the Document Section.",
+      "claimRef": "Claim Reference",
+      "claimStatus": "Claim Status",
+      "claimant": "Claimant",
+      "claimantName": "Claimant Name",
+      "classOfBusiness": "Class of Business",
+      "client": "Client",
+      "code": "Code",
+      "company": "Company",
+      "complexity": "Complexity",
+      "complexityBasis": "Complexity Basis",
+      "currency": "Currency",
+      "description": "Description",
+      "division": "Division",
+      "expertId": "Claims Expert Id",
+      "expiryDate": "Expiry Date",
+      "fguNarrative": "FGU Narrative",
+      "id": "Claim ID",
+      "inceptionDate": "Inception Date",
+      "insured": "Insured",
+      "interest": "Interest",
+      "location": "Location",
+      "lossQualifier": "Loss Qualifier",
+      "noClaims": "No Claim(s) Found",
+      "noInterestAvailable": "No Select Interest available",
+      "nonBeAdjuster": "Non-BE Adjuster",
+      "originalCurrency": "Original Currency",
+      "policy": "Policy",
+      "policyRef": "Contract / Policy Ref",
+      "policyRiskDetails": "Policy Risk Details",
+      "policyTitle": "Policy Information",
+      "policyType": "Policy Type",
+      "priority": "Priority",
+      "processNotes": "Process Notes",
+      "rate": "Rate",
+      "referral": "Referral",
+      "rfiResponse": "Referral Response",
+      "rfiResponseShort": "Ref. Response",
+      "riskDetails": "Risk Details",
+      "schedule": "Schedule",
+      "selectInterestFromTheList": "Select Interest from the list",
+      "settlementCurrency": "Settlement Currency",
+      "status": "Claim Status",
+      "title": "Claim Information",
+      "type": "Claim Type",
+      "ucr": "UCR",
+      "country": "Country",
+      "validation": {
+        "greaterThenExpDate": "Cannot be greater than the Certificate Expiry Date field",
+        "lesserThenIncDate": "Cannot be lesser than Certificate Inception Date field",
+        "maxAdjusterReference": "Adjuster Reference field must be less than 20 characters",
+        "maxCerficateNumber": "Certificate Number fields must be less than 17 characters",
+        "maxNonBEAdjuster": "Non-BE Adjuster field must be less than 100 characters"
+      },
+      "workflowStatus": "Workflow Status",
+      "claimStage": "Claim Stage",
+      "dms": {
+        "uploadDocuments": "Upload Claim Documents",
+        "fileUploadWarning": "Please save the claim details first before you upload any documents.",
+        "searchDocuments": "Search claim documents..."
+      }
+    },
+    "lossClaimsTasksDashboard": {
+      "losses": "Losses",
+      "claims": "Claims",
+      "tasks": "Tasks",
+      "reports": "Reports",
+      "advanceSearch": "Advanced Search",
+      "searchActionsTabBarPlaceholder": "Action, Team, Description, Status, Priority, Insured, Division"
+    },
+    "claimRef": {
+      "auditTrail": "Audit Trail",
+      "detail": "Claim Detail",
+      "docs": "Documents",
+      "notes": "Notes",
+      "actions": "Actions",
+      "popOverFunction": "Claim Functions",
+      "popOverItems": {
+        "claimToTeamQueue": "Return Claim to Team Queue",
+        "claimToTeamQueueErrorMessage": "Error when the claim return to the team queue",
+        "claimToTeamQueueMessage": "The claim will be return to the team queue, do you want to continue?",
+        "claimToTeamQueueSuccessMessage": "The claim return to the team queue successfully",
+        "createAdhocTask": "Create Ad-Hoc Task",
+        "createRFI": "Create RFI",
+        "editLoss": "Edit Loss",
+        "editTask": "Edit Task",
+        "reAssignClaim": "Reassign Claim",
+        "reOpen": "Reopen Claim",
+        "reOpenClaimMessage": "Are you sure you want to reopen claim?",
+        "releaseClaims": "Release claims to Q",
+        "reopenClaim": "Reopen Claim",
+        "setClaimPriority": "Set Claim Priority"
+      },
+      "rfis": "RFIs",
+      "tasks": "Tasks",
+      "text": "Claim {{claimRef}}"
+    },
+    "claimRefTasks": {
+      "status": {
+        "completed": "Completed",
+        "inProgress": "In-Progress"
+      }
+    },
+    "columns": {
+      "claimsList": {
+        "assignedTo": "Assigned To",
+        "assured": "Insured",
+        "catCodesID": "Cat Code",
+        "claimID": "Claim Ref",
+        "claimLossFrom": "Claim Loss From",
+        "claimLossTo": "Claim Loss To",
+        "claimReceivedDateTime": "Claim Received Date & Time",
+        "claimReference": "Claim Reference",
+        "claimStatusName": "Claim Status",
+        "claimantName": "Claimant",
+        "client": "Client",
+        "company": "Company",
+        "dateAndTimeCreated": "Date & Time Created",
+        "dateCreated": "Date Created",
+        "division": "Division",
+        "insured": "Insured",
+        "reinsured": "Reinsured",
+        "lossDetailID": "Loss ID",
+        "lossFromDate": "Loss Date From",
+        "lossName": "Loss Name",
+        "lossRef": "Loss Ref",
+        "lossDetails": "Loss Details",
+        "lossQualifier": "Loss Qualifier",
+        "dateFrom": "Date From",
+        "dateTo": "Date To",
+        "firstContactDate": "First Contact Date",
+        "firstContactDateTime": "First Contact Date & Time",
+        "lossStatus": "Loss Status",
+        "lossToDate": "Loss Date To",
+        "pasEventID": "PAS Event ID",
+        "policyRef": "Contract/Policy Ref",
+        "policyType": "Policy Type",
+        "priority": "Priority",
+        "targetDueDate": "Target Due Date",
+        "team": "Team",
+        "ucr": "UCR",
+        "umr": "UMR",
+        "claimStatus": "Claim Status",
+        "claimStage": "Claim Stage",
+        "lastUpdated": "Last Updated",
+        "reference": "Reference",
+        "searchLosses": "Search Losses",
+        "coverholder": "Cover Holder"
+      },
+      "claimsManagement": {
+        "assignedTo": "Assigned To",
+        "catCode": "Cat Code",
+        "claimReceivedDateTime": "Claim Received Date & Time",
+        "claimant": "Claimant",
+        "client": "Client",
+        "closedDate": "Close Date",
+        "company": "Company",
+        "complexity": "Complexity",
+        "coverholder": "Cover Holder",
+        "createdBy": "Created By",
+        "createdDate": "Date & Time Created",
+        "division": "Division",
+        "insured": "Insured",
+        "interest": "Interest",
+        "lastUpdated": "Date & Time Last Updated",
+        "lossDateFrom": "Loss Date From",
+        "lossDateTo": "Loss Date To",
+        "lossDetailID": "Loss Detail ID",
+        "lossDetails": "Loss Details",
+        "lossRef": "Loss Ref",
+        "pasClaimRef": "PAS Claim Ref",
+        "pasStatus": "PAS Status",
+        "policyRef": "Policy Ref",
+        "policyType": "Policy Type",
+        "priority": "Priority",
+        "ref": "Claim Ref",
+        "reinsured": "Reinsured",
+        "stage": "Stage",
+        "status": "Status",
+        "targetDueDate": "Target Due Date",
+        "team": "Team",
+        "ucr": "UCR",
+        "updatedBy": "Last Updated By",
+        "taskCompleted": "Task Completed On",
+        "lossDateQualifier": "Loss Qualifier"
+      },
+      "complexInsuredList": {
+        "insured": "Insured"
+      },
+      "createRFIStepper": {
+        "rfiDetails": "RFI Details",
+        "uploadDocs": "Upload Documents",
+        "confirmRFI": "Confirm RFI"
+      },
+      "createRFIColumns": {
+        "claimRef": "Claim Ref",
+        "description": "Description",
+        "priority": "Priority",
+        "queryCode": "Query Code",
+        "sendTo": "Send To",
+        "taskName": "Task Name",
+        "team": "Team"
+      }
+    },
+    "claimsTab": {
+      "tablecolumns": {
+        "claimRef": "Claim Ref",
+        "lossRef": "Loss Ref",
+        "lossDateFrom": "Loss Date From",
+        "insured": "Insured",
+        "policyRef": "Policy Ref",
+        "division": "Division",
+        "workflowStatus": "Workflow Status",
+        "claimStage": "Claim Stage",
+        "assignedTo": "Assigned To",
+        "team": "Team",
+        "lastUpdated": "Last Updated",
+        "priority": "Priority",
+        "catCode": "",
+        "claimReceivedDateTime": "",
+        "createdDate": "Date & Time Created",
+        "closedDate": "Close Date",
+        "complexity": "Complexity",
+        "ucr": "UCR",
+        "policyType": "Policy Type",
+        "claimant": "Claimant",
+        "reinsured": "Reinsured",
+        "client": "Client",
+        "interest": "Interest",
+        "createdBy": "Created By",
+        "company": "Company",
+        "coverholder": "Cover Holder",
+        "lossDateTo": "Loss Date To",
+        "lossDateQualifier": "Loss Qualifier",
+        "lossDetails": "Loss Details",
+        "pasClaimRef": "PAS Claim Ref",
+        "pasStatus": "PAS Status"
+      },
+      "filtercolumns": {
+        "claimStage": "Claim Stage",
+        "lossDateFrom": "Loss Date From",
+        "insured": "Insured",
+        "assignedTo": "Assigned To",
+        "lastUpdated": "Last Updated",
+        "priority": "Priority",
+        "division": "Division",
+        "workflowStatus": "Workflow Status",
+        "team": "Team"
+      },
+      "popOverButtonItems": {
+        "editClaim": "Edit Claim",
+        "changeItems": "Change Complexity/Priority/Assignment",
+        "createRFI": "Create RFI",
+        "createAdhocTask": "Create Ad-hoc Task"
+      },
+      "myClaims": "My Claims",
+      "myTeamClaims": "My Team Claims",
+      "multiSelect": "Multiselect",
+      "multiSelectTooltipDraft": "Claims in status Draft can't be updated"
+    },
+    "complexityContractPolicy": {
+      "tableColumns": {
+        "claimant": "Claimant",
+        "company": "company",
+        "contractOrPolicyRef": "Contract/Policy Ref",
+        "division": "Division",
+        "expiryDate": "Expiry Date",
+        "inceptionDate": "Inception Date",
+        "insured": "Insured",
+        "policyType": "Policy Type",
+        "riskDetails": "Risk Details"
+      },
+      "title": "Enter Contract/Policy or Insured"
+    },
+    "complexityInsured": {
+      "title": "Enter Insured"
+    },
+    "complexityRulesManagementDetails": {
+      "alertModal": {
+        "note": "<strong>Note:</strong> If you have Additional Assignee for In progress for this task, please nullify first. <br /><br /> <strong>Are you sure you want to release Claim to Queue?</strong>",
+        "subTitle": "Are you sure you want to leave this page?",
+        "title": "Alert"
+      },
+      "complexityBasisValues": {
+        "basisValues": "Complexity Basis Values",
+        "forCompany": "For Company(s)",
+        "forDivision": "For Division(s)"
+      },
+      "complexityInsured": "Select Insured",
+      "complexityValues": "Complexity Basis Values",
+      "complexityValuesDivisionSelectPrompt": "Select a row to Edit / Delete the complexity basis value",
+      "complexityValuesEmpty": "Click ADD button to add Complexity Basis Values records that are complex",
+      "contractPolicyRef": "Contract/Policy Ref",
+      "contractPolicyRefEmpty": "Click ADD button to add Contract/Policy Ref records that are complex",
+      "division": "Division",
+      "divisionEmpty": "No Division records are found",
+      "editComplexityValue": "Edit Complexity Basis Value",
+      "editReferralValue": "Edit Referral Value",
+      "insured": "Insured",
+      "insuredEmpty": "Click ADD button to add Insured records that are complex",
+      "referralValues": "Referral Values",
+      "referralValuesDivisionSelectPrompt": "Select a row to Edit / Delete the referral value",
+      "referralValuesEmpty": "Click ADD button to add Referral Values records that are complex",
+      "saveAsComplex": "Save As Complex",
+      "selectPolicy": "Select Policy",
+      "selectPolicyHint": "Enter Contract, Policy Ref or Insured",
+      "title": "Claims Complexity Rules Management"
+    },
+    "createClaim": "Create Claim",
+    "createClaimFromLoss": "Create Claim from loss",
+    "documents": {
+      "firmOrder": "Firm Order Slip",
+      "processingInstructions": "Processing Instructions",
+      "title": "Documents",
+      "transactionSheets": "Transaction Sheets"
+    },
+    "editClaim": "Edit Claim",
+    "editLoss": "Edit Loss",
+    "addClaim": "Add Claim",
+    "filterPlaceHolderText": "Select value(s) to filter",
+    "insured": "Insured",
+    "lossInformation": {
+      "catCode": "Cat Code",
+      "assignedTo": "Assigned To",
+      "dateAndTime": "First Contact Date & Time",
+      "details": "Loss Details",
+      "description": "Loss Description",
+      "dmsUploadDocument": {
+        "cols": {
+          "documentClassification": "Document Classification",
+          "documentType": "Document Type *",
+          "fileName": "File Name",
+          "tag": "Tag (Optional)"
+        }
+      },
+      "fromDate": "Loss Date From",
+      "id": "Loss ID",
+      "name": "Loss Name",
+      "otherAssociateLossSelectLable": "ClaimRef {{claimID}} policyRef {{policyRef}} | Insured {{insured}}",
+      "otherAssociateLossTitle": "Other claims associated with this loss",
+      "qualifier": "Loss Qualifier",
+      "ref": "Loss Reference",
+      "title": "Loss Information",
+      "toDate": "Loss Date To",
+      "firstContactTooltipMessage": "First Contact Date & Time refers to the Date and Time when Claims Handler has first received the FNOL email. Please make sure to upload FNOL email received in the Document Section.",
+      "validation": {
+        "fromDate": "From Date is a required field",
+        "futureDate": "Cannot be a future date",
+        "futureDateAndTime": "Cannot be a future date & time",
+        "greaterThenDate": "Cannot be greater than the Loss Date To field",
+        "lesserThenDate": "Cannot be lesser than Loss Date From field",
+        "betweenTheDate": "Date should be between Loss From Date and Loss To Date field",
+        "lossDescription": "Loss Details is a required field",
+        "lossName": "Loss Name is a required field",
+        "maxLossDescription": "Loss Details field must be less than 350 characters",
+        "maxLossName": "Loss Name field must be less than 50 characters",
+        "minLossName": "Loss Name field must be more than 1 characters",
+        "toDate": "To Date is a required field",
+        "firstContactDate": "First Contact Date is a required field",
+        "firstContactDateTime": "First Contact Date &  Time is a required field",
+        "lossNameWarning": "Loss Name contains more than 20 characters. Value will be truncated in CLASS messages(s)"
+      },
+      "dms": {
+        "uploadDocuments": "Upload Loss Documents",
+        "searchDocuments": "Search loss documents...",
+        "fileUploadWarning": "Please save the loss details first before you upload any documents."
+      }
+    },
+    "loss": {
+      "title": "Loss & Claims",
+      "text": "Loss {{lossRef}}",
+      "inFlightMarksText": "GXB originated loss",
+      "tabMenu": {
+        "details": "Loss Details",
+        "actions": "Actions",
+        "docs": "Documents",
+        "notes": "Notes",
+        "auditTrail": "Audit Trail"
+      },
+      "popOverFunction": "Loss Functions",
+      "popOverFunctionMenusList": {
+        "editLoss": "Edit Loss",
+        "createClaim": "Create Claim",
+        "addClaim": "Add Claim",
+        "createRFI": "Create RFI"
+      },
+      "lossInformation": {
+        "title": "Loss Information"
+      },
+      "relatedClaims": {
+        "title": "Related Claims",
+        "inFlightMarksText": "GXB originated claim",
+        "dblClkClaim": "Double click to view Claim",
+        "columns": {
+          "claimReference": "Claim Reference",
+          "claimant": "Claimant",
+          "policyReference": "Policy Reference",
+          "claimReceived": "Claim Received",
+          "division": "Division",
+          "insured": "Insured",
+          "riskDetails": "Risk Details",
+          "claimStatus": "Claim Status"
+        }
+      }
+    },
+    "modals": {
+      "addComplexity": {
+        "isComplex": "Complex",
+        "label": "Enter the Complexity Basis Value",
+        "title": "Add Complexity Basis Value"
+      },
+      "addReferralValues": {
+        "label": "Enter the Referral Value",
+        "title": "Add Referral Value"
+      },
+      "claimFunctions": {
+        "setClaimPriority": "Set Claim Priority",
+        "setClaimTaskSelection": "Task Selection"
+      },
+      "confirm": {
+        "subtitle": "Are you sure you want to exit?",
+        "title": "Unsaved changes will be lost"
+      },
+      "confirmClaimSubmission": {
+        "content": "Once submitted, cannot be edited further. Are you sure you want to Submit?",
+        "title": "Claim Submission Confirmation"
+      },
+      "confirmRfiSubmission": {
+        "content": "Once submitted, cannot be edited further. Are you sure you want to Submit?",
+        "title": "RFI Submission Confirmation"
+      },
+      "confirmInsured": {
+        "title": "Are you sure you want to remove the selected records from Complexity?"
+      },
+      "finishRegisterLoss": {
+        "content": "Are you sure you want to finish the new loss?",
+        "title": "Claim Finish Confirmation"
+      },
+      "referralResponse": {
+        "subtitle": "Please select a Referral Response to submit this Claim"
+      },
+      "removeComplexityRuleValue": {
+        "content": "The Value \"{{value}}\" and all its attributes will be removed. Are you sure you want to remove?"
+      },
+      "resetDivisionComplexity": {
+        "content": "Are you sure you want to Reset the changes?"
+      },
+      "taskFunction": {
+        "claimRef": "Claim Ref",
+        "high": "High",
+        "low": "Low",
+        "medium": "Medium",
+        "priority": "Priority",
+        "setTaskPriorityTitle": "Set Task Priority",
+        "taskId": "Task ID"
+      },
+      "viewClaimDetails": {
+        "title": "Claim Details"
+      }
+    },
+    "movementInformation": {
+      "brokerNarrative": "Broker Narrative",
+      "dateOfAdvice": "Date Of Advice",
+      "description": "Movement Description",
+      "heading": "MOVEMENT TYPE",
+      "qualifier": "Qualifier",
+      "title": "Movement Information",
+      "type": "Movement Type"
+    },
+    "newClaim": "New Claim",
+    "noMatchDetails": "No data found for Enter Policy Ref/(Re)Insured/Claimant",
+    "noMatchFound": "No match found",
+    "notes": {
+      "addNote": "Add Note",
+      "notFound": "No notes found",
+      "addNoteFields": {
+        "claimRef": {
+          "label": "Claim Ref"
+        },
+        "details": {
+          "label": "Note Details"
+        },
+        "taskId": {
+          "label": "Task ID"
+        },
+        "taskType": {
+          "label": "Task Name"
+        }
+      },
+      "addNotes": "Add Notes",
+      "claimRef": "Claim Ref",
+      "claim": "Claim",
+      "loss": "Loss",
+      "columns": {
+        "createdBy": "Created By",
+        "dateCreated": "Created Date & Time",
+        "dateUpdated": "Last Updated Date & Time",
+        "detail": "Note Detail",
+        "updatedBy": "Last Updated By"
+      },
+      "editNote": "Edit Note",
+      "editNoteFields": {
+        "createdByName": {
+          "label": "Created By"
+        },
+        "createdDate": {
+          "label": "Created Date"
+        },
+        "details": {
+          "label": "Note Details"
+        },
+        "updatedByName": {
+          "label": "Last Update By"
+        },
+        "updatedDate": {
+          "label": "Last Update Date"
+        }
+      },
+      "noteDetails": "Note Details",
+      "notes": "Notes",
+      "notifications": {
+        "addNoteFailure": "There was an error creating the note. Please try again.",
+        "addNoteSuccess": "Task note created successfully.",
+        "alertPopup": "Unsaved changes will be lost, are you sure you want to exit?",
+        "editNoteFailure": "There was an error updating the note. Please try again.",
+        "editNoteSuccess": "Task note updated successfully.",
+        "getFailure": "There was an error fetching claim notes. Please try again."
+      },
+      "tableFilters": {
+        "dateCreated": "Date Created",
+        "lastUpdatedDate": "Last Updated Date"
+      },
+      "validation": {
+        "claimRef": "Claim Ref is a required field"
+      },
+      "viewNotes": "View Notes",
+      "viewNotesHistory": "View Notes History"
+    },
+    "pageTitle": "Search Loss and Claims",
+    "policyInformation": {},
+    "postZipCode": "Post/Zipcode",
+    "list": {
+      "tasksGridColumns": {
+        "hDriveFolders": "H Drive Folders",
+        "docType": "Document Type",
+        "createdBy": "Uploaded By"
+      }
+    },
+    "processing": {
+      "allClaims": "All Claims",
+      "bulkAssign": {
+        "button": "Bulk Assign",
+        "buttonTitle": "Select multiple tasks to perform Bulk Assign",
+        "fields": {
+          "assignTo": {
+            "label": "Assign To",
+            "options": {
+              "ardonagh": "Ardonagh",
+              "mphasis": "Mphasis"
+            }
+          },
+          "complexity": {
+            "label": "Complexity Basis",
+            "optionsNotAvailable": "Selected claim(s) doesn't have Complexity Basis Value configuration, please contact your Super Admin to configure the same."
+          },
+          "complexityType": {
+            "label": "Complexity"
+          },
+          "notes": {
+            "label": "Notes"
+          },
+          "priority": {
+            "label": "Priority"
+          },
+          "team": {
+            "label": "Team"
+          }
+        },
+        "notifications": {
+          "claims": {
+            "failure": "There was an error assigning some of the claims. Please try again.",
+            "success": "All claims have been re-assigned succesfully"
+          },
+          "data": {
+            "failure": "There was an error loading data. Please try again."
+          }
+        },
+        "title": "Assign",
+        "unassigned": "Unassigned",
+        "validation": {
+          "chooseAssignee": "You must choose an assignee",
+          "newAssignee": "You must choose a different assignee"
+        }
+      },
+      "claimSnapshot": "Claim Snapshot",
+      "empty": {
+        "emptyRfiHistory": "No Data found for RFI History"
+      },
+      "includeClosedClaims": "Include Closed Claims",
+      "modal": {
+        "adhocCancelLabel": "Are you sure you want to cancel?",
+        "rfiCloseConfirm": "RFI will be closed. Are you sure?"
+      },
+      "myClaims": "My Claims",
+      "myTasks": "My Tasks",
+      "myTeamClaims": "My Team Claims",
+      "myTeamTasks": "My Team Tasks",
+      "searchPlaceHolder": "Search Claims",
+      "notification": {
+        "addAdhocFailure": "There was an error creating the Adhoc Task. Please try again.",
+        "addAdhocSuccess": "Adhoc Task created successfully.",
+        "closeRfiFailure": "There was an error closing the RFI. Please try again.",
+        "closeRfiSuccess": "RFI closed.",
+        "createRfiFailure": "There was an error creating the RFI. Please try again.",
+        "updateRfiFailure": "There was an error updating the RFI. Please try again.",
+        "createRfiSuccess": "RFI created successfully.",
+        "updateRfiSuccess": "RFI updated successfully.",
+        "editAdhocFailure": "There was an error updating the Adhoc Task. Please try again.",
+        "editAdhocSuccess": "Adhoc Task updated successfully.",
+        "getTaskDetailsFailure": "There was an error fetching task details. Please try again.",
+        "getTaskDetailsSuccess": "Task details fetched successfully",
+        "updateClaimFailure": "There was an error updating the claim. Please try again.",
+        "updateClaimSuccess": "Claim updated successfully.",
+        "sendRfiFailure": "There was an error sending the RFI. Please try again.",
+        "sendRfiSuccess": "RFI sent successfully.",
+        "adhocTaskSubmittedSuccess": "Task Created successfully",
+        "adhocTaskSubmittedFailure": "There was an error submitting the Task. Please try again.",
+        "submitRfiSuccess": "RFI submitted successfully.",
+        "submitRfiFailure": "There was an error submitting the RFI. Please try again."
+      },
+      "progress": {
+        "steps": {
+          "adviceSettlement": "Advice & Settlement",
+          "closeClaim": "Close Claim",
+          "firstAdvice": "First Advice",
+          "interimAdvice": "Interim Advice",
+          "payment": "Payment"
+        }
+      },
+      "reportingView": {
+        "assigned": "Assigned",
+        "complex": "Complex",
+        "nonComplex": "Non Complex",
+        "title": "Reporting View",
+        "totalActiveClaims": "Total Active Claims: <strong>{{count}}</strong>",
+        "totalActiveTasks": "Total Active Tasks: <strong>{{count}}</strong>",
+        "unassigned": "Unassigned",
+        "unclassified": "Unclassified"
+      },
+      "rfi": {
+        "submitReply": "Submit Reply",
+        "title": "RFI ID {{id}}"
+      },
+      "sanctionsChecksNotification": {
+        "conformationAlert": "Are you sure you want to create Sanctions check?"
+      },
+      "searchBarPlaceholder": "Claim Ref, Policy Ref, Insured, Priority, Assigned To",
+      "summary": {
+        "accordions": {
+          "actions": "Actions",
+          "details": "Claim Details",
+          "documents": "Manage Documents",
+          "notes": "Notes"
+        },
+        "buttons": {
+          "changeComplexityPriorityAssignment": "Change Complexity/Priority/Assignment",
+          "createNewRFI": "Create New RFI",
+          "createSanctionsChecks": "Create Sanctions Check",
+          "createTask": "Create Task",
+          "editClaim": "Edit Claim",
+          "releaseQueue": "Release Claim To Queue",
+          "setPriority": "Set Priority"
+        }
+      },
+      "tabs": {
+        "claims": "Claims",
+        "tasks": "Tasks"
+      },
+      "task": {
+        "title": "Task Ref {{id}}"
+      },
+      "taskDetails": "Task Details",
+      "taskDetailsAssociated": "Associated Task Details",
+      "taskDetailsCheckList": {
+        "checkList": "Checklist",
+        "closeClaims": "Closing claim will auto close all tasks and functions. Are you sure to close?",
+        "columns": {
+          "ChecklistItems": "Checklist Items",
+          "lastUpdatedBy": "Last Updated By",
+          "lastUpdatedOn": "Last Updated On"
+        },
+        "mandatoryTaskWarning": "All Mandatory checklist items should be completed before proceeding to the next Task",
+        "mandatoryTasksHint": "Items marked \"*\" should be completed before moving to next task",
+        "nextTask": "Next Task",
+        "nextTaskNavWarning": "Are you sure you want to move to next task?",
+        "noCheckListFound": "No checklist found for this task",
+        "taskCompleteWarning": "Are you sure you want to complete task?"
+      },
+      "taskDetailsLabels": {
+        "additionalAssignee": "Additional Assignee",
+        "assignedTo": "Assigned To",
+        "claimRef": "Claim Ref",
+        "currencyWasPurchased": "Currency Purchase is Required",
+        "diarise": "Diarise",
+        "dateCreated": "Date & Time Created",
+        "description": "Description",
+        "insured": "Insured",
+        "lossDate": "Loss from date",
+        "lossDetails": "Loss Details",
+        "no": "No",
+        "notRequired": "Not Required for this settlement",
+        "policyRef": "Contract/Policy Ref",
+        "priority": "Priority",
+        "reminder": "Reminder",
+        "sanctionsCheckStatus": "Sanctions Check Status",
+        "status": "Status",
+        "targetDueDate": "Target Due Date",
+        "taskId": "Task ID",
+        "taskName": "Task Name",
+        "taskRef": "Task Ref",
+        "taskType": "Task Type",
+        "yes": "Yes",
+        "additionalDetails": "Additional Details",
+        "comments": "Comments",
+        "minimumRequirement": "Enter minimum 1 character",
+        "team": "Team",
+        "adHocInfo": "AD-HOC INFORMATION",
+        "documents": "DOCUMENTS",
+        "noDocumentsAttached": "No Documents Attached",
+        "attachDocuments": "Attach Documents",
+        "fileName": "File Name",
+        "notes": "Notes"
+      },
+      "adHocTask": {
+        "adHocDetails": "Ad-hoc Details",
+        "uploadDocuments": "Upload Documents",
+        "confirmTask": "Confirm Task",
+        "notes": "Notes"
+      },
+      "taskFunction": {
+        "ManageDocuments": "Manage Documents",
+        "RfiDetails": "RFI Details",
+        "createAdhocTask": "Create Ad-hoc Task",
+        "createRFI": "Create RFI",
+        "documents": "Documents",
+        "diarise": "Diarise",
+        "editTask": "Edit Task",
+        "reAssignTask": "Re Assign Task",
+        "rfiHistory": "RFI History",
+        "rfiTypeYourReply": "Type Your Reply",
+        "searchDocuments": "Search Documents",
+        "setTaskPriority": "Set Task Priority",
+        "viewDocuments": "View Documents",
+        "changePriority": "Change Priority/Assignment",
+        "priority": "Priority",
+        "team": "Team",
+        "assignTo": "Assign To",
+        "notes": "Notes",
+        "rfiInfo": "RFI Information"
+      },
+      "taskFunctionalityTabs": {
+        "viewDocuments": "View Documents",
+        "documents": "Documents",
+        "notes": "Notes",
+        "taskDetails": "Task Details"
+      },
+      "taskFunctions": "Task Functions",
+      "taskReminderLabels": {
+        "fourDayBfr": "Remind me 4 days before",
+        "noReminder": "No Reminder",
+        "oneDayBfr": "Remind me 1 day before",
+        "oneWeekBfr": "Remind me 1 week before",
+        "threeDayBfr": "Remind me 3 days before",
+        "twoDayBfr": "Remind me 2 days before",
+        "twoWeekBfr": "Remind me 2 weeks before"
+      },
+      "taskStatusLabels": {
+        "completed": "Completed",
+        "inProgress": "In-Progress",
+        "new": "New"
+      },
+      "tasksGridColumns": {
+        "additionalAssignee": "Additional Assignee",
+        "assignedTo": "Assigned To",
+        "claimRef": "Claim Ref",
+        "createdBy": "Created By",
+        "dateCreated": "Date Created",
+        "dateAndTimeCreated": "Date & Time Created",
+        "dateAndTimeLastUpdated": "Date and Time last updated",
+        "description": "Description",
+        "division": "Division",
+        "targetdueDate": "Target Due Date",
+        "group": "Group",
+        "inceptionDate": "Inception Date",
+        "instructionId": "Instruction ID",
+        "insuredName": "Insured Name",
+        "lastUpdatedBy": "Last Updated By",
+        "notes": "Notes",
+        "ppwPPC": "PPW/PPC",
+        "priority": "Priority",
+        "process": "Process",
+        "processRef": "Process Ref",
+        "processSubType": "Sub Process Type",
+        "riskRef": "Risk Ref",
+        "status": "Status",
+        "taskID": "Task ID",
+        "taskName": "Task Name",
+        "taskRef": "Task Ref",
+        "taskType": "Type",
+        "type": "Type",
+        "xbInstance": "XB Instance",
+        "frontEndContact": "FEC Name",
+        "bordereauType": "Bordereau Type",
+        "created": "Created",
+        "dueDate": "Due Date"
+      },
+      "tasksHistory": "Tasks History",
+      "title": "Claims Processing",
+      "validation": {
+        "rfiHistoryMaxDesc": "Maximum {{char}} characters allowed",
+        "targetLessThanCreatedDate": "Target Due Date cannot be less than Created Date"
+      }
+    },
+    "rfis": {
+      "columns": {
+        "dateOfQuery": "Date Of Query",
+        "description": "Description",
+        "priority": "Priority",
+        "queryCode": "Query Code",
+        "queryID": "Query ID",
+        "status": "Status",
+        "targetDueDate": "Target Due Date",
+        "to": "To"
+      },
+      "notifications": {
+        "getFailure": "There was an error fetching claim RFI. Please try again."
+      },
+      "actions": {
+        "sendRFI": "Send RFI"
+      }
+    },
+    "rfiDashboard": {
+      "title": "RFI ID {{id}}",
+      "attachDocuments": "Attach Documents",
+      "breadCrumbs": {
+        "lossRef": "Loss {{lossRef}}",
+        "claimRef": "Claim {{claimRef}}",
+        "taskRef": "Task {{taskRef}}",
+        "rfiRef": "RFI {{taskRef}}"
+      },
+      "tabs": {
+        "rfiDetail": "RFI Detail",
+        "documents": "Documents"
+      },
+      "additionalDetails": {
+        "title": "Additional Details",
+        "lossInformation": "Loss Information",
+        "policyInformation": "Policy Information",
+        "claimInformation": "Claim Information",
+        "associatedTaskDetails": "Associated Task Details"
+      },
+      "rfiDetails": {
+        "title": "RFI Details",
+        "from": "From",
+        "queryCode": "Query Code",
+        "queryId": "Query ID",
+        "responseDueDate": "Expected Response Date"
+      },
+      "rfiHistory": {
+        "title": "RFI History",
+        "empty": "No Data found for RFI History"
+      }
+    },
+    "searchByClaims": {
+      "label": "Search By",
+      "options": {
+        "AssignedTo": "Assigned To",
+        "ClaimRef": "Claim Ref",
+        "Insured": "Insured",
+        "LossRef": "Loss Ref",
+        "PolicyRef": "Policy Ref",
+        "Division": "Division"
+      }
+    },
+    "searchByTasks": {
+      "label": "Search By",
+      "options": {
+        "AssignedTo": "Assigned To",
+        "ClaimRef": "Claim Ref",
+        "Description": "Description",
+        "ProcessRef": "Process Ref",
+        "TaskRef": "Task Ref",
+        "riskRef": "Risk Ref",
+        "workPackage": "Work Package",
+        "TaskName": "Task Name",
+        "Priority": "Priority"
+      }
+    },
+    "searchClaims": "Claim Ref, Claimant, Insured, Client, Loss Name, Policy Ref, UCR",
+    "searchLossAndClaims": "Please enter your search criteria to view the results",
+    "searchPolicy": {
+      "columns": {
+        "client": "Client",
+        "company": "Company",
+        "contractPolicyRef": "Contract/Policy Ref",
+        "coverHolder": "Coverholder",
+        "division": "Division",
+        "expiryDate": "Expiry Date",
+        "inceptionDate": "Inception Date",
+        "insured": "Insured",
+        "policyStatus": "Policy Status",
+        "policyType": "Policy Type",
+        "reinsured": "Reinsured",
+        "riskDetails": "Risk Details",
+        "businessTypeCode": "Business Type Code",
+        "umr": "UMR"
+      },
+      "minimumCharacters": "Enter minimum 4 characters",
+      "newClaim": "New Claim",
+      "claimRef": "Claim Ref",
+      "searchPolicies": "Search Policies",
+      "searchByOptions": {
+        "Claimant": "Claimant",
+        "ClientName": "Client",
+        "Insured": "Insured",
+        "PolicyRef": "Policy Ref",
+        "RiskDetails": "Risk Details",
+        "Umr": "UMR",
+        "Reinsured": "Reinsured",
+        "Coverholder": "Coverholder"
+      },
+      "searchInputLabel": "Enter Contract/Policy Ref, Insured, Reinsured, Client or Risk Details",
+      "linkPolicySearchInputLabel": "Enter Client, Insured, Policy Ref, UMR, Reinsured, Coverholder, Risk Details",
+      "alertTitle": "Unlinking this policy will result in unlinking documents linked to this policy."
+    },
+    "searchTasks": "TaskId, Risk ref, Description",
+    "TasksTabsearch": "Search Tasks",
+    "searchTasksTab": "TaskRef, Description",
+    "searchTeamTasks": "TaskRef, Claim Id/Ref, Description, Assigned To",
+    "task": {
+      "summary": {
+        "viewNotes": "View Notes"
+      }
+    },
+    "title": "Claims",
+    "typeOfSettlement": {
+      "advice": "Advice",
+      "chooseSettlementType": "Choose Settlement Type",
+      "error": "U/W Total Order % cannot exceed 100%",
+      "errorMin": "Order cannot contain negative value",
+      "oneHundredPercent": "100%",
+      "order": "Total Order %",
+      "orderBasis": "Basis Of Order",
+      "ourShare": "Our Share",
+      "settlement": "Settlement",
+      "settlementType": "Settlement Type",
+      "title": "CHOOSE MOVEMENT TYPE"
+    },
+    "underWritingGroups": {
+      "claimDisabled": "Claim Disabled",
+      "dateValidFrom": "Date Valid From",
+      "dateValidTo": "Date Valid To",
+      "facility": "Facility",
+      "facilityRef": "Facility Ref",
+      "groupRef": "Group Ref",
+      "infoTitle": "Underwriting Groups Information",
+      "narrative": "Narrative",
+      "percentage": "Percentage",
+      "policyDisabled": "Policy Disabled",
+      "section": "Section",
+      "slipLeader": "Slip Leader",
+      "title": "Underwriting Groups",
+      "tilteInformation": "Underwriting Group Information",
+      "ucr": "UCR"
+    },
+    "updateStatus": {
+      "changeTo": "Change Status to",
+      "remarks": "Remarks",
+      "title": "Update Status",
+      "validation": {
+        "remarks": "Remarks field is required",
+        "remarksMaxLength": "Remarks field must be less than 255 characters"
+      }
+    }
+  },
+  "client": {
+    "accountsKey": "Accounts Key",
+    "clientNotFound": "Client not found",
+    "missingLocation": "Location data is missing for these accounts.",
+    "noLocationsFound": "No locations found",
+    "office": {
+      "byAccount": {
+        "description": "Summary of all your accounts bound premium",
+        "title": "Bound Premium by Account",
+        "titleForYear": "$t(client.office.byAccount.title) for {{year}}"
+      },
+      "byDept": {
+        "description": "Summary of all your accounts bound premium grouped by department",
+        "title": "Bound Premium by Department",
+        "titleForYear": "$t(client.office.byDept.title) for {{year}}"
+      },
+      "byMarket": {
+        "description": "Summary of all your accounts bound premium grouped by market",
+        "title": "Bound Premium by Market",
+        "titleForYear": "$t(client.office.byMarket.title) for {{year}}"
+      },
+      "byOffice": {
+        "description": "Summary of all your accounts bound premium grouped by office",
+        "title": "Bound Premium by Office",
+        "titleForYear": "$t(client.office.byOffice.title) for {{year}}"
+      },
+      "byYear": {
+        "description": "Summary of all your accounts bound premium grouped by year",
+        "title": "Bound Premium by Year"
+      },
+      "noPlacement": "No placement selected",
+      "noPlacementHint": "Click one of the charts to select a placement and view the placement details"
+    },
+    "premiumReports": "Reports (Premium)",
+    "selectFromList": "Select a client from the list below",
+    "title": "Clients",
+    "tivMap": "Map (Total Insurable Value)"
+  },
+  "currency": {
+    "format": "{{currency}} {{number}}"
+  },
+  "department": {
+    "title": "Departments",
+    "titleAccounts": "Accounts",
+    "titlePlacements": "Placements"
+  },
+  "dms": {
+    "metadata": {
+      "documentVersion": {
+        "documentCreatedOn": "Document Created On",
+        "documentVersion": "Document Version",
+        "documentUploadedBy": "Document Uploaded By",
+        "documentUpdatedBy": "Document Modified On",
+        "documentSource": "Document Source"
+      },
+      "paymentDetails": {
+        "title": "Payment Details",
+        "paymentDate": "Payment Date",
+        "selectDate": "Select date",
+        "paymentReference": "Payment Reference",
+        "enterReference": "Enter Reference",
+        "lossPayee": "Loss Payee",
+        "enterName": "Enter Name",
+        "enterAmount": "Enter Amount",
+        "amount": "Amount",
+        "currency": "Currency",
+        "selectCurrency": "Select Currency"
+      },
+      "documentDetails": {
+        "documentName": "Document Name",
+        "documentType": "Document Type",
+        "documentClassification": "Document Classification"
+      },
+      "modalItems": {
+        "save": "SAVE",
+        "cancel": "CANCEL"
+      },
+      "notifications": {
+        "editMetadataSuccess": "Metadata updated succesfully",
+        "editMetadataFailure": "Updating metadata failed",
+        "getMetadataFailure": "There was an error while fetching meta data. Please try again.",
+        "getMetadataSuccess": "The metadata have been fetched successfully"
+      },
+      "commonInfoSection": {
+        "commonInfo": "Common Info"
+      },
+      "lossInfoSection": {
+        "lossDetails": "Loss Details"
+      },
+      "policyInfoSection": {
+        "policyDetails": "policy info"
+      },
+      "claimInfoSection": {
+        "claimDetails": "Claim Details"
+      }
+    },
+    "fileDownload": {
+      "fail": "There was a problem downloading the file. Please try again.",
+      "fileNotFound": "File not found."
+    },
+    "search": {
+      "advancedSearch": "Advanced Search",
+      "btn": "Search",
+      "searchDocuments": "Search Documents",
+      "cols": {
+        "documentType": "Document Type",
+        "fileName": "File Name",
+        "hDriveFolders": "H Drive Folders",
+        "reference": "Reference",
+        "uploadedBy": "Uploaded by",
+        "uploadedDate": "Uploaded Date",
+        "version": "Version"
+      },
+      "fields": {
+        "amount": {
+          "label": "Amount"
+        },
+        "claimReference": {
+          "label": "Claim Reference"
+        },
+        "division": {
+          "label": "Division"
+        },
+        "documentName": {
+          "label": "Document Name"
+        },
+        "documentType": {
+          "label": "Document Type",
+          "placeholder": "Select"
+        },
+        "inceptionYear": {
+          "helperText": "Enter year in format YYYY",
+          "label": "Year of Inception",
+          "placeholder": "YYYY"
+        },
+        "insuredName": {
+          "label": "Insured Name"
+        },
+        "lossPayee": {
+          "label": "Loss Payee"
+        },
+        "lossReference": {
+          "label": "Loss Reference"
+        },
+        "paymentDate": {
+          "helperText": "Date in format DD/MM/YYYY",
+          "label": "PpaymentDate",
+          "placeholder": "DD/MM/YYYY"
+        },
+        "paymentReference": {
+          "label": "Payment Reference"
+        },
+        "policyReference": {
+          "label": "Policy Reference"
+        }
+      },
+      "gridDataEmptyWarning": "No document details to display",
+      "linkDocument": {
+        "confirmLabel": "LINK",
+        "confirmMessage": "Are you sure you want to link this document?",
+        "confirmMessageForMulti": "Are you sure you want to link these {{count}} documents?",
+        "title": "Link Document"
+      },
+      "notifications": {
+        "failedLink": "There was an error while linking the document(s). Please try again.",
+        "successLink": "The document(s) have been linked successfully",
+        "failedSearch": "There was an error while searching for document(s). Please try again."
+      },
+      "title": "Search DMS"
+    },
+    "upload": {
+      "claimInfoSection": {
+        "claimDetails": "Claim Details",
+        "claimRef": "Claim Ref",
+        "claimant": "Claimant",
+        "insuredName": "Insured Name",
+        "policyId": "Policy Id",
+        "ucr": "UCR",
+        "umr": "UMR"
+      },
+      "commonInfoSection": {
+        "commonInfo": "Common Info",
+        "department": "Department",
+        "gxbInstance": "Gxb Instance",
+        "sectionType": "Section Type",
+        "uploadOn": "Upload On",
+        "yearOfInception": "Year Of Inception"
+      },
+      "commonUploadInfoSection": {
+        "documentCreatedOn": "Document Created On",
+        "documentModifiedOn": "Document Modified On",
+        "documentUploadedBy": "Document Uploaded By",
+        "documentVersion": "Document Version"
+      },
+      "fileUploadTitle": "Drag & Drop",
+      "fileUploadTitleCombine": "Drag & Drop (or) Browse file here",
+      "claimsFileUploadTitle": "Drag & drop your file(s) here to upload",
+      "lossInfoSection": {
+        "catCode": "Cat Code",
+        "dateOfLoss": "Date Of Loss",
+        "lossDescription": "Loss Description",
+        "lossDetails": "Loss Details",
+        "lossRef": "Loss Ref"
+      },
+      "modalItems": {
+        "classificationType": {
+          "guarded": "Guarded",
+          "high": "High",
+          "low": "Low",
+          "severe": "Severe"
+        },
+        "selectDocumentClassification": "Select Document Classification",
+        "selectDocumentType": "Select Document Type",
+        "addTag": "Add Tag",
+        "cancel": "Cancel",
+        "correspondence": "Correspondence",
+        "dragDrop": "Drag & Drop",
+        "retryUpload": "Retry Upload",
+        "saveUpload": "Save & Upload",
+        "selectFolder": "Select Folder",
+        "uploadDocuments": "Upload Documents",
+        "uploads": "Uploads",
+        "viewData": "View Meta Data"
+      },
+      "notifications": {
+        "getMetaDataFail": "Failed to get Meta data information, please try again."
+      },
+      "paymentDetails": {
+        "amount": "Amount",
+        "currency": "Currency",
+        "enterAmount": "Enter Amount",
+        "enterName": "Enter Name",
+        "enterReference": "Enter Reference",
+        "lossPayee": "Loss Payee",
+        "paymentDate": "Payment Date",
+        "paymentReference": "Payment Reference",
+        "selectCurrency": "Select Currency",
+        "selectDate": "Select date"
+      },
+      "policyInfoSection": {
+        "inceptionDate": "Inception Date",
+        "insuredName": "Insured Name",
+        "policyDetails": "policy info",
+        "policyRef": "Policy Reference",
+        "umr": "UMR"
+      },
+      "warning": {
+        "duplicateDocumentWarning": "This document name already exist. Uploading this will replace the existing document with a new version",
+        "emptyDocumentType": "Document Type is a mandatory field",
+        "invalidInputWarning": "File name cannot contain any of the following characters: /:*?<>|+\"&#%[]"
+      },
+      "file": "File",
+      "uploadedOn": "Uploaded On"
+    },
+    "view": {
+      "buttons": {
+        "delete": "DELETE",
+        "download": "DOWNLOAD",
+        "link": "LINK",
+        "linkRfi": "LINK TO RFI",
+        "unlink": "UNLINK",
+        "linkTo": "LINK TO"
+      },
+      "columns": {
+        "creationDate": "Creation Date",
+        "documentName": "Document Name",
+        "documentSource": "Document Source",
+        "documentType": "Document Type",
+        "documentClassification": "Document Classification",
+        "documentVersion": "Version",
+        "folderName": "Folder Name",
+        "hDriveFolders": "H Drive Folders",
+        "uploadedBy": "Uploaded By",
+        "uploadedDate": "Uploaded Date"
+      },
+      "deleteDocument": {
+        "confirmLabel": "DELETE",
+        "confirmMessage": "Are you sure you want to delete this document?",
+        "confirmMessageForMulti": "Are you sure you want to delete these {{count}} documents?",
+        "gxbDocsDeleteWarning": "GXB document selected will not be deleted",
+        "title": "Delete Document",
+        "deleteWarning": "Unable to delete the following document(s) as these are also linked to another context."
+      },
+      "editMetadata": {
+        "title": "Edit MetaData"
+      },
+      "documents": {
+        "title": "Documents"
+      },
+      "gridDataEmptyWarning": "No document details to display",
+      "gxb": "GXB",
+      "documentTooltip": "Click here to view the document",
+      "multiSelect": "Multiselect",
+      "popOverMenuItems": {
+        "copyLink": "Copy Link",
+        "delete": "Delete",
+        "download": "Download",
+        "linkRfi": "Link to RFI",
+        "unlink": "Unlink",
+        "versionHistory": "Version history",
+        "editMetadata": "Edit MetaData",
+        "copylink": "Copy Link",
+        "linkTo": "Link to"
+      },
+      "searchDocuments": "Search documents",
+      "selectedDoc": "{{count}} document selected",
+      "selectedDoc_plural": "{{count}} documents selected",
+      "unlinkDocument": {
+        "confirmLabel": "UNLINK",
+        "confirmMessage": "Are you sure you want to unlink this document?",
+        "confirmMessageForMulti": "Are you sure you want to unlink these {{count}} documents?",
+        "title": "Unlink Document"
+      },
+      "versionHistory": {
+        "fileName": "File Name",
+        "title": "Version History",
+        "uploadedBy": "Uploaded By",
+        "version": "{{version}}",
+        "versionCurrent": "{{version}} (current)",
+        "versionHeader": "Version"
+      },
+      "linkToLossAndClaim": {
+        "title": "Link to",
+        "loss": "Loss",
+        "claim": "Claim",
+        "task": "Task"
+      }
+    },
+    "widget": {
+      "loss": {
+        "noDocMessage": "No Loss Doc(s)"
+      },
+      "claim": {
+        "noDocMessage": "No Claim Doc(s)"
+      }
+    },
+    "wrapper": {
+      "manageDocuments": "Manage Documents",
+      "tabs": {
+        "search": "SEARCH",
+        "viewDocuments": "LINKED DOCUMENTS"
+      },
+      "uploadDocsPrompt": "Do you want to upload document?",
+      "viewDocuments": "View Documents"
+    },
+    "toolTip": {
+      "referenceID": "Reference ID",
+      "catCode": "CAT Code",
+      "departmentID": "Department ID",
+      "sentToGXB": "Sent To GXB",
+      "docSource": "Source",
+      "updatedDate": "Updated Date"
+    },
+    "docViewer": {
+      "title": "Document Viewer",
+      "docFetchFailed": "File Not Found",
+      "docFetchFailedReason": "Could not fetch this document",
+      "noSupport": "No support to view this document",
+      "noSupportReason": "No support to view this document. Please download document and view locally."
+    },
+    "attachDocuments": {
+      "tabs": {
+        "attachDocuments": "ATTACH DOCUMENT",
+        "search": "SEARCH DMS"
+      }
+    }
+  },
+  "documents": {
+    "folders": {
+      "claims": "Claims",
+      "correspondence": "Correspondence - Internal",
+      "endorsements": "Endorsements",
+      "modelling": "Modelling",
+      "other": "Other",
+      "slips": "Slips",
+      "submissions": "Submissions",
+      "values": "Values",
+      "wordings": "Wordings"
+    },
+    "upload": {
+      "modal": {
+        "title": "Upload Document"
+      }
+    }
+  },
+  "ems": {
+    "clientName": "Client Name",
+    "emailCc": "Cc",
+    "emailSubject": "Subject",
+    "emailTo": "To",
+    "forward": "Forward",
+    "mailSentFailure": "Something went wrong while sending mail, Please try again",
+    "mailSentSuccess": "Mail Sent Successfully",
+    "missingParams": "Missing some params",
+    "noMailsFound": "No Mails Found",
+    "noReply": "No Reply (noreply@Ardonaghspecialty.com)",
+    "nonBureauInsurerName": "Non Bureau Insurer Name",
+    "sent": "Sent",
+    "useExistingFiles": "Use Existing Files"
+  },
+  "fileRemove": {
+    "removing": "Removing..."
+  },
+  "fileUpload": {
+    "fetch": "Fetch",
+    "fields": {
+      "claimRef": {
+        "label": "Claims Ref"
+      },
+      "department": {
+        "label": "Department"
+      },
+      "documentType": {
+        "label": "Document Type",
+        "required": "Document Type must be selected for each files attached"
+      },
+      "documentVersion": {
+        "label": "Version"
+      },
+      "expiryDate": {
+        "label": "Expiry Date"
+      },
+      "inceptionDate": {
+        "label": "Inception Date"
+      },
+      "inceptionYear": {
+        "helperText": "Year in format YYYY is required",
+        "label": "Inception Year",
+        "placeholder": "YYYY"
+      },
+      "insuredName": {
+        "label": "Insured Name"
+      },
+      "policyRef": {
+        "label": "Policy Reference"
+      },
+      "riskRef": {
+        "label": "Risk Reference"
+      },
+      "sectionType": {
+        "label": "Section Type"
+      },
+      "sourceSystem": {
+        "label": "Source System"
+      },
+      "umr": {
+        "label": "UMR"
+      },
+      "uploadBy": {
+        "label": "Document Checked-in By"
+      },
+      "uploadDate": {
+        "label": "Document Uploaded On"
+      },
+      "xbInstance": {
+        "label": "XB Instance"
+      }
+    },
+    "hint": "Minimum {{count}} characters",
+    "loading": "Loading data...",
+    "messages": {
+      "duplicates": "Some of the files selected were already attached and have not been added",
+      "maxFileSize": "These file(s) exceeded the maximum file size of {{max}} and have been excluded: {{filename}}",
+      "rejectedFileFormat": "The File Type Not Supported",
+      "tooManyFiles": "Too many files attached (max {{max}}). Please remove some of the files below"
+    },
+    "missingGuiData": "There was a problem loading data. Please refresh the page and try again ",
+    "noResults": "No results found",
+    "noRiskOptions": "Search...",
+    "saveDocuments": "Save Documents",
+    "searchDocuments": "Search",
+    "searchHint": "Refine your search by filling at least one of the fields below",
+    "tabs": {
+      "search": "Search Documents",
+      "upload": "Add/Update Documents"
+    },
+    "tooManyResults": "The search result exceeds {{max}} records. Please refine your search.",
+    "uploading": "Uploading your file(s)...",
+    "xbInstance": "XB Instance"
+  },
+  "filters": {
+    "columns": {
+      "title": "Manage Columns"
+    },
+    "multiSelect": {
+      "maxReached": "Maximum options selected ({{max}})"
+    },
+    "multiSelectAsync": {
+      "hint": "Search available options",
+      "maxReached": "Maximum options selected",
+      "maxSelected": "Selected (max {{count}} can be selected)",
+      "minChars": "Minimum {{min}} characters",
+      "noResults": "No results found"
+    }
+  },
+  "form": {
+    "brokers": {
+      "hint": "Add/remove brokers from the list",
+      "label": "Brokers"
+    },
+    "class": {
+      "hint": "Select a department first...",
+      "label": "Class of Business",
+      "required": "Class of business is required"
+    },
+    "clients": {
+      "label": "Client",
+      "required": "Client is required"
+    },
+    "date": {
+      "label": "Date",
+      "placeholder": "Choose a date...",
+      "required": "Date is required"
+    },
+    "dateEffectiveFrom": {
+      "label": "Effective From",
+      "placeholder": "Choose a date...",
+      "required": "Effective From date is required"
+    },
+    "dateEffectiveTo": {
+      "label": "Effective To",
+      "placeholder": "Choose a date...",
+      "required": "Effective To date is required"
+    },
+    "dateFrom": {
+      "label": "From",
+      "mustBeBeforeTo": "Must be before date \"To\"",
+      "mustBeSameOrBeforeTo": "Must be equal to or before date \"To\"",
+      "placeholder": "Choose a date...",
+      "required": "From date is required"
+    },
+    "dateTo": {
+      "label": "To",
+      "mustBeAfterFrom": "Must be after date \"From\"",
+      "mustBeSameOrAfterFrom": "Must be equal to or after date \"From\"",
+      "placeholder": "Choose a date...",
+      "required": "To date is required"
+    },
+    "dateValidUntil": {
+      "label": "Valid Until",
+      "placeholder": "Choose a date...",
+      "required": "Valid Until date is required"
+    },
+    "declineConfirm": {
+      "hint": "Warning: This action cannot be undone",
+      "label": "Type \"Decline\" to confirm",
+      "required": "Please type \"Decline\" to confirm"
+    },
+    "deleteConfirm": {
+      "hint": "Warning: deleting cannot be undone",
+      "label": "Type \"Delete\" to confirm",
+      "required": "Please type \"Delete\" to confirm"
+    },
+    "departments": {
+      "label": "Department",
+      "required": "Department is required"
+    },
+    "description": {
+      "label": "Description",
+      "required": "Description is required"
+    },
+    "dragDrop": {
+      "browseFile": "Browse to Upload",
+      "dragFileEmailHere": "Drag and drop your email / file here",
+      "dragFileHere": "Drag and drop your file here",
+      "required": "File is required"
+    },
+    "folder": {
+      "required": "Folder is required"
+    },
+    "formDataGrid": {
+      "copyHelp": "Copy data from above line."
+    },
+    "inceptionDate": {
+      "label": "Inception Date",
+      "required": "Inception date is required"
+    },
+    "insured": {
+      "hint": "Select one option",
+      "label": "Insured",
+      "required": "Insured is required"
+    },
+    "insureds": {
+      "hint": "Select one or more options",
+      "label": "Insureds",
+      "required": "Insureds is required"
+    },
+    "options": {
+      "newRenewal": {
+        "new": "New Business",
+        "renewal": "Renewal Business"
+      },
+      "paymentBasis": {
+        "cash": "Cash",
+        "otherdeferred": "Other Deferred",
+        "quarterly": "Quarterly"
+      },
+      "placementType": {
+        "binder": "Binder",
+        "declaration": "Declaration",
+        "lineslip": "Lineslip",
+        "open_market": "Open Market",
+        "openmarket": "Open Market"
+      },
+      "ppwPPC": {
+        "na": "n/a",
+        "ppc": "PPC",
+        "ppw": "PPW"
+      },
+      "yesNoNa": {
+        "na": "n/a",
+        "no": "No",
+        "yes": "Yes"
+      }
+    },
+    "title": {
+      "label": "Title",
+      "required": "Title is required"
+    },
+    "validation": {
+      "isRequired": "is required"
+    }
+  },
+  "format": {
+    "currency": "{{value, currency}}",
+    "date": "{{value, date}}",
+    "dateFromNow": "{{value, dateFromNow}}",
+    "lowercase": "{{value, lowercase}}",
+    "number": "{{value, number}}",
+    "percent": "{{value, percent}}",
+    "uppercase": "{{value, uppercase}}"
+  },
+  "globalNotification": {
+    "deleteAllSuccess": "All notifications cleared successfully.",
+    "deleteSuccess": "Notification was successfully deleted.",
+    "fetchError": "Unable to fetch notifications",
+    "filterByCaseId": "Notification filter for case Id {{id}} is applied to table, Click 'x' to reset the filter",
+    "receivedDate": "Received on $t(format.date, { 'value': { 'date':'{{date}}', 'format':'{{format}}' } })"
+  },
+  "home": {
+    "appLongName": "Price Forbes Online",
+    "appName": "EDGE",
+    "slogan1": "All your accounts.",
+    "slogan2": "All in one place.",
+    "slogan3": "Accessible 24/7.",
+    "title": "Home",
+    "videoAltText": "EDGE Price Forbes Online intro video"
+  },
+  "icons": {
+    "title": "Icons"
+  },
+  "industryNews": {
+    "curatedBy": "Article curated by",
+    "filterByTopic": "Filter by topic",
+    "readArticle": "Read article",
+    "removeFilters": "Remove all filters",
+    "selectATopic": "Select a topic",
+    "title": "Industry News"
+  },
+  "languages": {
+    "en": "English"
+  },
+  "location": {
+    "field": {
+      "totalInsurableValues": "Total Insurable Values"
+    },
+    "summary": {
+      "invalidLocationCount": "Invalid Location Count",
+      "locationRequiredFields1": "A Total Insurable Value greater than zero is required.",
+      "locationRequiredFields2": "A Street Address or a Latitude (between -90 and 90), Longitude (between -180 and 180) is required.",
+      "locationCount": "Valid Location Count"
+    },
+    "upload": {
+      "step1": {
+        "hint": "Select Excel cells that contain the SOV information.  Please include headers and ensure that all summary rows are removed.  Copy those cells and paste them in the text area below.",
+        "label": "SOV Excel extract",
+        "placeholder": "Paste SOV here...",
+        "required": "SOV Excel extract required",
+        "title": "<strong>Step 1.</strong> Copy and paste excel section that contains SOV"
+      },
+      "step2": {
+        "hint": "Select the appropriate headers from your spreadsheet extract.",
+        "title": "<strong>Step 2.</strong> Match given columns to required columns"
+      },
+      "step3": {
+        "hint": "The below table is a summary of the SOV that the wizard has managed to extract.  Please check that everything is as expected.",
+        "title": "<strong>Step 3.</strong> Check summary information for SOV"
+      },
+      "step4": {
+        "hint": "All done.  Please click Upload to complete the process.  Once finished the SOV locations will be visible on the Overview map.  Please note that geo-coding the submission may take a few minutes.",
+        "title": "<strong>Step 4.</strong> Upload"
+      },
+      "title": "SOV Upload Wizard"
+    }
+  },
+  "map": {
+    "geocoding": {
+      "accuracy": {
+        "area": "Area",
+        "building": "Building",
+        "longRoad": "Long Road",
+        "notFound": "Not Found",
+        "street": "Street"
+      }
+    },
+    "layers": {
+      "tooltip": "Toggle Map Layers"
+    },
+    "levels": {
+      "address": "Address",
+      "address_plural": "Addresses",
+      "country": "Country",
+      "country_plural": "Countries",
+      "county": "County",
+      "county_plural": "Counties",
+      "state": "State",
+      "state_plural": "States",
+      "zip": "Zip",
+      "zip_plural": "Zips"
+    },
+    "locations": {
+      "remove": "Delete Locations",
+      "removeHint": "All location markers will be deleted from the placement",
+      "upload": "Upload Locations"
+    },
+    "satellite": {
+      "tooltip": "Toggle Satellite View"
+    },
+    "sov": {
+      "upload": "Upload SOV"
+    },
+    "unit": {
+      "km": "km",
+      "miles": "miles"
+    }
+  },
+  "market": {
+    "actions": {
+      "changeMarket": "Change Market",
+      "delete": "Delete",
+      "edit": "Edit"
+    },
+    "addMarket": "Add Market",
+    "addUnderwriters": "Add Underwriters",
+    "cols": {
+      "name": "Market",
+      "notes": "Notes",
+      "status": "Status",
+      "underwriterEmail": "Email",
+      "underwriterName": "Underwriter"
+    },
+    "deleteMarket": "Delete Market",
+    "editMarket": "Edit Market",
+    "fields": {
+      "capacityType": "Capacity Type",
+      "capacityTypeHint": "Search for a market then choose a capacity type (optional)",
+      "email": "Email",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "market": "Markets",
+      "underwriters": "Underwriters"
+    },
+    "legends": {
+      "underwriters": "Underwriters"
+    },
+    "marketNotFound": "Market not found",
+    "noCapacityMarkets": "Others (no capacity type selected)",
+    "selectFromList": "Select a market from the list below",
+    "title": "Markets"
+  },
+  "menu": {
+    "uploadFiles": "Upload Files Here"
+  },
+  "modelling": {
+    "title": "Modelling"
+  },
+  "mudmap": {
+    "amount": "Amount",
+    "capacityType": "Capacity Type",
+    "capacityType_plural": "Capacity Types",
+    "excess": "Excess",
+    "hiddenCobrokers": "Hidden from co-brokers",
+    "premium": "Premium",
+    "visibleCobrokers": "Visible to co-brokers",
+    "written": "Written"
+  },
+  "navigation": {
+    "alert": "Alert",
+    "cancelMessage": "Are you sure you want to cancel?",
+    "closeForm": "Close this form",
+    "form": {
+      "cancel": "Stay on this form",
+      "confirm": "Close this form",
+      "subtitle": "You have unsaved changes.",
+      "title": "Are you sure you want to close this form?",
+      "titleClear": "Are you sure you want to reset this form?"
+    },
+    "leavePage": "Leave this Page",
+    "page": {
+      "cancel": "Stay on this page",
+      "confirm": "Leave this Page",
+      "subtitle": "You have unsaved changes.",
+      "title": "Are you sure you want to leave this page?"
+    },
+    "selection": {
+      "cancel": "Cancel",
+      "confirm": "Update selection",
+      "subtitle": "You have unsaved changes.",
+      "title": "Are you sure you want to update your selection?"
+    },
+    "stayOnForm": "Stay on this form",
+    "stayOnPage": "Stay on this page",
+    "subTitle": "You have unsaved changes.",
+    "title": "Are you sure you want to leave this page?"
+  },
+  "notification": {
+    "acceptRiskQuote": {
+      "success": "Your quote was accepted successfully"
+    },
+    "addComplexityValue": {
+      "duplicate": "Entered value already exists",
+      "fail": "There was a problem submitting complexity basis value. Please try again.",
+      "success": "Complexity basis value submitted successfully."
+    },
+    "addDepartmentMarket": {
+      "fail": "There was a problem adding the market selected. Please try again.",
+      "success": "New market added successfully"
+    },
+    "addLayer": {
+      "fail": "There was a problem adding a new layer. Please try again.",
+      "success": "Your new layer was added successfully"
+    },
+    "addMarket": {
+      "fail": "There was a problem adding a new market. Please try again.",
+      "success": "Your new market was added successfully"
+    },
+    "addPlacementMarket": {
+      "fail": "There was a problem adding a new placement market. Please try again.",
+      "success": "Placement market added successfully"
+    },
+    "addPolicy": {
+      "fail": "There was a problem adding a new layer. Please try again.",
+      "success": "Your new layer was added successfully"
+    },
+    "addReferral": {
+      "duplicate": "Entered value already exists",
+      "fail": "There was a problem submitting referral values. Please try again.",
+      "success": "Referral value saved successfully"
+    },
+    "admin": {
+      "officePatchFail": "There was a problem editing the office. Please try again.",
+      "officePatchSuccess": "Office {{officeName}} has been updated on client {{clientName}} successfully",
+      "officePostFail": "There was a problem creating the office. Please try again.",
+      "officePostSuccess": "Office {{officeName}} has been added to client {{clientName}} successfully",
+      "userPatchFail": "There was a problem editing the user. Please try again.",
+      "userPatchSuccess": "The user was edited successfully",
+      "userPostFail": "There was a problem creating the user. Please try again.",
+      "userPostSuccess": "New user was added successfully"
+    },
+    "assignToUser": {
+      "fail": "There was a problem assigning user to case. Please try again."
+    },
+    "bulkDelete": {
+      "fail": "There was a problem deleting the items you selected. Please try again.",
+      "success": "The item(s) you selected have been deleted successfully"
+    },
+    "bulkEdit": {
+      "fail": "There was a problem updating the items you selected. Please try again.",
+      "success": "The items you selected were updated successfully"
+    },
+    "carrier": {
+      "postSuccess": "Your new carrier was added successfully"
+    },
+    "changePlacementMarket": {
+      "alreadyExist": "Placement Market already exists",
+      "fail": "There was a problem in changing market. Please try again.",
+      "success": "Market was changed successfully"
+    },
+    "claimEditDetails": {
+      "fail": "There was a problem editing your claim information. Please try again.",
+      "success": "Claim updated successfully"
+    },
+    "claimInformation": {
+      "fail": "There was a problem creating your claim information. Please try again.",
+      "success": "Claim created successfully"
+    },
+    "claimLossSearchResults": {
+      "fail": "There was a problem in searching the Claim and Loss. Please try again."
+    },
+    "claimPriority": {
+      "fail": "There was a problem in updating claim priority. Please try again.",
+      "success": "Claim priority updated successfully"
+    },
+    "claimReOpened": {
+      "fail": "There was a problem in re-opening the claim. Please try again.",
+      "success": "Claim re-opened successfully"
+    },
+    "claimRefNotes": {
+      "fail": "There was a problem in updating claim ref notes. Please try again.",
+      "success": "Claim Ref Notes updated successfully"
+    },
+    "claimStatus": {
+      "fail": "There was a problem sending your claim status. Please try again.",
+      "updatedSuccess": "Claim status was updated successfully"
+    },
+    "client": {
+      "postEditSuccess": "Your client was edited successfully",
+      "postSuccess": "Your new client was added successfully"
+    },
+    "closeSanctionsCheck": {
+      "fail": "There was a problem closing Sanctions Check. Please try again.",
+      "success": "Sanctions Check closed successfully"
+    },
+    "comment": {
+      "fail": "There was a problem sending your comment. Please try again.",
+      "success": "Comment was added successfully"
+    },
+    "complexityBasisDivision": {
+      "fail": "There was a problem submitting complexity basis division values. Please try again.",
+      "success": "Complexity basis division values submitted successfully"
+    },
+    "complexityDivisionSave": {
+      "fail": "There was a problem in saving. Please try again.",
+      "success": "Successfully saved"
+    },
+    "complexityInsuredInformation": {
+      "fail": "There was a problem in setting the Insured(s) as Complexity. Please try again.",
+      "success": "Insured(s) successfully set as Complex"
+    },
+    "complexityPolicyInformation": {
+      "fail": "There was a problem in setting the Policy(s) as Complexity. Please try again.",
+      "success": "Policy(s) successfully set as Complex"
+    },
+    "complexityReferralDivision": {
+      "fail": "There was a problem submitting complexity referral division values. Please try again.",
+      "success": "Complexity referral division values submitted successfully"
+    },
+    "createSanctionCheck": {
+      "fail": "There was a problem in creating Sanctions Check. Please try again.",
+      "success": "Sanctions Check created successfully"
+    },
+    "coverage": {
+      "postSuccess": "Your new coverage option was added successfully.",
+      "postEditSuccess": "Your coverage option was edited successfully."
+    },
+    "putActivateCoverages": {
+      "success": "Your coverage option was successfully applied.",
+      "fail": "There was a problem applying your coverage option. Please try again."
+    },
+    "deleteCoverages": {
+      "success": "Coverage option was successfully deleted.",
+      "fail": "There was a problem deleting the coverage option. Please try again."
+    },
+    "createWhitespacePolicy": {
+      "fail": "There was a problem creating the policy in Whitespace. Please try again.",
+      "success": "Policy was created successfully in Whitespace"
+    },
+    "declineRiskQuote": {
+      "success": "Quote declined successfully"
+    },
+    "deleteComment": {
+      "fail": "There was a problem deleting your comment. Please try again.",
+      "success": "Comment was deleted successfully"
+    },
+    "deleteDepartmentMarket": {
+      "fail": "There was a problem deleting the layer. Please try again.",
+      "success": "Your market was deleted successfully"
+    },
+    "deleteDraft": {
+      "fail": "There was a problem deleting the draft risk. Please try again.",
+      "success": "The draft risk was deleted successfully"
+    },
+    "deleteLayer": {
+      "fail": "There was a problem deleting the layer. Please try again.",
+      "success": "Your layer was deleted successfully"
+    },
+    "deleteLayerMarket": {
+      "fail": "There was a problem deleting the market. Please try again.",
+      "success": "Your market was deleted successfully"
+    },
+    "deleteLocations": {
+      "fail": "There was a problem deleting the locations. Please try again.",
+      "success": "The locations were deleted successfully"
+    },
+    "deletePlacementMarket": {
+      "fail": "There was a problem deleting the market. Please try again.",
+      "success": "Market(s) deleted successfully"
+    },
+    "deletePolicy": {
+      "fail": "There was a problem deleting the policy. Please try again.",
+      "success": "Your policy was deleted successfully"
+    },
+    "deleteTrip": {
+      "fail": "There was a problem deleting the trip. Please try again.",
+      "success": "The trip was deleted successfully"
+    },
+    "divisionComplexity": {
+      "fail": "There was a problem submitting complexity division values. Please try again.",
+      "success": "Complexity division values submitted successfully"
+    },
+    "document": {
+      "deleteFail": "There was a problem deleting your document. Please try again.",
+      "deleteSuccess": "Document deleted successfully",
+      "fail": "There was a problem uploading your document. Please try again.",
+      "getFail": "There was a problem loading your documents",
+      "success": "Document uploaded successfully"
+    },
+    "duplicateLine": {
+      "fail": "There was a problem adding duplicate line. Please try again.",
+      "success": "Duplicate line added successfully"
+    },
+    "editDepartmentMarket": {
+      "fail": "There was a problem updating the market selected. Please try again.",
+      "success": "Your market was updated successfully"
+    },
+    "editDraft": {
+      "fail": "There was a problem updating your draft. Please try again.",
+      "success": "Draft updated successfully"
+    },
+    "editLayer": {
+      "fail": "There was a problem updating the layer. Please try again.",
+      "success": "Your layer was updated successfully"
+    },
+    "editPlacement": {
+      "fail": "There was a problem updating the placement. Please try again.",
+      "success": "The placement was updated successfully"
+    },
+    "editPlacementConfig": {
+      "fail": "There was a problem updating the mudmap. Please try again."
+    },
+    "editPlacementMarketsLayers": {
+      "fail": "There was a problem updating the market. Please try again.",
+      "success": "Your market was updated successfully"
+    },
+    "editPolicy": {
+      "fail": "There was a problem updating the policy. Please try again.",
+      "success": "Your policy was updated successfully"
+    },
+    "editQuote": {
+      "fail": "There was a problem updating the quote. Please try again.",
+      "success": "Your quote was updated successfully"
+    },
+    "editTrip": {
+      "fail": "There was a problem updating your trip. Please try again.",
+      "success": "Trip was updated successfully"
+    },
+    "facility": {
+      "postSuccess": "Your new facility was added successfully"
+    },
+    "fileRemove": {
+      "remove": {
+        "fail": "There was a problem removing your document(s). Please try again.",
+        "success": "Your document(s) were removed successfully"
+      }
+    },
+    "fileUpload": {
+      "upload": {
+        "departmentCodeMissing": "Department Code is not available for given risk reference in GXB, hence document cannot be uploaded",
+        "fail": "There was a problem uploading your document(s). Please try again.",
+        "success": "Your document(s) were uploaded successfully"
+      }
+    },
+    "folder": {
+      "fail": "There was a problem in creating the folder. Please try again."
+    },
+    "generic": {
+      "reload": "There was a problem. Please try re-loading the app.",
+      "request": "There was a problem with your request. Please try again."
+    },
+    "geocoding": {
+      "fail": "Geocoding isn't completed yet. Click the \"Try again\" link to restart the process.",
+      "success": "Geocoding completed successfully"
+    },
+    "getComplexityBasisValues": {
+      "fail": "There was a problem fetching complexity basis values. Please try again.",
+      "notFound": "There are no complexity basis values found."
+    },
+    "getPlacement": {
+      "fail": "Placement ID {{id}} not found."
+    },
+    "getReferralValues": {
+      "fail": "There was a problem fetching referral values. Please try again.",
+      "notFound": "There are no referral values found."
+    },
+    "getTrip": {
+      "fail": "Trip ID {{id}} not found."
+    },
+    "insured": {
+      "postEditSuccess": "Your insured was edited successfully",
+      "postSuccess": "Your new insured was added successfully"
+    },
+    "loadConfig": {
+      "fail": "There was a problem loading the configuration. Please try to reload the page."
+    },
+    "location": {
+      "fail": "There was a problem uploading your locations. Please try again.",
+      "success": "Locations were successfully uploaded"
+    },
+    "lossInformation": {
+      "fail": "There was a problem sending your loss information. Please try again.",
+      "success": "Loss information was added successfully",
+      "updatedSuccess": "Loss information was updated successfully"
+    },
+    "marketParent": {
+      "putFail": "There was a problem updating the markets. Please try again.",
+      "putSuccess": "Markets were updated successfully"
+    },
+    "modelling": {
+      "getAllFail": "There was a problem loading your modelling tasks",
+      "getFail": "There was a problem loading your modelling task",
+      "postFail": "There was a problem creating your modelling task",
+      "postSuccess": "Modelling task created successfully",
+      "putFail": "There was a problem updating your modelling task",
+      "putSuccess": "Modelling task updated successfully"
+    },
+    "newExternalRfi": {
+      "fail": "System currently not able to save RFI's",
+      "resolveFail": "System currently not able to Resolve RFI",
+      "resolveSuccess": "RFI ({{id}}) successfully Resolved",
+      "sendFECFail": "System currently not able to Send FEC",
+      "sendFECSuccess": "RFI ({{id}}) successfully Send to FEC",
+      "success": "RFI ({{id}}) saved successfully"
+    },
+    "newRfi": {
+      "fail": "System currently not able to send RFI's",
+      "success": "RFI ({{id}}) sent"
+    },
+    "ntuPlacement": {
+      "fail": "There was a problem updating your placement. Please try again.",
+      "success": "Placement was successfully set as NTU"
+    },
+    "openingMemo": {
+      "editFail": "There was a problem updating your Opening Memo",
+      "editSuccess": "Opening Memo updated successfully",
+      "getFail": "There was a problem loading your Opening Memo",
+      "postFail": "There was a problem creating your Opening Memo",
+      "postPdfFail": "There was a problem uploading your Opening Memo PDF to XB. Please try again.",
+      "postPdfSuccess": "Opening Memo PDF uploaded successfully",
+      "postSuccess": "Opening Memo added successfully"
+    },
+    "patchPolicy": {
+      "fail": "There was a problem creating the policy in Whitespace. Please try again.",
+      "success": "Policy was created successfully in Whitespace"
+    },
+    "patchPolicyPostWhitespace": {
+      "fail": "There was a problem creating the policy in Whitespace. Please try again."
+    },
+    "patchRiskQuote": {
+      "success": "Requested to bind successfully"
+    },
+    "patchUserProgrammes": {
+      "success": "Quote & Bind user updated successfully"
+    },
+    "policyRemove": {
+      "remove": {
+        "fail": "There was a problem removing your policy(s). Please try again.",
+        "success": "Your policy(s) were removed successfully"
+      }
+    },
+    "postFacilityLimits": {
+      "success": "Facility limits updated successfully"
+    },
+    "postFacilityRates": {
+      "success": "Facility rates updated successfully"
+    },
+    "postRiskQuote": {
+      "success": "New quote added successfully"
+    },
+    "postRiskQuoteBind": {
+      "success": "Quote bound successfully"
+    },
+    "ppAssignUser": {
+      "fail": "There was a problem while adding user. Please try again.",
+      "success": "Workflow Task updated Successfully."
+    },
+    "preBindInfo": {
+      "postSuccess": "Bind Information added successfully"
+    },
+    "putFacilityDetails": {
+      "success": "Facility details updated successfully"
+    },
+    "putQuoteRates": {
+      "success": "Commission updated successfully"
+    },
+    "reInsured": {
+      "postEditSuccess": "Your (re)insured was edited successfully",
+      "postSuccess": "Your new (re)insured was added successfully"
+    },
+    "reQuote": {
+      "success": "The risk was updated successfully"
+    },
+    "removeComplexityValue": {
+      "fail": "There was a problem removing complexity basis value. Please try again.",
+      "success": "Complexity basis value removed successfully."
+    },
+    "removePlacement": {
+      "fail": "There was a problem removing the placement. Please try again.",
+      "success": "The placement was removed successfully"
+    },
+    "removeReferral": {
+      "fail": "There was a problem removing referral value. Please try again.",
+      "success": "Referral value removed successfully"
+    },
+    "reporting": {
+      "deleteReport": {
+        "fail": "There was a problem deleting the report group. Please try again.",
+        "success": "The report group was deleted successfully"
+      },
+      "deleteReportGroup": {
+        "fail": "There was a problem deleting the report. Please try again.",
+        "success": "The report was deleted successfully"
+      },
+      "editReport": {
+        "fail": "There was a problem updating the report group. Please try again.",
+        "success": "The report group was updated successfully"
+      },
+      "editReportGroup": {
+        "fail": "There was a problem updating the report. Please try again.",
+        "success": "The report was updated successfully"
+      },
+      "postFail": "There was a problem creating the report group. Please try again.",
+      "postReportGroup": {
+        "postFail": "There was a problem creating the report. Please try again.",
+        "postSuccess": "The report is created successfully."
+      },
+      "postSuccess": "The report group is created successfully.",
+      "reportDetails": {
+        "notFound": "There was a problem in getting the report. No report found."
+      },
+      "userDeleteFail": "There was a problem deleteing the user. Please try again.",
+      "userDeleteSuccess": "The report group user was deleted successfully",
+      "userPostFail": "There was a problem adding the user. Please try again.",
+      "userPostSuccess": "The report group user was added successfully"
+    },
+    "requestDismissIssues": {
+      "success": "Requested to dismiss issues successfully."
+    },
+    "resolveRFI": {
+      "fail": "There was a problem while resolving RFI. Please try again.",
+      "success": "RFI ({{id}}) resolved"
+    },
+    "respondRFI": {
+      "fail": "There was a problem while responding RFI. Please try again.",
+      "success": "RFI ({{id}}) responded"
+    },
+    "rfi": {
+      "fail": "Currently unable to send RFIs",
+      "fieldsNotPopulateErrorMessage": "Field should be auto-populated, please send an email to system administrator ",
+      "invalidProcessId": "RFI creation failed due to an invalid process ID",
+      "success": "RFI has been sent successfully"
+    },
+    "saveDraft": {
+      "fail": "There was a problem saving your draft. Please try again.",
+      "success": "New draft added successfully"
+    },
+    "saveRisk": {
+      "success": "New risk added successfully"
+    },
+    "saveTrip": {
+      "fail": "There was a problem creating your new trip. Please try again.",
+      "success": "New trip added successfully"
+    },
+    "sendEmailVerification": {
+      "fail": "There was a problem sending the verification email. Please try again.",
+      "success": "Verification email sent successfully"
+    },
+    "setPriority": {
+      "fail": "There was a problem in updating task priority. Please try again.",
+      "success": "Task Priority updated successfully"
+    },
+    "setReOpenedTask": {
+      "fail": "There was a problem in updating task. Please try again.",
+      "success": "Task updated successfully"
+    },
+    "signDown": {
+      "fail": "There was a problem updating your markets. Please try again.",
+      "success": "Signed percentage updated successfully"
+    },
+    "submission": {
+      "customSuccess": "{{message}}",
+      "fail": "There was a problem with the new submission. Please try again.",
+      "success": "Your new submission was added successfully"
+    },
+    "submitClaimInformation": {
+      "fail": "There was a problem submitting your claim information. Please try again.",
+      "success": "Claim is submitted"
+    },
+    "updateIssue": {
+      "fail": "There was a problem updating the issue. Please try again.",
+      "success": "Issue was successfully updated."
+    },
+    "uploadDmsFile": {
+      "fail": "There was a problem in uploading files, please try again"
+    },
+    "user": {
+      "create": {
+        "fail": "There was a problem creating the user. Please try again.",
+        "ok": "User added successfully"
+      },
+      "delete": {
+        "fail": "There was a problem deactivating the user. Please try again.",
+        "ok": "User successfully deactivated"
+      },
+      "edit": {
+        "fail": "There was a problem editing the user. Please try again.",
+        "ok": "User edited successfully"
+      },
+      "invalidRequest": "An invalid user create request was sent."
+    }
+  },
+  "openingMemo": {
+    "addEditUmr": {
+      "errorAlreadyTaken": "This UMR is already assigned to another Opening Memo",
+      "errorEmptyList": "At least one UMR is required",
+      "hintNotLongEnough": "Enter a minimum of 4 characters to add a new UMR",
+      "label": "Unique Market Reference (UMR)",
+      "listCurrentUmr": "Current list of UMR(s)",
+      "title": "Add/Edit UMR(s)"
+    },
+    "downloadOpeningMemo": "Download PDF",
+    "filter": {
+      "all": "All",
+      "approved": "Approved",
+      "awaitingApproval": "Awaiting Approval",
+      "inProgress": "In Progress"
+    },
+    "reInsured": "(Re)Insured",
+    "resetApprovals": "Reset All Approvals",
+    "saveBeforeApproving": "Please save changes to the Opening Memo before approving.",
+    "searchExplanation": "Enter a risk reference to create a new opening memo, or view an existing one",
+    "searchHint": "No Opening Memos found.",
+    "searchHintCreate": "No Opening Memos found. Enter a minimum of 4 characters to create a new one",
+    "searchTitle": "Search by risk reference:",
+    "selectHandlerFirst": "Please assign an Account Handler before approving.",
+    "selectSignatoryFirst": "Please assign an Authorised Signatory before approving.",
+    "title": "Opening Memo",
+    "umrs": "UMRs",
+    "upload": {
+      "btn": "Upload PDF to XB",
+      "noXbPolicies": "The opening memo doesn't have XB policies associated",
+      "notApproved": "The opening memo must be approved to upload to XB"
+    },
+    "whitespace": {
+      "downloadAllUmrs": "Download all UMRs",
+      "downloadMrc": "Download Whitespace MRC",
+      "downloadNoSelectionError": "Select at least one option from the list below",
+      "downloadSelectUmrs": "Select which UMRs to download"
+    }
+  },
+  "opportunity": {
+    "addDate": "Add date",
+    "addRemoveBrokers": "Add/remove brokers",
+    "addRemoveBrokersHint": "Update the assigned brokers for the visit to \"{{visit}}\"",
+    "addToTrip": "Add to trip",
+    "addTripTitle": "Add trip title",
+    "existingTrips": "Existing trips",
+    "leadsEmpty": "No results found",
+    "leadsError": "There was an error searching for leads. Please try again.",
+    "leadsFound": "My leads are:",
+    "leadsLoading": "Loading Leads...",
+    "saveTrip": "Save my trip",
+    "searchHint": "Search for an address or city in the form above to find nearby clients",
+    "summaryHintText": "Search for client locations and add visits to create your trip",
+    "summaryHintTitle": "Your trip is empty",
+    "title": "Opportunity Explorer",
+    "travellingTo": "I am travelling to:"
+  },
+  "pagination": {
+    "nextPage": "Next Page",
+    "of": "of",
+    "previousPage": "Previous Page",
+    "rows": "Rows:",
+    "rowsPerPage": "Rows per page:"
+  },
+  "placement": {
+    "bound": {
+      "title": "Bound",
+      "underwriterGroup": "Underwriter Group {{group}}"
+    },
+    "department": {
+      "noDepartment": "No department assigned",
+      "noDepartmentHint": "You need to have at least one department assigned to your account"
+    },
+    "document": {
+      "delete": "Delete Document",
+      "title": "Documents"
+    },
+    "firmOrder": {
+      "downloadFirmOrder": "Download Firm Order",
+      "ntuLayer": "NTU Layer",
+      "ntuLayerHint": "Update the status of layer \"{{layer}}\" to NTU",
+      "seeNotes": "See {{label}} notes section for subjectivities/comments",
+      "signDown": "Sign Down",
+      "title": "Firm Order"
+    },
+    "form": {
+      "assignedCobrokers": {
+        "label": "Co-brokers assigned to client offices"
+      },
+      "buydown": {
+        "label": "Buydown"
+      },
+      "capacityType": {
+        "hint": "Please assign a capacity type to market {{market}}",
+        "label": "Capacity Type"
+      },
+      "class": {
+        "label": "Class of Business",
+        "required": "Class of business is required"
+      },
+      "coBrokers": {
+        "hint": "Add individual co-brokers to this placement",
+        "label": "Co-brokers"
+      },
+      "currency": {
+        "label": "Currency"
+      },
+      "dateExpiry": {
+        "label": "Quote Expiry"
+      },
+      "dateFrom": {
+        "label": "Quote Received"
+      },
+      "delete": {
+        "label": "Delete {{count}} $t(format.lowercase, { 'value': { 'label':'{{type}}', 'count':'{{count}}' } }) for placement",
+        "title": "Delete"
+      },
+      "gxbBrokers": {
+        "label": "GXB Brokers"
+      },
+      "lead": {
+        "label": "Lead"
+      },
+      "line": {
+        "label": "Line"
+      },
+      "lineToStand": {
+        "label": "Line to Stand"
+      },
+      "market": {
+        "label": "Market"
+      },
+      "notes": {
+        "label": "Notes"
+      },
+      "premium": {
+        "label": "Premium"
+      },
+      "quoteExpiry": {
+        "label": "Quote Expiry"
+      },
+      "quoteReceived": {
+        "label": "Quote Received"
+      },
+      "section": {
+        "label": "Section"
+      },
+      "signDown": {
+        "hint": "Value must be between sum of all lines to stand ({{min}}%) and $t(placement.form.signDown.{{reason}}) ({{max}}%)",
+        "label": "Enter a target % for signing down",
+        "maxAllowed": "maximum amount allowed",
+        "maxWritten": "sum of all written lines"
+      },
+      "signDownMax": {
+        "hint": "Total of written %",
+        "label": "Maximum"
+      },
+      "status": {
+        "label": "Status"
+      },
+      "subjectivities": {
+        "label": "Subjectivities"
+      },
+      "underwriter": {
+        "hint": "Choose underwriter from selected market or create a provisional one",
+        "label": "Underwriter",
+        "required": "Underwriter is required"
+      },
+      "uniqueMarketReference": {
+        "label": "Unique Market Reference"
+      },
+      "written": {
+        "label": "Written"
+      }
+    },
+    "generic": {
+      "addComments": "Add Comments",
+      "amount": "Amount",
+      "attachments": "Attachments",
+      "buydown": "Buydown",
+      "comments": "Comments",
+      "excess": "Excess",
+      "gxbBeReference": "BE Reference",
+      "layer": "Layer",
+      "layer_plural": "Layers",
+      "lead": "Lead",
+      "line": "Line",
+      "lineToStand": "Line to Stand",
+      "line_plural": "Lines",
+      "market": "Market",
+      "market_plural": "Markets",
+      "policy": "Policy",
+      "policy_plural": "Policies",
+      "premium": "Premium",
+      "primary": "Primary",
+      "quote": "Quote",
+      "section": "Section",
+      "signed": "Signed",
+      "status": "Status",
+      "statusLabel": {
+        "bound": "Bound",
+        "inProgress": "In Progress",
+        "pending": "Pending"
+      },
+      "trafficLights": {
+        "tooltip": "$t(status.quoted): {{quoted}}<br>$t(status.pending): {{pending}}<br>$t(status.declined): {{declined}}"
+      },
+      "umr": "UMR",
+      "written": "Written"
+    },
+    "marketing": {
+      "addLayer": "Add Layer",
+      "addLayerMarket": "Add Market",
+      "addMarket": "Add Market",
+      "bulkDeleteMarket": "Bulk Delete Placement Market",
+      "bulkEdit": "Bulk Edit",
+      "bulkEditLayer": "Bulk Edit Layers",
+      "bulkEditLines": "Bulk Edit Lines",
+      "deSelectAll": "De-Select All",
+      "delete": "Delete",
+      "deleteLayer": "Delete Layer",
+      "deleteLayerMarket": "Delete Market",
+      "deleteMarket": "Delete Placement Market",
+      "duplicateLayerMarket": "Duplicate Line",
+      "editLayer": "Edit Layer",
+      "editLayerMarket": "Edit Market",
+      "editMarket": "Edit Placement Market",
+      "editNumLayers": "Edit {{count}} $t(placement.generic.layer)",
+      "editNumLines": "Edit {{count}} $t(placement.generic.line)",
+      "editNumMarkets": "Edit {{count}} $t(placement.generic.market)",
+      "fields": {
+        "capacityType": "Capacity Type",
+        "capacityTypeHint": "Search for a market then choose a capacity type (optional)",
+        "declinatures": "Declinature reason(s)",
+        "layer": "Layer",
+        "market": "Market",
+        "markets": {
+          "hint": "Search for a market",
+          "label": "Markets"
+        },
+        "notes": "Notes",
+        "rationales": "Rationales",
+        "status": "Status",
+        "underwriter": "Underwriter"
+      },
+      "layersNotAllowed": "Deselect all markets to enable bulk edit for layers",
+      "manageMarket": "Manage Market",
+      "mudmapNotAvailable": "No mudmap available",
+      "mudmapNotAvailableHint": "Layers and markets with valid data are necessary for the mudmap to be visible",
+      "multiSelectToggle": "Multiselect",
+      "noLayerHint": "To create a market quote, first add a layer to the placement.",
+      "noLayerTitle": "No Layer available",
+      "others": "Others",
+      "sections": {
+        "markets": "Markets",
+        "mudmap": "Mud Map",
+        "structuring": "Structuring"
+      },
+      "selectAll": "Select All",
+      "title": "Marketing"
+    },
+    "modelling": {
+      "addDocument": "Add document",
+      "back": "View all tasks",
+      "boundUmrSlip": {
+        "label": "All bound UMR slips associated with this insured placement"
+      },
+      "create": "Create task",
+      "dueDate": "Due Date",
+      "editDetails": "Edit details",
+      "expiringSlip": {
+        "label": "Expiring slip or .txt file with requested layers and deductible structure"
+      },
+      "fileType": {
+        "label": "Documents are required for all submissions. If they are unavailable, please provide explanation in notes"
+      },
+      "id": "ID",
+      "insured": "Insured",
+      "modellingTask": "Modelling Task",
+      "modellingType": {
+        "title": "Type of Modelling",
+        "typeBound": "Bound",
+        "typeQuoting": "Quoting"
+      },
+      "notes": "Notes",
+      "sovAttached": {
+        "label": "SOV attached"
+      },
+      "title": "Modelling",
+      "update": "Update modelling task"
+    },
+    "openingMemo": {
+      "approvers": {
+        "accountHandler": "Account Handler",
+        "authorisedSignatory": "Authorised Signatory"
+      },
+      "attachedDocumentSection": {
+        "header": "Processing Instruction attached document details"
+      },
+      "columnNames": {
+        "accountHandler": "Account Handler",
+        "detail": "Detail",
+        "isAuthorised": "Authorised Signatory"
+      },
+      "gxbPolicyId": "Policy Id",
+      "instructionToProcessing": "Instruction to Processing",
+      "instructions": {
+        "label": "Processing instructions",
+        "rows": {
+          "fees": {
+            "label": "Fees"
+          },
+          "grossPremium": {
+            "label": "Gross Premium (100%)"
+          },
+          "otherDeductions": {
+            "label": "Other Deductions (e.g. Taxes)(%)"
+          },
+          "paymentBasis": {
+            "label": "Payment Basis (Cash / Quarterly / Other Deferred)"
+          },
+          "pfInternalDepartment": {
+            "label": "PF Internal Department"
+          },
+          "ppwPPC": {
+            "label": "PPW / PPC applicable"
+          },
+          "premiumTax": {
+            "label": "Premium & Tax Calculation Sheet attached"
+          },
+          "retainedBrokerageAmount": {
+            "label": "Retained Brokerage Amount"
+          },
+          "settlementCurrency": {
+            "label": "Settlement Currency"
+          },
+          "signedLines": {
+            "label": "Signed Lines Calculation attached"
+          },
+          "slipOrder": {
+            "label": "Slip Order (%)"
+          },
+          "splitAsFollows": {
+            "label": "Split as follows:"
+          },
+          "thirdPartyName": {
+            "label": "Third Party"
+          },
+          "total": {
+            "label": "Total"
+          },
+          "totalBrokerage": {
+            "label": "Total Brokerage"
+          },
+          "totalClientDiscount": {
+            "label": "Client Discount"
+          },
+          "totalPfInternal": {
+            "label": "PF Internal Commission Sharing"
+          },
+          "totalRetainedBrokerage": {
+            "label": "Retained Brokerage"
+          },
+          "totalThirdParty": {
+            "label": "Third Party Commission Sharing"
+          }
+        },
+        "subHeader": "Brokerage / Commission / Fee / Taxes - provide back up if not documented in MRC"
+      },
+      "mrc": {
+        "label": "MRC",
+        "rows": {
+          "allMarketsApproved": {
+            "label": "All Markets are approved"
+          },
+          "allUnderwriter": {
+            "label": "All Underwriter references completed"
+          },
+          "allWrittenLines": {
+            "label": "All Written Lines included (signed and dated)"
+          },
+          "informationClearlyStated": {
+            "label": "Information clearly stated and Info Packs stamped / e-mail sent for all markets"
+          },
+          "paymentTerms": {
+            "label": "Payment Terms / Settlement Due Dates complete (Incl. PPW/PPC)"
+          },
+          "riskCodes": {
+            "label": "Risk Codes complete"
+          },
+          "subscriptionAgreement": {
+            "label": "Subscription Agreement complete (1st & 2nd UWRs stated)"
+          }
+        }
+      },
+      "notFound": "Risk Reference not found",
+      "other": {
+        "label": "Other",
+        "rows": {
+          "confirmSanctioned": {
+            "label": "Confirm Sanctioned Territories Exposure checked and PF Sanctions Policy followed"
+          },
+          "contractCertainty": {
+            "label": "Contract Certainty fields completed in XB"
+          },
+          "marketSheet": {
+            "label": "Market Sheet on file, including rationale and Uw feedback"
+          },
+          "thirdParty": {
+            "label": "Third Party Commission Payment Authorisation Form complete"
+          }
+        }
+      },
+      "pdf": {
+        "header": "Global XB File Checklist"
+      },
+      "prePlacing": {
+        "label": "Pre placing",
+        "rows": {
+          "atlas": {
+            "label": "ATLAS updated (if applicable)"
+          },
+          "bars": {
+            "label": "BARs registered (if applicable)"
+          },
+          "demandsNeeds": {
+            "label": "Demands & Needs / Approach to Market Statement where required"
+          },
+          "dutyOfDisclosure": {
+            "label": "Duty of Disclosure Reminder"
+          },
+          "evidence": {
+            "label": "Evidence of Firm Order"
+          },
+          "quotesPutUp": {
+            "label": "Quotes put up in full (Status / Subjectivities / Validity / Special Conditions explained)"
+          },
+          "slipsSigned": {
+            "label": "Slips signed by Authorised Signatory / PPL Second Authoriser"
+          }
+        }
+      },
+      "riskReference": "Unique Market Reference",
+      "search": "Search by Risk Reference",
+      "specialInstructions": {
+        "accountExecutive": {
+          "label": "Account Executive"
+        },
+        "header": "Special Instructions to Processing",
+        "listOfRisks": {
+          "hint": "eg Reinsurance covers",
+          "label": "List of any Risks to be \"Linked\""
+        },
+        "notes": {
+          "label": "Notes"
+        },
+        "originator": {
+          "label": "Originator"
+        },
+        "placingBroker": {
+          "label": "Placing Broker"
+        },
+        "producingBroker": {
+          "label": "Producing Broker"
+        }
+      },
+      "summary": {
+        "legends": {
+          "broking": "Broking",
+          "client": "Client",
+          "policy": "Policy"
+        },
+        "rows": {
+          "attachedTo": {
+            "label": "Attach to"
+          },
+          "clientContactName": {
+            "label": "Contact Name"
+          },
+          "clientEmail": {
+            "label": "Client Email"
+          },
+          "department": {
+            "label": "Department"
+          },
+          "eocInvoiceContactName": {
+            "label": "EOC / Invoice Contact Name"
+          },
+          "eocInvoiceEmail": {
+            "label": "EOC / Invoice Email"
+          },
+          "invoicingClient": {
+            "label": "Invoicing Client"
+          },
+          "newRenewalBusinessId": {
+            "label": "New / Renewal Business"
+          },
+          "period": {
+            "label": "Period"
+          },
+          "placementType": {
+            "label": "Type of Placement"
+          },
+          "reInsured": {
+            "label": "(Re)Insured"
+          }
+        }
+      },
+      "title": "Opening Memo"
+    },
+    "overview": {
+      "chart": {
+        "catExposure": "CAT Exposure",
+        "city": "Cities",
+        "citySummary": "Cities Summary",
+        "country": "Countries",
+        "countrySummary": "Countries Summary",
+        "geocodingAccuracy": "Geocoding Accuracy",
+        "geocodingAccuracySummary": "Geocoding Accuracy Summary",
+        "hasAlarm": "Alarm",
+        "hasBackupPower": "Backup Power",
+        "hasSprinklers": "Sprinklers",
+        "scaleTivTitle": "TIV ({{currency}})",
+        "selectFilter": "Select a filter...",
+        "state": "States",
+        "stateSummary": "States Summary"
+      },
+      "listLocations": "List of Locations",
+      "map": {
+        "geocodingFailed": "Geocoding failed"
+      },
+      "title": "Risk Profile"
+    },
+    "sheet": {
+      "addDocument": "Add Document",
+      "addLayer": "Add Layer",
+      "addMarket": "Add Market",
+      "addNewClass": "Add New Class",
+      "addPolicyLayer": "Add PolicyLayer",
+      "addQuote": "Add a Quote",
+      "bulkEdit": "Bulk Edit",
+      "capacityType": "Capacity Type",
+      "comments": "Comments",
+      "createInWhitespace": "Create in Whitespace",
+      "deleteMarket": "Delete Market",
+      "deletePolicy": "Delete Policy",
+      "displayMudmapOnPDF": "Display mudmap(s) on PDF",
+      "downloadMarketSheet": "Download Market Sheet",
+      "editCapacityType": "+ Edit Capacity Type",
+      "editItems": "Edit {{count}} items",
+      "editMarket": "Edit Market",
+      "editNumLayers": "Edit {{count}} $t(placement.generic.layer)",
+      "editNumLines": "Edit {{count}} $t(placement.generic.line)",
+      "editNumMarkets": "Edit {{count}} $t(placement.generic.market)",
+      "editNumPolicies": "Edit {{count}} $t(placement.generic.policy)",
+      "editPolicy": "Edit Policy",
+      "editQuote": "Edit Quote",
+      "introduction": "Introduction",
+      "layersNotAllowed": "Deselect all markets to enable bulk edit for policies",
+      "marketDetails": "Market Details",
+      "marketsNotAllowed": "Deselect all policies to enable bulk edit for markets",
+      "mudmap": {
+        "hide": "Hide Mudmap",
+        "show": "Show Mudmap"
+      },
+      "newClass": "Class",
+      "seeNotes": "See {{label}} notes section for subjectivities/comments",
+      "selectedLayer": "({{count}} $t(format.lowercase, { 'value': { 'label':'placement.generic.layer', 'count':'{{count}}' } }) selected)",
+      "selectedMarket": "({{count}} $t(format.lowercase, { 'value': { 'label':'placement.generic.market', 'count':'{{count}}' } }) selected)",
+      "subjectivities": "Subjectivities",
+      "submissionUpdate": "Submission Update",
+      "title": "Market Sheet"
+    }
+  },
+  "policy": {
+    "goToOpeningMemo": "Go to Opening Memo",
+    "goToPlacement": "Go to Placement",
+    "notes": "Notes",
+    "title": "Policy",
+    "umr": "UMR Id"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "title_client": "Client Portfolio",
+    "title_market": "Market Portfolio"
+  },
+  "portfolioMap": {
+    "dataLabel": "Displaying locations by {{level}}",
+    "hideTable": "Hide table",
+    "viewTable": "View table"
+  },
+  "premiumProcessing": {
+    "alert": "Alert",
+    "apiResponseError": "Something went wrong, please try again later",
+    "assign": "Assign",
+    "assignedToModalTitle": "Assigned To User",
+    "premiumProcessingSearchPlaceHolder": "FEC Name,Insured Name,InstructionID,Risk Ref,Division,WPR",
+    "breadcrumbs": {
+      "case": "Case {{id}}",
+      "home": "Premium Processing"
+    },
+    "bulkAssignValiadtion": "Please select atleast 1 Cases to assign user",
+    "bulkAssignment": "Bulk Assign",
+    "bureauColumns": {
+      "alertPopup": "There are unsaved data in the screen. Do you still want to leave the screen?",
+      "alertPopupOnCancel": "Unsaved changes will be lost, are you sure you want to undo all changes?",
+      "alertPopupOnRemove": "The work package number will be deleted. Are you sure you want to remove?",
+      "apiDeleteFail": "There was a problem deleting the data. Please try again.",
+      "apiFail": "There was a problem saving the data. Please try again.",
+      "bureau": "Bureau*",
+      "date": "Date*",
+      "duplicateWorkPackageInEds": "The Work Package Number entered is already present. Please enter correct Work Package Number",
+      "duplicateWorkPackageNo": "The Work Package Number entered is duplicate with the other Number entered in the Bureau Tab. Please enter correct Work Package Number",
+      "fail": "Please fill the mandatory fields.",
+      "selectBureau": "Select Bureau",
+      "selectDate": "Select a date...",
+      "status": "Status",
+      "workPackageRefNumber": "Work Package Ref Number*",
+      "workRefValidation": "Only 5 Work Packages are allowed"
+    },
+    "caseActionAccordion": {
+      "issueDocuments": "ISSUE DOCUMENTS",
+      "manageDocuments": "MANAGE DOUCMENTS",
+      "newCheckSigning": "NEW CHECK SIGNING",
+      "newRfi": "NEW RFI",
+      "rejectCase": "REJECT CASE",
+      "title": "Create Actions"
+    },
+    "caseCompletionRfi": {
+      "cancel": "CANCEL",
+      "caseCompletionRfiButton": "SKIP AND PROCEED",
+      "caseCompletionRfiLabel": "Warning",
+      "close": "CLOSE",
+      "errorMessage": "One or more RFI query are still open. Are you sure you want to proceed?"
+    },
+    "caseDetailsResponseError": "There was a problem to fetch Case Details, please try after sometime",
+    "caseDetailsSection": {
+      "bordereauPeriod": "Bordereau Period",
+      "bordereauTypeId": "Bordereau Type",
+      "bureau": "Bureau(s)",
+      "businessType": "Business Type",
+      "caseDueDate": "Case Due Date",
+      "department": "Department",
+      "departmentId": "Department",
+      "departmentName": "Department",
+      "division": "Division",
+      "dueDate": "Due Date",
+      "endorsementNumber": "Endorsement Number",
+      "endorsementRefNo": "Endorsement Ref No",
+      "expiryDate": "Expiry Date",
+      "facilityTypeId": "Facility Type",
+      "fec": "Front End Contact",
+      "feeAmendmentTrigger": "Fee / Amendment Trigger",
+      "inceptionDate": "Inception Date",
+      "instructionId": "Instruction ID",
+      "nonPremiumIndicator": "Non - Premium Indicator",
+      "nonpremiumLabel": "Non-Premium",
+      "packageSubmissionDate": "Package Submission Date",
+      "packageSubmittedOn": "Package Submitted On",
+      "policyTypeId": "Policy Type",
+      "ppwPpc": "PPW/PPC",
+      "premium": "Premium",
+      "processName": "Process Name",
+      "processType": "Process",
+      "processingInstruction": "Processing Instructions",
+      "qualityControl": "Quality Control",
+      "transactionCommit": {
+        "label": "Transaction Commited*"
+      },
+      "type": "Type",
+      "viewAllDetails": "View All Details",
+      "workPackageNumber": "Work Package Number",
+      "workPackageRef": "Work Package Reference",
+      "workflowStagePiError": "The PI is getting updated by another user, You cannot view this now. Please try later",
+      "workflowStageUpdateError": "Workflow stage was not updated",
+      "workflowStageUpdateSuccess": "Workflow task completed successfully.",
+      "xbInstance": "XB Instance",
+      "xbInstanceId": "XB Instance"
+    },
+    "caseDueDateToolTip": "SLA breached by {{noOfDays}} day(s)",
+    "caseId": "Case Id",
+    "caseNotAssignedToJuniorTechnician": "{{juniorTechCount}} case are QC review pending , cannot be assigned to a Junior PP technician",
+    "caseNotSelected": "Please select a case to assign the user",
+    "caseSelectionWarningMessage": "Can only multi-select up to 10 cases at a time",
+    "caseSummary": {
+      "moveToNextStage": "MOVE TO NEXT STAGE ",
+      "reject": "Reject",
+      "saveNote": "SAVE NOTES",
+      "submit": "Submit"
+    },
+    "caseTeam": {
+      "buttonTitle": "CASE TEAM",
+      "caseDetails": "CASE DETAILS",
+      "noResults": "No team data",
+      "rfiDetails": "RFI DETAILS",
+      "role": "Technician",
+      "title": "Case Team",
+      "unassigned": "Unassigned"
+    },
+    "apiErrorMsg": "There is a problem while fetching data from server. Please try again",
+    "caseTeamModule": {
+      "title": "CASE TEAM MODULE"
+    },
+    "caseTypes": {
+      "CLOSED": "Closed",
+      "IN_PROGRESS_BACK_OFFICE": "In-Progress Back Office",
+      "IN_PROGRESS_MIDDLE_OFFICE": "In-Progress Middle Office",
+      "NEW": "New"
+    },
+    "cases": "Cases",
+    "casesAssigned": "{{count}} case assigned  ",
+    "casesAssignedSuccessfully": "{{count}} case assigned successfully",
+    "casesAssignedSuccessfully_plural": "{{count}} cases assigned successfully",
+    "casesAssigned_plural": "{{count}} cases assigned  ",
+    "casesAssignmentFailure": "{{failureCount}} case assignment failure",
+    "casesAssignmentFailure_plural": "{{count}} cases assignment failure",
+    "casesMultiple": "Multiple cases are selected",
+    "casesNotAssigned": " {{count}} case not assigned ",
+    "casesNotAssigned_plural": " {{count}} cases not assigned ",
+    "checkSigning": "Check Signing",
+    "checkSigningCancel": {
+      "cancel": "CANCEL",
+      "cancelNotes": "Notes is mandatory if the case is cancelled",
+      "cancelSuccessMessage": "The check signing case is cancelled successfully",
+      "continue": "CONTINUE",
+      "popLabel": "Mark as Cancelled",
+      "popMessage": "The case will be marked as cancelled, do you want to continue?"
+    },
+    "checkSigningCase": {
+      "bureauList": "Bureau Name",
+      "cancel": "CANCEL",
+      "checkSigningCaseErrorMsg": "There was an error in creating the Check Signing case",
+      "checkSigningCaseSuccessMsg": "New Check Signing Case Created",
+      "complete": "COMPLETE",
+      "department": "Department",
+      "gxbInstance": "XB Instance",
+      "notesMandatoryCancel": "Notes is mandatory if the cancel is selected for the case",
+      "notesMandatoryComplete": "Notes is mandatory if the complete is selected for the case",
+      "notesMandatoryReject": "Notes is mandatory if the reject is selected for the case",
+      "packageSubmittedOn": "Package Submitted on",
+      "popUpTitle": "Create New Check Signing",
+      "reject": "REJECT",
+      "riskReferenceId": "Policy Reference",
+      "workPackageReference": "Work Package Reference"
+    },
+    "checkSigningComplete": {
+      "completeNotes": "Notes is mandatory if the case is complete",
+      "completeSuccessMessage": "The check signing case is completed successfully",
+      "popLabel": "Complete Case",
+      "popMessage": "The case will be successfully completed. Do you want to continue?"
+    },
+    "checkSigningHistory": {
+      "by": "By : ",
+      "caseID": " Case ID",
+      "noHistoryIsAvailable": "No History is Available",
+      "oldCheckSigning": "Old Check Signing Case ID",
+      "parentCheckSigning": "Parent Check Signing Case ID"
+    },
+    "checkSigningReject": {
+      "cancel": "CANCEL",
+      "checkBoxMessage": "Replace rejected case with new check signing case?(Optional)",
+      "chooseReason": "Choose a Reason Code*",
+      "popLabel": "Reject Case",
+      "rejectCase": "REJECT",
+      "rejectCreateCase": "New Check Signing case has been generated",
+      "rejectCreateNew": "REJECT AND CREATE NEW CASE",
+      "rejectFailureMessage": "There was a problem in rejecting the Check Signing case. Please try again.",
+      "rejectMessage": "Are you sure you want to mark this case as rejected?",
+      "rejectSuccessMessage": "The check signing case is rejected successfully",
+      "textMessage": "Please provide the following information to create a new case",
+      "workPackageRef": "Work Package Reference*",
+      "rejectCloseSuccessMessage": "This work item is now Rejected and moved to Tasks History tab.",
+      "rejectCloseErrorMessage": "There was a problem in rejecting the Case. Please try again."
+    },
+    "client": {
+      "address": "Address :",
+      "clientName": "Client Name : "
+    },
+    "columns": {
+      "assignedTo": "Assigned To",
+      "bordereauType": "Bordereau Type",
+      "caseCreatedOn": "Case Created On",
+      "caseId": "Case ID",
+      "caseStage": "Case Stage",
+      "department": "Department",
+      "facilityType": "Facility Type",
+      "fecName": "FEC Name",
+      "feeAmendments": "Fee or Amendments",
+      "flags": "Flags",
+      "inceptionDate": "Inception Date",
+      "nonPremium": "Non-Premium",
+      "policyRef": "Risk Ref",
+      "priority": "Priority",
+      "process": "Process",
+      "processingInstructionId": "Processing Instruction ID",
+      "qcFlag": "QC",
+      "rcFlag": "RC",
+      "rfiFlag": "R",
+      "rpFlag": "RP",
+      "rsFlag": "RS",
+      "select": "select",
+      "slaOverdue": "SLA Overdue",
+      "workPackageReference": "Work Package Reference"
+    },
+    "commentedBy": "Commented by",
+    "crossGroupAssignmentStatus": "{{crossGroupCount}} Case work assignment could not be completed as user belongs to different Group",
+    "filterAppliedValidation": "Already filter is applied, cannot search for the same",
+    "filterCases": "Filter Cases",
+    "filters": {
+      "hintInsured": "Search and filter results by adding insureds/cover holders",
+      "hintProcessingInstruction": "Search and filter results by adding  Processing Instruction Id",
+      "processingInstructionName": "Processing Instruction ID",
+      "typeHere": "type here"
+    },
+    "flagTooltip": {
+      "qcFlag": "Quality Control",
+      "rcFlag": "Reject Closed",
+      "rfiFlag": "RFI",
+      "rpFlag": "Reject Pending",
+      "rsFlag": "Resubmitted"
+    },
+    "flexiColumnMessage": "Please select atleast 1 column to display cases details",
+    "invalidRequest": "An invalid request was sent.",
+    "issueDocuments": {
+      "cancel": "Cancel",
+      "closingAdviceNotes": "Closing Advice Notes, Work Packages and Debit Notes are issued to the following:",
+      "invoiceSentDateTickedGXB": "Invoice Sent Date ticked on GXB?",
+      "issueDocumentMoveToNextConfimMessage": "Sorry, the action cannot be completed since you have not sent all emails to named Non-Bureau Insurer/Clients. Please send the emails to proceed OR click on Skip button to proceed in case of exception",
+      "londonTeamSentDocsToClient": "London team sent docs to client",
+      "nonBureauInsurer": "Sent docs to Non Bureau Insurer",
+      "packagesSubmittedXchanging": "Work Packages submitted to Xchanging",
+      "proSentDocsToClients": "Pro sent docs to Clients",
+      "proSentDocsToLondonTeam": "Pro sent docs to London Team"
+    },
+    "multiSelect": "MultiSelect",
+    "multiSelectEanbleWarningMessage": "Cannot view case details when MultiSelect is enabled.",
+    "noCaseDetails": "No Case details available",
+    "noCaseFoundMessage": "No Cases Found",
+    "noCaseSelected": "No Case Selected",
+    "noNonBureauDetails": "No Non Bureau Details are found",
+    "noQcDetails": "No Quality Control details available",
+    "noQcDetailsNotApplicable": "No Quality Control applicable",
+    "noRejectDetails": "No Reject Closed details available",
+    "noResubmissionDetails": "No Resubmission details available",
+    "noResultsMessage": "No results available to display",
+    "noValidCaseDetailsFound": "Case Details not found",
+    "nonBureauColumns": {
+      "emailDocument": "Email Document",
+      "nonBureauInsurer": "Non Bureau Insurer",
+      "sendEmail": "Send Email",
+      "sentDate": "Sent Date",
+      "status": "Status",
+      "viewEmail": "View Email"
+    },
+    "notes": {
+      "addNotes": "Add Notes",
+      "notes": "Notes*",
+      "notesMandatory": "Please enter notes.",
+      "viewNotes": "View Notes",
+      "viewNotesHistory": "View Notes History"
+    },
+    "pendingActionAccordion": {
+      "issueDocuments": "ISSUE DOCUMENTS",
+      "rfis": "RFI(S)",
+      "title": "Pending Actions"
+    },
+    "piHyperLinkErrorMessage": "The PI is getting updated by another user, You cannot view this now. Please try later",
+    "premiumProcessingNotificationCaseSearch": "Selected case id {{id}} is assigned to different user. So cannot view the details.",
+    "processingClientTable": {
+      "tableColumns": {
+        "backOfficeToClient": "Back office to client",
+        "backOfficeToFEC": "Back office to Front End Contact",
+        "client": "Client",
+        "documentSent": "Document Sent",
+        "emailDocument": "Email Document",
+        "frontEndContactToClient": "Front End Contact to Client",
+        "sendEmail": "Send Email",
+        "sentDate": "Sent Date",
+        "status": "Status",
+        "viewEmail": "View Email"
+      },
+      "warningText": "Client Table not found"
+    },
+    "processingInstructionPI": "Processing Instruction PI - {{caseInstructionId}}",
+    "qualityControl": {
+      "date": "Date",
+      "fail": "Fail",
+      "pass": "Pass",
+      "qualityControlFailNotesMandatory": "Notes are mandatory if Fail is selected",
+      "qualityControlMoveToNextConfimMessageFail": "This work item will be submitted back to Junior PP technician, Ensure you have added the Notes",
+      "qualityControlMoveToNextConfimMessagePass": "This work item will be submitted back to Junior PP technician at Commit transaction stage",
+      "qualityControlNotSelected": "Select Pass/Fail to submit",
+      "reviewer": "Reviewer",
+      "status": "Status",
+      "title": "QUALITY CONTROL"
+    },
+    "qualityControlLabel": "Quality Control",
+    "qualityControlMoveToNextConfimMessage": "This work item will be now submitted for Quality control review.",
+    "reSubmitCases": {
+      "cancel": "CANCEL",
+      "reSubmit": "RE-SUBMIT",
+      "reSubmitCase": "Re-Submit Case",
+      "reSubmitNotes": "Notes is mandatory if the case is re-submitted",
+      "reSubmitToastMsg": " This work item is now resubmitted to the PP technician",
+      "resubmitPopUpMessage": "The work item will now be re-submitted back to the PP technician for premium processing"
+    },
+    "rejectDetails": {
+      "fields": {
+        "rcDate": "Reject Closed Date",
+        "rejectClosed": "Reject Closed by",
+        "rejectClosedAtStage": "Reject Closed at Stage",
+        "rejectPending": "Reject Pended by",
+        "rpDate": "Reject Pended Date"
+      },
+      "title": "REJECT CLOSED DETAILS"
+    },
+    "rejectingCase": {
+      "Close": "CLOSE",
+      "cancel": "CANCEL",
+      "reject": "REJECT",
+      "rejectCase": "Reject Case",
+      "rejectCaseConfirmationMessage": "Are you sure you want to reject this work item? <br /> or <br /> You can try sending an RFI first to check your queries",
+      "rejectCaseFailMsg": {
+        "fail": "There was a problem in rejecting the case. Please try again."
+      },
+      "rejectCaseNotesMandatoryMessage": "Notes is mandatory if the case is rejected",
+      "rejectClose": "REJECT CLOSE",
+      "rejectCloseNotes": "Notes is mandatory if the case is reject closed",
+      "rejectPopUpMessage": " Rejecting this work item will terminate the premium processing instruction, Are you sure ?",
+      "successMsgReject": " CASE ID {{caseId}} is now rejected and sent back to the Front end contact"
+    },
+    "resolveRfi": {
+      "popLabel": "Resolve Rfi",
+      "popMessage": " All entered data on this page may be lost, would you like to continue ?",
+      "resolveRfi": "RESOLVE RFI"
+    },
+    "respondingCase": {
+      "resolve": "RESOLVE",
+      "respond": "RESPOND"
+    },
+    "resubmissionDetails": {
+      "fields": {
+        "resubmitted": "Resubmitted by",
+        "resubmittedAtStage": "Resubmitted at Stage",
+        "rsDate": "Resubmitted Date"
+      },
+      "title": "Resubmission Details"
+    },
+    "rfi": {
+      "addNewDocument": "ADD NEW DOCUMENT",
+      "bureau": "Bureau",
+      "bureauNames": "Bureau Name",
+      "bureauQuery": "Bureau Query*",
+      "chooseAction": "Choose Action",
+      "chooseFromCaseDocuments": "CHOOSE FROM CASE DOCUMENTS",
+      "create": "{{createdOn}} {{createdBy}} ({{createdByRole}}) wrote:",
+      "details": "DETAILS",
+      "documents": {
+        "hide": "Hide existing document(s)",
+        "show": "Show existing document(s)"
+      },
+      "errorTextForExpectedResponseDate": "Field should be auto-populated Send email to system administrator",
+      "expectedResponseDate": "Expected Response Date",
+      "from": "From",
+      "internal": "Internal",
+      "linkToRfi": "Please click on Multiselect toggle and then select the Documents which you want to link with this RFI",
+      "newDocuments": "New Document(s)",
+      "newRfi": "New RFI",
+      "newRfiUpperCase": "NEW RFI",
+      "noDocumentFound": "No document found",
+      "owner": "Owner",
+      "queryCode": "Query Code",
+      "queryCodeRfiInternal": "Query Code*",
+      "queryCodeRfiBureau": "Query Code*",
+      "queryId": "Query ID",
+      "queryLabel": "Type Your Query*",
+      "queryLabelForCheckSigning": "Query*",
+      "queryPlaceholder": "Type your query...",
+      "resolutionCode": "Resolution Code*",
+      "resolutionCodeValue": "(resolution: <strong>{{value}}</strong>)",
+      "resolutionNotes": "Resolution Notes*",
+      "resolve": "Resolve",
+      "resolveRfi": "Resolve RFI",
+      "respondRfi": "Respond RFI",
+      "response": "{{responseDate}} {{responseBy}} ({{responseByRole}}) wrote:",
+      "rfiActions": "RFI ACTIONS",
+      "rfiAttachDocs": "ATTACHED DOCUMENTS",
+      "rfiDetails": "RFI DETAILS",
+      "rfiLoop": "RFI LOOP",
+      "rfiQueryResponse": "RFI Response",
+      "rfiResponse": "Type your Response*",
+      "rfiTxt": "RFI",
+      "rfiType": "RFI Type",
+      "riskReference": "Risk Reference",
+      "saveDraft": "SAVE DRAFT",
+      "sendRFI": "Send RFI",
+      "sendTo": "Send To",
+      "sendToInternalRfi": "Send To*",
+      "sendToFec": "Send to FEC",
+      "tabName": "{{type}} - RQ ID {{id}}",
+      "typeYourQueryResponse": "Type your Response",
+      "typeYourResponse": "Internal Response Comments",
+      "validQuery": "Valid Query?",
+      "validQueryNo": "No",
+      "validQueryYes": "Yes",
+      "version": "Version",
+      "workPackageReference": "Work Package Reference",
+      "wrote": "{{user}} ({{userRole}})  wrote: "
+    },
+    "saveNotes": {
+      "fail": "There was a problem saving a notes. Please try again.",
+      "success": "Case notes created successfully"
+    },
+    "search": {
+      "caseId": "Case ID",
+      "inceptionDate": "Inception Date",
+      "insuredCoverholder": "Insured or Coverholder",
+      "policyNo": "Risk Ref or Facility Ref Number",
+      "workPackageReference": "Work Package Reference"
+    },
+    "searchCases": "Search UMR",
+    "selectCases": "Select Cases",
+    "skipAndProceedButton": "Skip and Proceed",
+    "sortCases": "Sort Cases",
+    "stage": "Stage",
+    "subTabs": {
+      "bureau": "Bureau",
+      "client": "Client",
+      "nonBureau": "Non Bureau"
+    },
+    "tabs": {
+      "allCases": "All Cases",
+      "caseDetails": "CASE DETAILS",
+      "documents": "DOCUMENTS",
+      "history": "HISTORY",
+      "issueDocuments": "ISSUE DOCUMENTS",
+      "notes": "NOTES",
+      "rfi": "RFI",
+      "workBasket": "Workbasket",
+      "workList": "My Worklist"
+    },
+    "title": "Premium Processing",
+    "totalCases": "Total Cases",
+    "unAssigned": "Unassigned",
+    "validUserSelection": "Please select valid user",
+    "warning": {
+      "title": "Warning"
+    },
+    "workInProgress": "\"Work In Progress\""
+  },
+  "processingInstructions": {
+    "addRiskReference": {
+      "addByRiskRefId": "Add by Risk Reference(s) ID",
+      "addRiskRefAdvancedSearch": {
+        "label": "Advanced Search Results"
+      },
+      "advancedSearch": {
+        "advancedSearchResults": "No data found for the search",
+        "advancedSearchTableTitle": "Add Risk Reference(s) to Processing Instruction",
+        "youSearchedFor": "You Searched For"
+      },
+      "advancedSearchLabel": "Advanced Search",
+      "advancedSearchModalButton": "ADD",
+      "changeLeadRiskRefAlertMessage": "Changing Lead Risk Ref will remove all related uploaded documents and the documents needs to be re-uploaded for the new changed Lead Risk Ref. Do you want to continue?",
+      "chooseLeadRiskRefError": "Please select lead risk reference",
+      "chooseLeadRiskRefToSave": "Please select lead risk reference to save",
+      "duplicateWarning": {
+        "advancedText": "Some of the items ({{riskRefs}}) added are already on other Processing instructions ({{piRefs}}), are you sure you want to add them anyway?",
+        "text": "\"<strong>{{policyReference}}\"</strong> is already added to processing instruction(s) <em>\"{{instructionId}}\"</em>. <br /><br />Are you sure you want to add it here?",
+        "title": "Warning"
+      },
+      "fields": {
+        "department": {
+          "label": "Department"
+        },
+        "helperTextYoa": "YYYY",
+        "insuredCoverHolder": "Insured/ Cover Holder Name*",
+        "riskRef": {
+          "label": "Risk Reference ID"
+        },
+        "yearOfAccount": "Year of Account"
+      },
+      "noAccountExecutiveIdValue": "Please select any value in the Account Executive to Submit",
+      "noBordereauPeriod": "Please select any value in the Bordereau Period to Submit",
+      "noBordereauPolicyType": "Please select any value in the Policy Type to Submit",
+      "noBordereauTypeId": "Please select any value in the Bordereau Type to SAVE",
+      "noEndorsementValueAssociatedWithRiskRef": "{{riskRefId}} doesn't have any Endorsement number associated with it to select",
+      "noEndorsementValueSelected": "Please select any value in the Endorsement Ref field dropdown to SAVE ",
+      "noFacilityTypeValue": "Please select any value in the Facility Type dropdown to SAVE",
+      "noFrontEndContactIdAccountExecutiveIdValue": "Please select any value in the Front End Contact & Account Executive to Save",
+      "noFrontEndContactIdProducingBrokerIdValue": "Please select any value in the Front End Contact & Producing Broker to Save",
+      "noFrontEndContactIdValue": "Please select any value in the Front End Contact to Submit",
+      "noLeadRiskRefAdded": "Please add risk reference",
+      "noLeadRiskRefAddedToSave": "Please add any risk reference to save",
+      "noProducingBrokerValue": "Please select any value in the Producing Broker dropdown to Submit",
+      "riskRefId": "Risk Reference ID*",
+      "removeRiskRefWarning": "Removing Risk Reference will remove the related information which is already entered for that Risk Reference. Do you want to continue?",
+      "tableTitle": "Selected Risk Reference(s)"
+    },
+    "apiFetchError": "API error",
+    "apiMultipartPostError": "API multipart post error (uploadDocumentList))",
+    "authorisations": {
+      "approve": {
+        "commentLabel": "Add your approval comments",
+        "notification": {
+          "failed": "Processing Instruction approval failed",
+          "success": "Processing Instruction approved"
+        },
+        "text": "The processing instruction will now be submitted to the {{instructionType}} premium processing queue for all the risk references, and cannot be edited again",
+        "title": "Approve Processing Instruction?"
+      },
+      "caseInitiation": "Case was initiated successfully for this Processing Instruction",
+      "fields": {
+        "authorisedSignatory": "Authorised Signatory*",
+        "frontEndContact": "Front End Contact*",
+        "missingAuthorisedSignatoryManatoryFields": "Please fill the mandatory fields",
+        "readyToSubmit": "Ready to submit for Authorised Signatory approval*"
+      },
+      "form": {
+        "cancel": "Cancel",
+        "confirm": "Ok",
+        "confirmMessage": "Are you sure you want to submit?",
+        "confirmText": "The processing instruction will now be submitted to the premium processing queue for all the risk references, and cannot be edited again",
+        "note": "Note: If you need to attach any documents please do it now",
+        "proceed": "Proceed",
+        "title": "Submit Processing Instruction?"
+      },
+      "notes": {
+        "heading": "Notes History",
+        "updatedByInfo": "Commented by {{user}} on {{date}}"
+      },
+      "reject": {
+        "commentLabel": "Rejection comments*",
+        "notification": {
+          "failed": "Processing Instruction rejection failed",
+          "success": "Processing Instruction rejected"
+        },
+        "text": "Are you sure you want to reject this processing instruction?",
+        "title": "Reject Processing Instruction?"
+      },
+      "resetAll": "Reset All",
+      "submit": "Submit for Authorised Signatory",
+      "updatedProcessingInstruction": {
+        "approvedAuthorisedSignatoryText": "Approved by Authorised Signatory on {{date}}",
+        "approvedBy": "Approved By",
+        "heading": "Updated Processing Instruction Details",
+        "submittedAuthorisedSignatoryText": "Submitted to Authorised Signatory on {{date}}",
+        "updatedBy": "Updated By"
+      },
+      "warningText": "All the checkboxes are not ticked!"
+    },
+    "checklist": {
+      "allChecklistSelected": "You have not selected YES/NO/NA against all checklist under Pre-Placing, MRC and Other Details tabs. <br /><br />Are you sure you want to proceed?",
+      "cols": {
+        "authorisedSignatory": "Authorised Signatory",
+        "detail": "Detail",
+        "frontEndContact": "Front End Contact"
+      },
+      "fields": {
+        "accountExecutive": "Account Executive*",
+        "businessType": "Business Type",
+        "clientEmail": "Client Email*",
+        "contactName": "Contact Name*",
+        "eocInvoiceContactName": "EOC/Invoice Contact Name",
+        "eocInvoiceMail": "EOC/Invoice Email",
+        "facilityType": "Facility Type*",
+        "invoicingClient": "Invoicing Client",
+        "producingBroker": "Producing Broker*"
+      },
+      "lineItems": {
+        "mrc": {
+          "label": "MRC",
+          "rows": {
+            "allMarketsApproved": {
+              "label": "All Markets are approved*"
+            },
+            "allUnderwriter": {
+              "label": "All Underwriter references completed*"
+            },
+            "allWrittenLines": {
+              "label": "All Written Lines included (signed and dated)*"
+            },
+            "informationClearlyStated": {
+              "label": "Information clearly stated and Info Packs stamped / e-mail sent for all markets*"
+            },
+            "paymentTerms": {
+              "label": "Payment Terms / Settlement Due Dates complete (Incl. PPW/PPC)*"
+            },
+            "riskCodes": {
+              "label": "Risk Codes complete*"
+            },
+            "subscriptionAgreement": {
+              "label": "Subscription Agreement complete (1st & 2nd UWRs stated)*"
+            }
+          }
+        },
+        "otherDetails": {
+          "label": "Other Details",
+          "rows": {
+            "confirmSanctioned": {
+              "label": "Confirm Sanctioned Territories Exposure checked and PF Sanctions Policy followed*"
+            },
+            "contractCertainty": {
+              "label": "Contract Certainty fields completed in XB*"
+            },
+            "marketSheet": {
+              "label": "Market Sheet on file, including rationale and Uw feedback*"
+            },
+            "thirdParty": {
+              "label": "Third Party Commission Payment Authorisation Form complete*"
+            }
+          }
+        },
+        "prePlacing": {
+          "label": "Pre placing",
+          "rows": {
+            "atlas": {
+              "label": "ATLAS updated (if applicable)*"
+            },
+            "bars": {
+              "label": "DCOM registered (if applicable)*"
+            },
+            "demandsNeeds": {
+              "label": "Demands & Needs / Approach to Market Statement where required*"
+            },
+            "dutyOfDisclosure": {
+              "label": "Duty of Disclosure Reminder*"
+            },
+            "dateOfOrder": {
+              "label": "Evidence of Firm Order*"
+            },
+            "quotesPutUp": {
+              "label": "Quotes put up in full (Status / Subjectivities / Validity / Special Conditions explained)*"
+            },
+            "slipsSigned": {
+              "label": "Slips signed by Authorised Signatory / PPL Second Authoriser*"
+            }
+          }
+        }
+      },
+      "missingRequiredDates": "Missing mandatory date selection since you selected YES",
+      "missingRequiredDatesDocs": "Missing mandatory date selection since you selected YES and Signed slip against all risk references to be added",
+      "missingRequiredDocs": "Signed slip against all risk references to be added",
+      "missingRequiredFields": "Please fill the mandatory fields",
+      "missingRequiredFieldsDates": "Please fill the mandatory fields & mandatory date selection since you selected YES",
+      "missingRequiredFieldsDatesDocs": "Please fill the mandatory fields, mandatory date selection since you selected YES and Signed slip against all risk references to be added",
+      "missingRequiredFieldsDocs": "Please fill the mandatory fields and Signed slip against all risk references to be added",
+      "prePlacing": {
+        "dutyOfDisclosureEmptyDate": "Please select any date for duty of Disclosure",
+        "evidenceEmptyDate": "Please select any date for Evidence of firm order",
+        "mandatoryDateSelection": "You should select a date since you selected YES under Pre-Placing",
+        "quotesUpEmptyDate": "Please select any date for Quotes put up"
+      },
+      "removeDocumentWarning": "This action will remove the document from DMS, Are you sure?",
+      "tabs": {
+        "general": {
+          "title": "General"
+        },
+        "mrc": {
+          "title": "MRC*"
+        },
+        "otherDetails": {
+          "title": "Other Details*"
+        },
+        "prePlacing": {
+          "title": "Pre-Placing*"
+        },
+        "riskRefs": {
+          "table": {
+            "client": "Client Name",
+            "documentRequired": "Atleast one document is required",
+            "documents": "Slip Documents",
+            "documentsCount": "Documents Count",
+            "endorsementRef": "Endorsement Ref #",
+            "gxbInstance": "GXB Instance",
+            "insured": "Insured/Cover Holder",
+            "lead": "Lead",
+            "manageDocuments": "Manage Documents",
+            "noDocuments": "No documents",
+            "nonPremium": "Non-Premium",
+            "riskDetails": "Risk Details",
+            "riskRef": "Risk Ref. Id",
+            "riskStatus": "Risk Status",
+            "yoa": "Year of Accounts"
+          },
+          "title": "Risk Reference(s)*"
+        }
+      },
+      "warning": {
+        "title": "Warning"
+      }
+    },
+    "chooseProcess": "Choose Process",
+    "details": {
+      "authorisedSignatory": "Authorised Signatory",
+      "clientDiscount": "Client Discount (%)",
+      "facilityReference": "Facility Reference",
+      "fees": "Fees",
+      "grossPremium": "Gross Premium (100%)",
+      "missingPremiumTaxAndSignedLines": "Please upload Premium & Tax calculation sheet & Signed Lines Calculation sheet, since you have selected YES in both cases",
+      "missingPremiumTaxCalculationSheet": "Please upload Premium & Tax calculation sheet, it is mandatory since you have selected YES",
+      "missingSignedLinesCalculation": "Please upload Signed Lines Calculation sheet, it is mandatory since you have selected YES",
+      "notes": "Notes / Initial instruction",
+      "otherDeductions": "Other Deductions (eg. Taxes)(%)",
+      "paymentBasis": "Payment Basis",
+      "pfinternalCommissionSharing": "PF Internal Commission Sharing (%)",
+      "pfInternalDepartment": "PF Internal Department",
+      "piAllRiskRefs": "Processing Instruction details (All Risk References)",
+      "piDetailsAllRiskFacilityRef": "Processing Instruction Details (All Risk Reference)",
+      "piDetailsExcelModal": {
+        "title": "Upload Processing Instruction Data",
+        "step1": {
+          "title": "<strong>Step 1.</strong> Copy and paste excel data",
+          "hint": "Select Excel cells that contain the Processing Instruction data.  Copy the cells, please include column headers and paste them in the text area below."
+        },
+        "step2": {
+          "title": "<strong>Step 2.</strong> Match the Header the Spreadsheet columns",
+          "hint": "Select appropriate headers from your spreadsheet extract"
+        },
+        "step3": {
+          "title": "<strong>Step 3.</strong> Summary information of added columns"
+        }
+      },
+      "piDetailsLeadRiskFacilityRef": "Processing Instruction Details (Lead Risk Reference/Facility Reference {{riskRefId}})",
+      "ppwPPC": "PPW/PPC",
+      "ppwOrPPCDate": "PPW/PPC Date",
+      "premiumTaxCalculationSheetAttached": "Premium & Tax Calculation Sheet attached {{required}}",
+      "retainedBrokerage": "Retained Brokerage (%)",
+      "retainedBrokerageDetails": "Retained Brokerage",
+      "retainedBrokerageValue": "Retained Brokerage Value",
+      "retainedBrokerageAmount": "Retained Brokerage Currency Code",
+      "settlementCurrency": "Settlement Currency",
+      "signedLinesCalculationAttached": "Signed Lines Calculation attached {{required}}",
+      "slipOrder": "Slip Order (%)",
+      "specialInstructions": "Special Instructions to Processing",
+      "splitBrokerageAs": "Split Brokerage As:",
+      "submittedStatus": "Submitted for processing",
+      "submittedSuccessfully": "Processing Instruction Submitted Successfully",
+      "thirdParty": "Third Party Name",
+      "thirdPartyCommissionSharing": "Third Party Commission Sharing (%)",
+      "total": "Total (%)",
+      "totalBrokerage": "Total Brokerage",
+      "updateInstruction": "This action will reopen the submitted processing instruction, Are you sure to proceed ?",
+      "updateProcessingInstructionLabel": "Update Processing Instruction",
+      "uploadFinancialGridData": "Upload data",
+      "warrantyErrorMessage": "Incorrect Data: More than 1 PPW, PPC, LSW Warranty type value are present in Database. Please manually select the PPW/PPC values."
+    },
+    "excelCopyMatchingRiskReferences": "Found {{matchingCount}} matching Risk References",
+    "documentsWillNotBeSaved": "Documents will not be saved",
+    "downloadProcessingInstruction": "Download PDF",
+    "duplicateRiskRef": "This Risk Reference is already in this Processing Instruction",
+    "edit": {
+      "title": "Processing Instruction"
+    },
+    "emailNotification": {
+      "body": "Hi {{fecName}}<br /><br />This is an automatic email triggered as the Processing instruction document upload in GXB Failed for the PI - {{instructionId}}<br />Please reach out to the administrator / support team for further actions.",
+      "subject": "Document upload in GXB failed for one / all the risk reference - PI {{instructionId}}"
+    },
+    "endorsementReference": "Endorsement Reference #",
+    "filters": {
+      "hint": "Minimum {{min}} characters",
+      "hintId": "Search and filter results by adding processing instruction IDs",
+      "hintInsured": "Search and filter results by adding insureds/cover holders",
+      "maxReached": "Maximum options selected",
+      "noResults": "No results found",
+      "selectedMax": "Selected (max {{count}} can be selected)",
+      "types": {
+        "department": "Department",
+        "instructionId": "Process Instruction ID",
+        "insured": "Insured/Cover Holder",
+        "process": "Process",
+        "status": "Status"
+      }
+    },
+    "gridColumns": {
+      "createdDate": "Created On",
+      "department": "Department",
+      "frontEndContact": "Front End Contact",
+      "gxbInstance": "GXB Instance",
+      "inceptionDate": "Inception Date",
+      "instructionId": "Instruction ID",
+      "insuredCoverHolder": "Re (Insured)/ Cover holder",
+      "process": "Process",
+      "status": "Status",
+      "update": "Update"
+    },
+    "gridDataEmptyWarning": "No processing instruction details to display",
+    "gridUmrColumns": {
+      "associatedPiRefs": "Associated PI Ref.",
+      "chooseLead": "Choose Lead",
+      "clientName": "Client Name",
+      "endorsementRef": "Endorsement Ref # {{isMandatory}}",
+      "gxbInstance": "GXB Instance",
+      "insuredOrCoverHolder": "Insured/ Cover Holder",
+      "nonPremium": "Non-Premium",
+      "riskDetails": "Risk Details",
+      "riskReferenceId": "Risk Reference",
+      "riskStatus": "Risk Status",
+      "yearOfAccounts": "Year Of Accounts"
+    },
+    "landingPageError": "Something went wrong, please try again later",
+    "leadRiskRef": "Lead Risk Reference",
+    "listDropDownLabel": "Choose Process -",
+    "listDropDownPlaceholder": "Select Process",
+    "listOfPisCreated": "List of Processing Instructions Created",
+    "manageDocuments": {
+      "documentsAddedGxbForRiskRef": "Document(s) to be add to GXB for Risk Reference {{riskRefId}}",
+      "label": "Manage Documents"
+    },
+    "mandatoryDocuments": {
+      "error": "Error",
+      "mandatoryDocumentUploaded": "Sorry, the action cannot be completed, Please upload Mandatory documents, before submit",
+      "marketSignedLinesDocumentUploaded": "Market signed lines sheet, since you have selected 'YES'.",
+      "premiumTaxDocumentsUploaded": "Premium tax calculation sheet, since you have selected 'YES'.",
+      "signedSlipDocumentsUploaded": "Signed slip against all risk references to be added."
+    },
+    "maximumRiskRefAdded": "You have reached the maximum limit of {{maxRiskRefsLimit}} Risk references",
+    "missingFileParameters": "Missing file parameters",
+    "missingRemoveFileDataParameters": "Missing remove file data parameters",
+    "missingUploadFileDataParameters": "Missing upload file data parameters",
+    "new": {
+      "title": "New Processing Instruction"
+    },
+    "noProcessingInstructions": "No Premium Processing Instructions to show currently",
+    "noRiskRefInDepartAndInstance": "Searched {{query}} Risk Reference is associated with a different department/XB Instance",
+    "notifications": {
+      "instanceDeptUnauthorised": "Sorry you don't have access to processing instruction {{id}}",
+      "notFound": "Processing instruction {{id}} not found",
+      "statusChangedToRejected": "Sorry the Processing Instruction status has now been changed.",
+      "statusNotAllowed": "Sorry you don't have access to processing instruction {{id}}"
+    },
+    "pdf": {
+      "approvalSection": {
+        "approved": "Approved",
+        "name": "Name"
+      },
+      "attachedDocumentSection": {
+        "header": "Attached Document Name",
+        "sno": " Sr. No."
+      },
+      "instructionLabels": {
+        "clientDiscount": "Client Discount",
+        "fees": "Fees",
+        "grossPremium": "Gross Premium (100%)",
+        "otherDeductions": "Other Deductions (eg. Taxes)(%)",
+        "paymentBasis": "Payment Basis (Cash / Quarterly / Other Deferred)",
+        "pfInternalCommissionSharing": "PF Internal Commission Sharing",
+        "pfInternalDeptName": "PF Internal Department name",
+        "piPageSubHeader": "Brokerage / Commission / Fee / Taxes - provide back up if not documented in MRC",
+        "ppwPpcApplicable": "PPW / PPC applicable",
+        "premiumAndTaxCalSheetAttach": "Premium & Tax Calculation Sheet attached",
+        "retainedBrokerage": "Retained Brokerage",
+        "retainedBrokerageAmount": "Retained Brokerage Amount",
+        "retainedBrokergaeAmountInSelectedCurr": "Retained Brokerage Amount in Selected currency",
+        "settlementCurrency": "Settlement Currency",
+        "signedLinesCalAttach": "Signed Lines Calculation attached",
+        "slipOrder": "Slip Order (%)",
+        "splitAsFollows": "Split as follows:",
+        "thirdPartyCommSharing": "Third Party Commission Sharing",
+        "thirdPartyName": "Third Party Name",
+        "total": "Total",
+        "totalBrokerage": "Total Brokerage"
+      },
+      "leadRiskReferenceLegend": "*Details added are only for the lead risk reference",
+      "pdfColHeaderLabels": {
+        "authorisedSignatory": "Authorised Signatory",
+        "frontEndContact": "Front End Contact",
+        "processingInstructionDetails": "Processing instruction details"
+      },
+      "specialInstructions": {
+        "frontEndSendDocuments": "Front End Send Documents",
+        "highPriority": "High Priority",
+        "notes": "Notes"
+      },
+      "summaryLabels": {
+        "accountExecutive": "Account Executive*",
+        "addedRiskRef": "Added Risk References",
+        "clientEmail": "Client Email*",
+        "contactName": "Contact Name*",
+        "department": "Department*",
+        "eocInvoiceContactName": "EOC/Invoice Contact Name*",
+        "eocInvoiceEmail": "EOC/Invoice Email*",
+        "frontEndContactName": "Front end contact name",
+        "gxbInstance": "GXB Instance*",
+        "invoicingClient": "Invoicing Client*",
+        "leadRiskRef": "Lead Risk Reference",
+        "period": "Period*",
+        "processType": "Process type",
+        "producingBroker": "Producing Broker*",
+        "reInsuredOrCoverHolderName": "(Re)Insured / Cover holder name*"
+      }
+    },
+    "processingInstructionsForEndFaBorder": {
+      "bordereauPeriod": {
+        "helperTextBordereauPeriod": "MM-YYYY"
+      },
+      "bordereauType": {
+        "label": "Bordereau Type*"
+      },
+      "fields": {
+        "accountExecutive": "Account Executive*",
+        "amendment": "Amendment",
+        "bordereauPeriod": "Bordereau Period*",
+        "claims": "Claims",
+        "combined": "Combined",
+        "fee": "Fee",
+        "frontEndContact": "Front End Contact*",
+        "frontEndSendDocuments": "Front End Send Documents",
+        "highPriority": "High Priority",
+        "nonPremium": "Non-Premium",
+        "policyType": "Policy Type*",
+        "ppwPpc": "PPW/PPC",
+        "premium": "Premium",
+        "reInsuredOrCoverHolder": "Re-insured/ Cover holder name"
+      },
+      "notes": {
+        "label": "Notes"
+      },
+      "tabs": {
+        "attachDoc": "ATTACH DOCUMENTS",
+        "pi": "PROCESSING INSTRUCTION"
+      },
+      "type": {
+        "label": "Type*"
+      }
+    },
+    "removeDocumentWarning": "This action will remove the document from DMS, are you sure?",
+    "riskReference": "Risk Reference",
+    "searchRiskReferences": "search Risk References",
+    "status": {
+      "1": "Draft",
+      "2": "Rejected Draft",
+      "3": "Submitted To Authorised Signatory",
+      "4": "Submitted For Processing",
+      "5": "Reopen"
+    },
+    "steps": {
+      "addRiskRefs": "Add Risk Reference",
+      "authorisations": "Authorisations",
+      "checklist": "Checklist",
+      "details": "Processing Instruction"
+    },
+    "submit": "Submit",
+    "successfulRiskRefAdded": "The Risk Reference was added successfully",
+    "title": "Processing Instructions",
+    "type": {
+      "1": "Closing",
+      "2": "Endorsement",
+      "3": "FDO",
+      "4": "Bordereau",
+      "5": "Fee and Amendment"
+    },
+    "uploadDocuments": "Upload Documents",
+    "uploadNewDocumentToGXB": "Upload New Document To GXB",
+    "uploadProcessingInstruction": "Upload PDF to GXB",
+    "checklistMandatoryFieldErrorMessage": "Please add the mandatory fields in Checklist step",
+    "processingInstructionMandatoryFieldErrorMessage": "Please add the mandatory fields in Processing Instruction step",
+    "checklistAndProcessingInstructionMandatoryFieldErrorMessage": "Please add the mandatory fields in Checklist and Processing Instruction step"
+  },
+  "products": {
+    "admin": {
+      "addTo": "Add to Quote & Bind",
+      "btn": "Admin",
+      "carrier": "Carrier",
+      "carrier_plural": "Carriers",
+      "carriers": {
+        "add": "Add Carrier",
+        "create": "Create Carrier",
+        "tableCols": {
+          "name": "Name"
+        }
+      },
+      "clients": {
+        "add": "Add Client",
+        "create": "Create Client",
+        "edit": "Edit Client",
+        "tableCols": {
+          "name": "Name"
+        },
+        "update": "Update Client"
+      },
+      "facilities": {
+        "add": "Add Facility",
+        "addCountry": "Add Country",
+        "alert": "Alert (%)",
+        "brokerCommissionRate": "Broker Commission Rate (%)",
+        "brokerageFee": "Brokerage Fee (%)",
+        "clientCommissionRate": "Client Commission Rate (%)",
+        "commissionRate": "Commission Rate (%)",
+        "countryRate": "Tax Rate (%)",
+        "create": "Create Facility",
+        "edit": "Manage Facility",
+        "editLimits": "Manage Limits",
+        "editRate": "Manage Rates",
+        "legends": {
+          "details": "Facility Details",
+          "limits": "Limits",
+          "rates": "Rates",
+          "settings": "Facility Settings"
+        },
+        "limit": "Limit",
+        "limitApplicableFields": "Limit Applicable on",
+        "noLimitsFields": "No Limit Applicable fields setup for this facility",
+        "referred": "Referred",
+        "reinsuranceRate": "Reinsurance Rate (%)",
+        "tableCols": {
+          "agreementNumber": "Agreement Number",
+          "broker": "Broker",
+          "brokerCode": "Broker Code",
+          "brokerageFee": "Brokerage Fee (%)",
+          "capacity": "Total Premium",
+          "carrierId": "Carrier",
+          "clientId": "Client",
+          "coverholderName": "Coverholder Name",
+          "coverholderPin": "Coverholder PIN",
+          "liveFrom": "Live from",
+          "liveTo": "Live to",
+          "name": "Name",
+          "notifiedUsers": "Notified Users",
+          "permissionToBind": "Permission To Bind",
+          "permissionToDismiss": "Permission To Dismiss Issue(s)",
+          "preBindInfo": "Show Pre-Bind Form",
+          "pricerModule": "Pricer Module",
+          "productCode": "Product",
+          "quoteValidDays": "Quote valid (days)",
+          "umr": "UMR"
+        },
+        "update": "Update Facility"
+      },
+      "insureds": {
+        "add": "Add Insured",
+        "create": "Create Insured",
+        "dateOfBirth": "Date of Birth",
+        "edit": "Edit Insured",
+        "gender": "Gender",
+        "genderOptions": {
+          "female": "Female",
+          "male": "Male",
+          "none": "N/A",
+          "unknown": "Unknown"
+        },
+        "tableCols": {
+          "city": "City",
+          "country": "Country",
+          "county": "County",
+          "name": "Name",
+          "partyType": "Type",
+          "state": "State",
+          "street": "Street address",
+          "zipCode": "Postcode / Zip Code"
+        },
+        "typeOptions": {
+          "business": "Business",
+          "individual": "Individual"
+        },
+        "update": "Update Insured"
+      },
+      "reInsureds": {
+        "add": "Add (Re)Insured",
+        "create": "Create (Re)Insured",
+        "edit": "Edit (Re)Insured",
+        "update": "Update (Re)Insured"
+      },
+      "roles": {
+        "options": {
+          "broker": "Broker",
+          "cobroker": "Co-Broker",
+          "underwriter": "Underwriter"
+        }
+      },
+      "title": "Quote & Bind Admin",
+      "titleShort": "Admin"
+    },
+    "coverage": {
+      "referral": "Apply the coverage to view the referral reason(s)",
+      "noCoverageOptions": "No Coverage Option",
+      "addCoverageOption": "Add Coverage Option",
+      "editCoverageOption": "Edit"
+    },
+    "commissionRatio": "Commission Ratio",
+    "netdown": "Netdown",
+    "clientLabel": "Client",
+    "brokerLabel": "Broker",
+    "aggregateLimits": {
+      "aggregateLimitLabel": "Limit",
+      "aggregateLimitTitle": "Aggregate Limits",
+      "bondAggregate": "Bound",
+      "graphNotFound": "No graph available for the selected facility",
+      "title": "Quote & Bind Aggregate Limits"
+    },
+    "aggregate": "Aggregates",
+    "coverageComparison": "Coverage Comparison",
+    "addCoverage": "Add Coverage Option",
+    "reports": "Reports",
+    "bordereau": "Bordereau",
+    "bordereau_plural": "Bordereaux",
+    "data": "Risk Data",
+    "wasLabel": "Was",
+    "nowLabel": "Now",
+    "report": "Report",
+    "boundOnly": "Bound Only",
+    "downloadInProgress": "Please wait while we prepare your file for download...",
+    "error": {
+      "noCountryOfOrigin": "There are no compatible facilities for that product."
+    },
+    "facility": "Facility",
+    "facilityHint": "Optional (select a product first)",
+    "coverageSubmitInProgress": "Submitting your coverage option.",
+    "loadInProgress": "Please wait...",
+    "multiLocation": {
+      "buildingError": "is not a valid building.",
+      "label": "Add a building location",
+      "placeholder": "Start typing an address..."
+    },
+    "pasteFromExcel": {
+      "step1": {
+        "hint": "Select the Excel cells that require extracting; ensure to include the column headers of the data and exclude any summary rows. Copy and paste the data into the field below.",
+        "label": "Excel extract",
+        "placeholder": "Paste extract from Excel file here...",
+        "required": "Excel extract required",
+        "title": "<strong>Step 1.</strong> Copy and paste your Excel extract"
+      },
+      "step2": {
+        "error": "The pasted data isn't compatible with this tool. Please ensure you paste content from an Excel file, column headers are included, and all summary rows are removed.",
+        "hint": "Match the Excel column headers with each field name below",
+        "label": "Choose a column header...",
+        "title": "<strong>Step 2.</strong> Match column headers to fields"
+      },
+      "step3": {
+        "error": "Missing headers mapping in step2, please map all headers and click Continue",
+        "hint": "Your pasted data has been summarised below. Check the data and submit.",
+        "title": "<strong>Step 3.</strong> Excel extract confirmation"
+      },
+      "step4": {
+        "hint": "All done. Click Upload to complete the process.",
+        "title": "<strong>Step 4.</strong> Upload"
+      }
+    },
+    "preBindLoadError": "No fields configured for product.",
+    "product": "Product",
+    "tabs": {
+      "draftRisks": {
+        "deleteDraftRisk": "Delete Draft Risk",
+        "label": "Draft Risks"
+      },
+      "risks": "Risks"
+    },
+    "title": "Quote & Bind"
+  },
+  "renewals": {
+    "editPlacement": "Edit Placement",
+    "editPlacementHint": "Update the details of placement \"{{placement}}\"",
+    "noPlacement": "No placement selected",
+    "noPlacementHint": "Click one of the list items to select a placement and view the placement details",
+    "ntuPlacement": "NTU Placement",
+    "ntuPlacementHint": "Update the status of placement \"{{placement}}\" to NTU",
+    "provisionalInsured": "Provisional Insured",
+    "provisionalInsuredTooltip": "$t(renewals.provisionalInsured) - This Insured has been added provisionally to the submission until Business Entity checks have been completed. This usually takes less than 48hrs and does not impact quotes being obtained from the markets.",
+    "removePlacement": "Remove Placement",
+    "removePlacementHint": "Please confirm you would like to remove this placement.",
+    "searchDepartment": "Search by department...",
+    "searchInsureds": "Search renewals by insureds...",
+    "title": "Renewals"
+  },
+  "reporting": {
+    "access": "Access",
+    "addReport": "Create Report",
+    "addReportGroup": "Create Report Group",
+    "deleteReport": "Delete Report",
+    "deleteReportGroup": "Delete Report Group",
+    "editReport": "Edit Report",
+    "editReportGroup": "Edit Report Group",
+    "form": {
+      "description": "Description",
+      "powerBiUrl": {
+        "label": "PowerBI URL",
+        "required": "PowerBI URL is required"
+      },
+      "powerbiReportId": "Report ID",
+      "reportGroupName": {
+        "label": "Report Group Name",
+        "required": "Report Group Name is required"
+      },
+      "reportId": {
+        "label": "Report ID",
+        "required": "Report ID is required"
+      },
+      "reportName": {
+        "label": "Report Name",
+        "required": "Report Name is required"
+      }
+    },
+    "noAccess": "No reports available",
+    "noAccessHint": "You do not have access to any reports",
+    "title": "Reporting"
+  },
+  "reportingExtended": {
+    "menuItem": {
+      "title": "Reporting (Extended)"
+    },
+    "reportingDetails": {
+      "getReport": {
+        "failure": "There was a problem in getting the report. Please try again later.",
+        "notFound": "{{reportTitle}} was not found. Please check the report details in Power BI."
+      }
+    },
+    "reporting": {
+      "button": {
+        "createReport": "CREATE REPORT"
+      },
+      "columns": {
+        "createdBy": "Created By",
+        "createdDate": "Created Date",
+        "description": "Description",
+        "reportName": "Report Name"
+      },
+      "createReport": "Create Report",
+      "createReporting": {
+        "duplicateReportName": "The Report name is already exist. Please create a report with a new name.",
+        "failure": "There was a problem creating the report. Please try again.",
+        "success": "The report was created successfully."
+      },
+      "deleteReport": "Delete Report",
+      "deleteReporting": {
+        "failure": "There was a problem deleting the report. Please try again.",
+        "success": "The report was deleted successfully."
+      },
+      "editReport": "Edit Report",
+      "editReporting": {
+        "failure": "There was a problem updating the report. Please try again.",
+        "success": "The report was updated successfully."
+      },
+      "form": {
+        "description": "Description",
+        "reportId": {
+          "label": "Report Id",
+          "required": "Report Id is required"
+        },
+        "reportName": {
+          "label": "Report Name",
+          "required": "Report Name is required"
+        },
+        "sectionId": {
+          "label": "Section Id"
+        },
+        "source": {
+          "label": "Source",
+          "required": "Source is required"
+        },
+        "workspaceId": {
+          "label": "Workspace Id",
+          "required": "Workspace Id is required"
+        }
+      },
+      "gridDataEmptyWarning": "No Reports Found",
+      "popOverMenuItems": {
+        "delete": "Delete",
+        "edit": "Edit"
+      },
+      "searchPlaceholder": "Search a report"
+    },
+    "reportingGroup": {
+      "button": {
+        "createReportGroup": "CREATE REPORT GROUP"
+      },
+      "columns": {
+        "reportCount": "Report Count(s)",
+        "createdBy": "Created By",
+        "createdDate": "Created Date",
+        "description": "Description",
+        "myReportGroup": "My Report Group"
+      },
+      "createReportGroup": "Create Report Group",
+      "createReportGrp": {
+        "failure": "There was a problem creating the report group. Please try again.",
+        "success": "The report group was created successfully."
+      },
+      "deleteReportGroup": "Delete Report Group",
+      "deleteReportGrp": {
+        "failure": "There was a problem deleting the report group. Please try again.",
+        "success": "The report group was deleted successfully."
+      },
+      "description": "Description",
+      "editReportGroup": "Edit Report Group",
+      "editReportGrp": {
+        "failure": "There was a problem updating the report group. Please try again.",
+        "success": "The report group was updated successfully."
+      },
+      "gridDataEmptyWarning": "No Reporting Groups Found",
+      "popOverMenuItems": {
+        "delete": "Delete",
+        "edit": "Edit"
+      },
+      "reportGroupName": {
+        "label": "Report Group Name",
+        "required": "Report Group Name is required"
+      },
+      "searchPlaceholder": "Search a report group",
+      "tabs": {
+        "businessEntities": "BUSINESS ENTITIES",
+        "claims": "CLAIMS",
+        "insuranceBrokerAccounting": "INSURANCE BROKER ACCOUNTING",
+        "middleOffice": "MIDDLE OFFICE",
+        "premiumProcessing": "PREMIUM PROCESSING"
+      }
+    },
+    "title": "Reporting"
+  },
+  "reportingReport": {
+    "description": "Description",
+    "lastUpdated": "Last Updated",
+    "title": "Report Title"
+  },
+  "risks": {
+    "accept": "Accept",
+    "accepted": "Accepted",
+    "add": "Add {{name}}",
+    "addInsured": "Add Insured",
+    "addQuote": "Add Quote",
+    "addRisk": "Add Risk",
+    "addRiskConfirmation": "Confirmation",
+    "address": {
+      "distanceToCoast": "Distance to coast",
+      "distanceToCoastRequired": "Find an address and get a distance to coast value by clicking on the map.",
+      "input": "Input Address",
+      "output": "Returned Address",
+      "startTyping": "Fill the address form to search for a location"
+    },
+    "bind": "Bind",
+    "bindQuote": "Bind Quote",
+    "building": "Building",
+    "chooseProduct": "Choose a product...",
+    "comments": {
+      "placeholder": "Write a trip report"
+    },
+    "createdAt": "Quote created on",
+    "createdNewClient": "Create New Client",
+    "createdNewInsured": "Create New Insured",
+    "createdNewReInsured": "Create New (Re)Insured",
+    "data": "Risk Data",
+    "decline": "Decline",
+    "declineQuote": "Decline Quote",
+    "dismissIssue": "Dismiss",
+    "download": "Download",
+    "downloadPolicy": "Download Policy",
+    "draftCreatedAt": "Risk created",
+    "effectiveFrom": "Effective From",
+    "effectiveTo": "Effective To",
+    "fields": {
+      "insureds": {
+        "name": {
+          "label": "Name"
+        },
+        "type": {
+          "label": "Type",
+          "options": {
+            "business": "Business",
+            "individual": "Individual"
+          }
+        }
+      }
+    },
+    "formHint": {
+      "text": "Start by selecting one of the product from the menu below to load the corresponding risk form",
+      "title": "Select a product type"
+    },
+    "formalQuote": "Formal Quote",
+    "grossPremium": "Gross Premium",
+    "groups": {
+      "effective": "Policy Period",
+      "general": "General",
+      "partys": "Partys"
+    },
+    "issueResolveLink": "Resolve Alert (Lexis Nexis)",
+    "issues": "Issues",
+    "issuesFound": "issue found",
+    "issuesFound_plural": "issues found",
+    "netPremium": "Net Premium",
+    "noFacilities": "No facilities found for this risk",
+    "noQuotes": "No quotes found for this risk",
+    "postBind": "Modify Bind Information",
+    "preBind": "Add Bind Information",
+    "quote": "Quote",
+    "quotesFound": "quote found",
+    "quotesFound_plural": "quotes found",
+    "refer": "Refer",
+    "referral": "Referral",
+    "requestToBind": "Request Bind",
+    "requestToBindStatus": "Bind Requested",
+    "search": "Search risks...",
+    "select": "Select...",
+    "summaryHint": {
+      "text": "Select an item from the list to view the risk details and quotes",
+      "title": "No risk selected"
+    },
+    "update": "Update",
+    "updateAndAccept": "Update & Accept",
+    "updateLegend": {
+      "submit": "Update the quote.",
+      "submitAccept": "Update and accept the quote."
+    },
+    "updateQuote": "Update Quote",
+    "userName": "User Name",
+    "validation": {
+      "group": {
+        "max": "No more than {{max}} \"{{group}}\" $t(app.field, { 'count':{{max}} }) can be filled",
+        "min": "At least {{min}} \"{{group}}\" $t(app.field, { 'count':{{min}} }) must be filled",
+        "only": "{{min}} \"{{group}}\" field must be filled",
+        "range": "Between {{min}} and {{max}} \"{{group}}\" fields are required"
+      }
+    }
+  },
+  "roleAssignment": {
+    "addUser": "Add User",
+    "headerTitle": "Role Assignment",
+    "title": "Role Assignment"
+  },
+  "states": {
+    "AL": "Alabama",
+    "AR": "Alaska",
+    "AZ": "Arizona",
+    "CA": "California",
+    "CO": "Colorado",
+    "CT": "Connecticut",
+    "DC": "District of Columbia",
+    "DE": "Delaware",
+    "FL": "Florida",
+    "GA": "Georgia",
+    "HI": "Hawaii",
+    "IA": "Iowa",
+    "ID": "Idaho",
+    "IL": "Illinois",
+    "IN": "Indiana",
+    "KS": "Kansas",
+    "KY": "Kentucky",
+    "LA": "Louisiana",
+    "MA": "Massachusetts",
+    "MD": "Maryland",
+    "ME": "Maine",
+    "MI": "Michigan",
+    "MN": "Minnesota",
+    "MO": "Missouri",
+    "MS": "Mississippi",
+    "MT": "Montana",
+    "NC": "North Carolina",
+    "ND": "North Dakota",
+    "NE": "Nebraska",
+    "NH": "New Hampshire",
+    "NJ": "New Jersey",
+    "NM": "New Mexico",
+    "NV": "Nevada",
+    "NY": "New York",
+    "OH": "Ohio",
+    "OK": "Oklahoma",
+    "OR": "Oregon",
+    "PA": "Pennsylvania",
+    "RI": "Rhode Island",
+    "SC": "South Carolina",
+    "SD": "South Dakota",
+    "TN": "Tennessee",
+    "TX": "Texas",
+    "UT": "Utah",
+    "VA": "Virginia",
+    "VT": "Vermont",
+    "WA": "Washington",
+    "WI": "Wisconsin",
+    "WV": "West Virginia",
+    "WY": "Wyoming"
+  },
+  "status": {
+    "alert": "Alert",
+    "allbound": "All Bound",
+    "approved": "Approved",
+    "autontu": "Auto NTU",
+    "awaitingapproval": "Awaiting Approval",
+    "blocked": "Blocked",
+    "bound": "Bound",
+    "cancelled": "Cancelled",
+    "declined": "Declined",
+    "done": "Done",
+    "draft": "Draft",
+    "enquiry": "Enquiry",
+    "error": "Error",
+    "expired": "Expired",
+    "inprogress": "In Progress",
+    "new": "New",
+    "notstarted": "Not Started",
+    "ntu": "NTU",
+    "open": "Open",
+    "other": "Other",
+    "partbound": "Part Bound",
+    "pending": "Pending",
+    "referred": "Referred",
+    "rejected": "Rejected",
+    "review": "In Review",
+    "quote": "Quote",
+    "quoted": "Quoted",
+    "quoting": "Quoting",
+    "sanction_blocked": "Sanction Blocked",
+    "signeddown": "Signed Down",
+    "started": "Started",
+    "success": "Success",
+    "unknown": "Unknown"
+  },
+  "statusMarket": {
+    "closed": "Closed",
+    "closedp": "Closed - P",
+    "closedt": "Closed - T",
+    "donotuse": "Do not use",
+    "liquidated": "Liquidated",
+    "live": "Live",
+    "livee": "Live - E",
+    "livef": "Live - F",
+    "liveg": "Live - G",
+    "longtermrunoff": "Long Term Run-off",
+    "provisional": "Provisional",
+    "restrictedc": "Restricted - C",
+    "restrictedd": "Restricted - D",
+    "restrictedh": "Restricted - H",
+    "restrictedj": "Restricted - J",
+    "restrictedk": "Restricted - K",
+    "runoff": "Run-Off"
+  },
+  "QBstatus": {
+    "bound": "Bound",
+    "declined": "Declined",
+    "rejected": "Rejected",
+    "pending": "Pending",
+    "draft": "Draft",
+    "quoted": "Quoted",
+    "quote": "Quote",
+    "quoting": "Quoting",
+    "review": "In Review",
+    "referred": "Referred",
+    "ntu": "NTU",
+    "sanction_blocked": "Sanction Blocked",
+    "blocked": "Blocked"
+  },
+  "submission": {
+    "createNew": "Create New Submission",
+    "createNewHint": "Fill the form below to create a new submission",
+    "new": "New Submission",
+    "newShort": "Submission"
+  },
+  "submitProcessingInstruction": {
+    "form": {
+      "cancel": "Cancel",
+      "confirm": "Ok",
+      "confirmMessage": "Are you sure you want to submit?",
+      "confirmText": "The processing instruction will now be submitted to the premium processing queue for all the risk references, and cannot be edited again",
+      "note": "Note: If you need to attach any documents please do it now",
+      "title": "Submit Processing Instruction?"
+    }
+  },
+  "time": {
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "yesterday": "Yesterday"
+  },
+  "trips": {
+    "commentsPlaceholder": "Write a trip report",
+    "commentsTitle": "Trip report",
+    "deleteTrip": "Delete Trip",
+    "deleteTripHint": "Update the details of trip \"{{trip}}\"",
+    "editTrip": "Edit Trip",
+    "editTripHint": "Update the details of trip \"{{trip}}\"",
+    "search": "Search trips...",
+    "summaryHintText": "Try using more general search filters or create your own trip",
+    "summaryHintTitle": "Trip not found",
+    "title": "Trips",
+    "validation": {
+      "dates": "Add a date for each visit",
+      "users": "Add at least one broker for each visit"
+    }
+  },
+  "validation": {
+    "atLeastOneOf": "At least one of these fields is required: ${keys}",
+    "date": {
+      "max": "Must be before ${max}",
+      "min": "Must be after ${min}"
+    },
+    "email": "Valid email address required",
+    "emailAlreadyInUse": "Email address already in use",
+    "fileUpload": {
+      "tooManyFiles": "Maximum {{count}} $t(format.lowercase, { 'value': { 'label':'app.file', 'count':'{{count}}' } }) can be uploaded"
+    },
+    "inValidEmail": "The email address {{firstInvalidEmail}} is invalid.",
+    "mandatoryEmail": "The email address {{mandatoryEmail}} is mandatory",
+    "number": {
+      "amount": "Must be a valid amount (\"0-9\" characters and 1 decimal point \".\" only)",
+      "exactly": "Must be equal to {{count}}",
+      "format": "Maximum {{integer}} digits and {{decimal}} decimals",
+      "max": "Must be equal or less than ${max}",
+      "min": "Must be equal or greater than ${min}",
+      "multiple": "Must be 0 or a multiple of ${multipleOf}",
+      "positive": "Must be a positive number"
+    },
+    "options": {
+      "exactly": "Please select {{count}} options",
+      "max": "Maximum ${max} options",
+      "min": "Minimum ${min} options"
+    },
+    "required": "Required",
+    "requiredClientOrCarrier": "One Client or Carrier must be selected.",
+    "string": {
+      "alphaNumericOnly": "Must contain letters and number only",
+      "alphaOnly": "Must contain letters only [A-Z]",
+      "exactly": "Must be {{count}} characters",
+      "max": "Maximum ${max} characters",
+      "min": "Minimum ${min} characters",
+      "numericOnly": "Must contain numbers only [0-9]"
+    }
+  },
+  "whitespace": {
+    "reference": "Unique Market Reference (UMR)",
+    "selectTemplate": "Select a template",
+    "template": "Template"
+  }
+}

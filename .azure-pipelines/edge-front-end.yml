@@ -1,0 +1,45 @@
+trigger:
+  - develop
+
+pool:
+  vmImage: 'ubuntu-20.04'
+  demands: npm
+
+steps:
+  - task: Npm@1
+    displayName: 'npm install'
+    inputs:
+      verbose: false
+
+  - task: Npm@1
+    displayName: 'npm run build'
+    inputs:
+      command: custom
+      verbose: false
+      customCommand: 'run build'
+
+  - task: CopyFiles@2
+    displayName: 'Copy config files to /build'
+    inputs:
+      Contents: Web.config
+      TargetFolder: build
+      OverWrite: true
+
+  - task: DeleteFiles@1
+    displayName: 'Delete files from build'
+    inputs:
+      SourceFolder: build
+      Contents: |
+        **.*.js.map
+        **.*.css.map
+
+  - task: ArchiveFiles@2
+    displayName: 'Archive folder /build'
+    inputs:
+      rootFolderOrFile: build
+      includeRootFolder: false
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact'
+    inputs:
+      ArtifactName: drop

@@ -1,0 +1,1158 @@
+{
+  "gridSummary": {
+    "content": [
+      {
+        "definitionType": "CASE_DETAILS",
+        "caseId": "3768",
+        "processId": "5763",
+        "taskId": "3768",
+        "policyRef": "37688987",
+        "processName": "Closing",
+        "xbInstance": "London",
+        "inceptionDate": "12/11/2020",
+        "caseDueDate": "12/22/2020",
+        "division": "Transport",
+        "departments": "Transport",
+        "faciltyType": null,
+        "bordereauPeriod": null,
+        "bereau": null,
+        "type": null,
+        "workPakageNumber": null,
+        "packageSubmissionDate": null,
+        "endorsementNumber": null,
+        "premiumTypes": null
+      },
+      {
+        "definitionType": "CASE_DETAILS",
+        "caseId": "8973",
+        "processId": "9482",
+        "taskId": "8973",
+        "policyRef": "12349898",
+        "processName": "Endorsements",
+        "xbInstance": "London",
+        "inceptionDate": "12/11/2020",
+        "caseDueDate": "12/22/2020",
+        "division": "Transport",
+        "departments": "Transport",
+        "faciltyType": null,
+        "bordereauPeriod": null,
+        "bereau": null,
+        "type": null,
+        "workPakageNumber": null,
+        "packageSubmissionDate": null,
+        "endorsementNumber": "3",
+        "premiumTypes": "Non Premium"
+      },
+      {
+        "definitionType": "CASE_DETAILS",
+        "caseId": "1238",
+        "processId": "3232",
+        "taskId": "1238",
+        "policyRef": "133231",
+        "processName": "Fee and Amendments",
+        "xbInstance": "London",
+        "inceptionDate": "12/11/2020",
+        "caseDueDate": "12/22/2020",
+        "division": "Transport",
+        "departments": "Transport",
+        "faciltyType": null,
+        "bordereauPeriod": null,
+        "bereau": null,
+        "type": null,
+        "workPakageNumber": null,
+        "packageSubmissionDate": null,
+        "endorsementNumber": null,
+        "premiumTypes": "Non Premium"
+      },
+      {
+        "definitionType": "CASE_DETAILS",
+        "caseId": "1139",
+        "processId": "1234",
+        "taskId": "1139",
+        "policyRef": "98909090",
+        "processName": "Fdo",
+        "xbInstance": "London",
+        "inceptionDate": "12/11/2020",
+        "caseDueDate": "12/22/2020",
+        "division": "Transport",
+        "departments": "Transport",
+        "faciltyType": "Bulking Line Slip",
+        "bordereauPeriod": null,
+        "bereau": null,
+        "type": null,
+        "workPakageNumber": null,
+        "packageSubmissionDate": null,
+        "endorsementNumber": null,
+        "premiumTypes": null
+      },
+      {
+        "definitionType": "CASE_DETAILS",
+        "caseId": "7665",
+        "processId": "3232",
+        "taskId": "7665",
+        "policyRef": "99333321",
+        "processName": "Bordereau",
+        "xbInstance": "London",
+        "inceptionDate": "12/11/2020",
+        "caseDueDate": "12/22/2020",
+        "division": null,
+        "departments": "Transport",
+        "faciltyType": "12/16/2020",
+        "bordereauPeriod": "Septber 2020",
+        "bereau": null,
+        "type": null,
+        "workPakageNumber": null,
+        "packageSubmissionDate": null,
+        "endorsementNumber": null,
+        "premiumTypes": null
+      },
+      {
+        "definitionType": "CASE_DETAILS",
+        "caseId": "5455",
+        "processId": "0998",
+        "taskId": "5455",
+        "policyRef": "98989898",
+        "processName": "Check Signing",
+        "xbInstance": "London",
+        "inceptionDate": "12/11/2020",
+        "caseDueDate": "12/22/2020",
+        "division": null,
+        "departments": "Transport",
+        "faciltyType": null,
+        "bordereauPeriod": null,
+        "bereau": "TBD",
+        "type": "TBD",
+        "workPakageNumber": "TBD",
+        "packageSubmissionDate": "12/16/2020",
+        "endorsementNumber": null,
+        "premiumTypes": null
+      }
+    ]
+  },
+  "technicians": [
+    {
+      "id": 1,
+      "firstName": "Prabhash",
+      "lastName": "Prabhakar",
+      "fullName": "Prabhash Prabhakar",
+      "email": "Prabhash.Prabhakar@Ardonaghspecialty.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Oliver",
+      "lastName": "Wood",
+      "fullName": "Oliver Wood",
+      "email": "Oliver.Wood@Ardonaghspecialty.com"
+    }
+  ],
+  "claimInfo": [
+    {
+      "id": 1,
+      "number": "PN235789",
+      "insured": "Max",
+      "claimant": "Mine",
+      "riskDetails": "Max Mine",
+      "inceptionDate": "12/11/2020",
+      "expiryDate": "12/11/2020",
+      "company": "ABC",
+      "division": "abc"
+    },
+    {
+      "id": 2,
+      "number": "PN12345",
+      "insured": "Lorra",
+      "claimant": "Live",
+      "riskDetails": "Lorra Live",
+      "inceptionDate": "12/11/2020",
+      "expiryDate": "12/11/2020",
+      "company": "XYZ",
+      "division": "xyz"
+    }
+  ],
+  "issueDocuments": {
+    "documentFromLondonTeam": false,
+    "nonBureau": false,
+    "bureauInsurer": false
+  },
+  "rfiHistory": [
+    {
+      "queryId": "Q3456",
+      "to": "James",
+      "reasonCode": "Details Missing",
+      "date": "2020-12-09T18:30:00.000+00:00"
+    },
+    {
+      "queryId": "Q3466",
+      "to": "Harry Taylor",
+      "reasonCode": "Details Missing",
+      "date": "2020-12-09T18:30:00.000+00:00"
+    }
+  ],
+  "rfiQueryCodes": [
+    {
+      "id": 0,
+      "value": "QC0",
+      "label": "Not Available"
+    },
+    {
+      "id": 1,
+      "value": "QC1",
+      "label": "XB Documents"
+    },
+    {
+      "id": 2,
+      "value": "QC2",
+      "label": "CIP Information"
+    },
+    {
+      "id": 3,
+      "value": "QC3",
+      "label": "XB Risk Details"
+    },
+    {
+      "id": 4,
+      "code": "QC4",
+      "label": "Contract Certainty Fields"
+    },
+    {
+      "id": 5,
+      "value": "QC5",
+      "label": "BE Invalid"
+    },
+    {
+      "id": 6,
+      "value": "QC6",
+      "label": "MRC Risk Details"
+    },
+    {
+      "id": 7,
+      "value": "QC7",
+      "label": "MRC Information"
+    },
+    {
+      "id": 8,
+      "value": "QC8",
+      "label": "MRC Security Details"
+    },
+    {
+      "id": 9,
+      "value": "QC9",
+      "label": "MRC Subscription Agreement"
+    },
+    {
+      "id": 10,
+      "value": "QC10",
+      "label": "MRC Fiscal and Regulatory"
+    },
+    {
+      "id": 11,
+      "value": "QC11",
+      "label": "MRC Broker Remuneration and Deductions"
+    }
+  ],
+  "getCaseTeam": [
+    {
+      "userId": 1,
+      "userName": "John Walker",
+      "userRole": "PP Technician",
+      "emailId": "anitha.m@mphasis.com"
+    },
+    {
+      "userId": 2,
+      "userName": "James Tylor",
+      "userRole": "Front End Contact",
+      "emailId": "anitha.m@mphasis.com"
+    }
+  ],
+  "caseProgressList": [
+    {
+      "id": 1,
+      "data": {
+        "caseProgressList": [
+          {
+            "type": "NEW",
+            "count": 30
+          },
+          {
+            "type": "IN_PROGRESS_MIDDLE_OFFICE",
+            "count": 20
+          },
+          {
+            "type": "IN_PROGRESS_BACK_OFFICE",
+            "count": 15
+          },
+          {
+            "type": "CLOSED",
+            "count": 50
+          }
+        ],
+        "totalCaseCount": 115
+      },
+      "message": "Database record created Successfully.",
+      "status": "OK"
+    },
+    {
+      "id": 7,
+      "data": {
+        "caseProgressList": [
+          {
+            "type": "NEW",
+            "count": 100
+          },
+          {
+            "type": "IN_PROGRESS_MIDDLE_OFFICE",
+            "count": 50
+          },
+          {
+            "type": "IN_PROGRESS_BACK_OFFICE",
+            "count": 77
+          },
+          {
+            "type": "CLOSED",
+            "count": 300
+          }
+        ],
+        "totalCaseCount": 527
+      },
+      "message": "Database record created Successfully.",
+      "status": "OK"
+    },
+    {
+      "id": 30,
+      "data": {
+        "caseProgressList": [
+          {
+            "type": "NEW",
+            "count": 200
+          },
+          {
+            "type": "IN_PROGRESS_MIDDLE_OFFICE",
+            "count": 250
+          },
+          {
+            "type": "IN_PROGRESS_BACK_OFFICE",
+            "count": 177
+          },
+          {
+            "type": "CLOSED",
+            "count": 1800
+          }
+        ],
+        "totalCaseCount": 2527
+      },
+      "message": "Database record created Successfully.",
+      "status": "OK"
+    }
+  ],
+  "getUsers": {
+    "data": {
+      "content": [
+        {
+          "id": 7,
+          "fullName": "David Payne",
+          "email": "anitha.m@mphasis.com",
+          "role": "Technician manager",
+          "departments": "Healthcare",
+          "groups": "Back Office",
+          "xbInstance": "London",
+          "businessProcess": "Premium Processing"
+        },
+        {
+          "id": 5,
+          "fullName": "Hazel ",
+          "email": "anitha.m@mphasis.com",
+          "role": "Main Front-End Contact",
+          "departments": "Cargo",
+          "groups": "Middle Office",
+          "xbInstance": "London",
+          "businessProcess": "Premium Processing"
+        },
+        {
+          "id": 2,
+          "fullName": "James Tylor",
+          "email": "anitha.m@mphasis.com",
+          "role": "Admin",
+          "departments": "Equinox US Property",
+          "groups": "Admin",
+          "xbInstance": "London",
+          "businessProcess": "Premium Processing"
+        },
+        {
+          "id": 6,
+          "fullName": "Jane Doe",
+          "email": "anitha.m@mphasis.com",
+          "role": "Junior Technician",
+          "departments": "Cargo",
+          "groups": "Back Office",
+          "xbInstance": "London",
+          "businessProcess": "Premium Processing"
+        },
+        {
+          "id": 1,
+          "fullName": "John Walker",
+          "email": "anitha.m@mphasis.com",
+          "role": "Admin",
+          "departments": "Equinox US Property",
+          "groups": "Admin",
+          "xbInstance": "London",
+          "businessProcess": "Premium Processing"
+        },
+        {
+          "id": 4,
+          "fullName": "Laura ",
+          "email": "anitha.m@mphasis.com",
+          "role": "Front-End Contact",
+          "departments": "US Property",
+          "groups": "Middle Office",
+          "xbInstance": "London",
+          "businessProcess": "Premium Processing"
+        },
+        {
+          "id": 3,
+          "fullName": "Mark Smith ",
+          "email": "anitha.m@mphasis.com",
+          "role": "Senior Technician",
+          "departments": "US Property",
+          "groups": "Back Office",
+          "xbInstance": "London",
+          "businessProcess": "Premium Processing"
+        },
+        {
+          "id": 8,
+          "fullName": "Pauline ",
+          "email": "anitha.m@mphasis.com",
+          "role": "Operations Lead",
+          "departments": "Healthcare",
+          "groups": "Middle Office",
+          "xbInstance": "London",
+          "businessProcess": "Premium Processing"
+        },
+        {
+          "id": 9,
+          "fullName": "Scott ",
+          "email": "dominicrajaseelan.p@mphasis.com",
+          "role": "Junior Technician",
+          "departments": "Marine US - Breach of Warranty",
+          "groups": "Back Office",
+          "xbInstance": "London",
+          "businessProcess": "Premium Processing"
+        },
+        {
+          "id": 10,
+          "fullName": "Simon ",
+          "email": "saravanakumar.t@mphasis.com",
+          "role": "Junior Technician",
+          "departments": "Marine US - Breach of Warranty",
+          "groups": "Back Office",
+          "xbInstance": "London",
+          "businessProcess": "Premium Processing"
+        }
+      ],
+      "pageable": {
+        "sort": {
+          "unsorted": false,
+          "sorted": true,
+          "empty": false
+        },
+        "offset": 0,
+        "pageSize": 10,
+        "pageNumber": 0,
+        "unpaged": false,
+        "paged": true
+      },
+      "last": false,
+      "totalPages": 3,
+      "totalElements": 25,
+      "number": 0,
+      "size": 10,
+      "sort": {
+        "unsorted": false,
+        "sorted": true,
+        "empty": false
+      },
+      "numberOfElements": 10,
+      "first": true,
+      "empty": false
+    },
+    "message": "Requested data found Successfully.",
+    "status": "OK"
+  },
+  "selectInterest": {
+    "data": [
+      {
+        "id": "1",
+        "code": "EN",
+        "rate": "0.00",
+        "description": "Energy Search Prod VSSLS and Offshore"
+      },
+      {
+        "id": "2",
+        "code": "EZ",
+        "rate": "0.00",
+        "description": "Energy Operators Xtra Expenses and C"
+      },
+      {
+        "id": "3",
+        "code": "EH",
+        "rate": "0.00",
+        "description": "Energy Liability Offshore all Other"
+      },
+      {
+        "id": "4",
+        "code": "EC",
+        "rate": "0.00",
+        "description": "Energy construction Offshore Prop"
+      }
+    ],
+    "message": "Requested data found Successfully.",
+    "status": "OK"
+  },
+  "getClaimsProcessing": {
+    "data": [
+      {
+        "claimID": "CL2083",
+        "policyID": 398985,
+        "claimRef": "2083",
+        "lossRef": 6262,
+        "lossFromDate": "2021-08-08",
+        "dataTimeUpdated": "2021-08-31",
+        "targetDueDate": "2021-08-08",
+        "catCodesID": 18,
+        "lossName": "lsdkl",
+        "claimStatusID": 41,
+        "claimantID": null,
+        "claimantName": "Lakewood",
+        "xbPolicyID": 2994,
+        "xbInstanceID": 1,
+        "policyRef": "E13NY15400",
+        "assured": "Lakewood",
+        "division": "Equinox",
+        "ucr": "ABC111899",
+        "team": "Mphasis",
+        "priority": "Medium",
+        "assignedTo": "Daren Hunt",
+        "company": null,
+        "client": null,
+        "status": "Open",
+        "policyType": "Facultative"
+      },
+      {
+        "claimID": "CL2082",
+        "policyID": 398983,
+        "claimRef": "2082",
+        "lossRef": 6258,
+        "lossFromDate": "2021-08-01",
+        "dataTimeUpdated": "2021-08-29",
+        "targetDueDate": "2021-08-08",
+        "catCodesID": 16,
+        "lossName": "sdksjd",
+        "claimStatusID": 41,
+        "claimantID": null,
+        "claimantName": "Community",
+        "xbPolicyID": 2992,
+        "xbInstanceID": 1,
+        "policyRef": "E13NY15230",
+        "assured": "Community",
+        "division": "Equinox",
+        "ucr": "ABC122199",
+        "team": "Mphasis",
+        "priority": "Medium",
+        "assignedTo": "Daren Hunt",
+        "company": null,
+        "client": null,
+        "status": "Open",
+        "policyType": "Facultative"
+      },
+      {
+        "claimID": "CL2081",
+        "policyID": 398986,
+        "claimRef": "2081",
+        "lossRef": 6203,
+        "lossFromDate": "2021-08-01",
+        "dataTimeUpdated": "2021-08-31",
+        "targetDueDate": "2021-08-08",
+        "catCodesID": 0,
+        "lossName": "wesd",
+        "claimStatusID": 41,
+        "claimantID": null,
+        "claimantName": "Lake",
+        "xbPolicyID": 2995,
+        "xbInstanceID": 1,
+        "policyRef": "E13NY15430",
+        "assured": "Lake",
+        "division": "Equinox",
+        "ucr": "ABC182899",
+        "team": "Mphasis",
+        "priority": "Medium",
+        "assignedTo": "Daren Hunt",
+        "company": null,
+        "client": null,
+        "status": "Open",
+        "policyType": "Facultative"
+      },
+      {
+        "claimID": "CL2080",
+        "policyID": 398986,
+        "claimRef": "2080",
+        "lossRef": 6201,
+        "lossFromDate": "2021-08-01",
+        "dataTimeUpdated": "2021-08-31",
+        "targetDueDate": "2021-08-08",
+        "catCodesID": 16,
+        "lossName": "qswdef",
+        "claimStatusID": 41,
+        "claimantID": null,
+        "claimantName": "Lake",
+        "xbPolicyID": 2995,
+        "xbInstanceID": 1,
+        "policyRef": "E13NY15430",
+        "assured": "Lake",
+        "division": "Equinox",
+        "ucr": "ABC152899",
+        "team": "Mphasis",
+        "priority": "Medium",
+        "assignedTo": "Daren Hunt",
+        "company": null,
+        "client": null,
+        "status": "Open",
+        "policyType": "Facultative"
+      },
+      {
+        "claimID": "CL2078",
+        "policyID": 398984,
+        "claimRef": "2078",
+        "lossRef": 6183,
+        "lossFromDate": "2021-08-07",
+        "dataTimeUpdated": "2021-08-27",
+        "targetDueDate": "2021-08-08",
+        "catCodesID": 6,
+        "lossName": "oiweisd1234555",
+        "claimStatusID": 41,
+        "claimantID": null,
+        "claimantName": "Sherman",
+        "xbPolicyID": 2993,
+        "xbInstanceID": 1,
+        "policyRef": "E13NY15300",
+        "assured": "Sherman",
+        "division": "Equinox",
+        "ucr": "ABC152899",
+        "team": "Mphasis",
+        "priority": "Medium",
+        "assignedTo": "Daren Hunt",
+        "company": null,
+        "client": null,
+        "status": "Open",
+        "policyType": "Facultative"
+      },
+      {
+        "claimID": "CL2051",
+        "policyID": 398979,
+        "claimRef": "2051",
+        "lossRef": 6077,
+        "lossFromDate": "2021-08-01",
+        "dataTimeUpdated": "2021-08-08",
+        "targetDueDate": "2021-08-08",
+        "catCodesID": 0,
+        "lossName": "sdadas",
+        "claimStatusID": 42,
+        "claimantID": null,
+        "claimantName": "12th",
+        "xbPolicyID": 2988,
+        "xbInstanceID": 1,
+        "policyRef": "E13NY15040",
+        "assured": "12th",
+        "division": "Equinox",
+        "ucr": "ABC122811",
+        "team": "Mphasis",
+        "priority": "Medium",
+        "assignedTo": "Daren Hunt",
+        "company": null,
+        "client": null,
+        "status": "Open",
+        "policyType": "Facultative"
+      },
+      {
+        "claimID": "CL2050",
+        "policyID": 398986,
+        "claimRef": "2050",
+        "lossRef": 6075,
+        "lossFromDate": null,
+        "targetDueDate": "2021-08-08",
+        "dataTimeUpdated": null,
+        "catCodesID": 0,
+        "lossName": "Testssssssss",
+        "claimStatusID": 41,
+        "claimantID": null,
+        "claimantName": "Lake",
+        "xbPolicyID": 2995,
+        "xbInstanceID": 1,
+        "policyRef": "E13NY15430",
+        "assured": "Lake",
+        "division": "Equinox",
+        "ucr": "ABC323899",
+        "team": "Mphasis",
+        "priority": "Medium",
+        "assignedTo": "Daren Hunt",
+        "company": null,
+        "client": null,
+        "status": "Open",
+        "policyType": "Facultative"
+      },
+      {
+        "claimID": "CL2049",
+        "policyID": 398986,
+        "claimRef": "2049",
+        "lossRef": 6074,
+        "lossFromDate": null,
+        "targetDueDate": "2021-08-08",
+        "dataTimeUpdated": null,
+        "catCodesID": 0,
+        "lossName": "Testing123",
+        "claimStatusID": 41,
+        "claimantID": null,
+        "claimantName": "Lake",
+        "xbPolicyID": 2995,
+        "xbInstanceID": 1,
+        "policyRef": "E13NY15430",
+        "assured": "Lake",
+        "division": "Equinox",
+        "ucr": "ABC333333",
+        "team": "Mphasis",
+        "priority": "Medium",
+        "assignedTo": "Daren Hunt",
+        "company": null,
+        "client": null,
+        "status": "Open",
+        "policyType": "Facultative"
+      },
+      {
+        "claimID": "CL2047",
+        "policyID": 398986,
+        "claimRef": "2047",
+        "lossRef": 6068,
+        "lossFromDate": null,
+        "dataTimeUpdated": null,
+        "catCodesID": 0,
+        "lossName": "test123",
+        "targetDueDate": "2021-08-08",
+        "claimStatusID": 41,
+        "claimantID": null,
+        "claimantName": "Lake",
+        "xbPolicyID": 2995,
+        "xbInstanceID": 1,
+        "policyRef": "E13NY15430",
+        "assured": "Lake",
+        "division": "Equinox",
+        "ucr": "ABC122899",
+        "team": "Mphasis",
+        "priority": "Medium",
+        "assignedTo": "Daren Hunt",
+        "company": null,
+        "client": null,
+        "status": "Open",
+        "policyType": "Facultative"
+      },
+      {
+        "claimID": "CL2046",
+        "policyID": 398985,
+        "claimRef": "2046",
+        "lossRef": 6064,
+        "lossFromDate": null,
+        "dataTimeUpdated": null,
+        "targetDueDate": "2021-08-08",
+        "catCodesID": 0,
+        "lossName": "test123",
+        "claimStatusID": 41,
+        "claimantID": null,
+        "claimantName": "Lakewood",
+        "xbPolicyID": 2994,
+        "xbInstanceID": 1,
+        "policyRef": "E13NY15400",
+        "assured": "Lakewood",
+        "division": "Equinox",
+        "ucr": "ABC126899",
+        "team": "Mphasis",
+        "priority": "Medium",
+        "assignedTo": "Daren Hunt",
+        "company": null,
+        "client": null,
+        "status": "Open",
+        "policyType": "Facultative"
+      }
+    ],
+    "pagination": {
+      "direction": "desc",
+      "orderBy": "claimID",
+      "page": 1,
+      "searchBy": "",
+      "size": 10,
+      "totalElements": 51,
+      "totalPages": 6
+    },
+    "status": "OK",
+    "message": "Search data found successfully."
+  },
+  "getClaimNotes": {
+    "data": [
+      {
+        "id": 1,
+        "noteDetails": "notes number 1",
+        "createdDate": "2021-08-27T15:15:17.283Z",
+        "createdBy": 719,
+        "createdByName": "Anitha M",
+        "updatedDate": "2021-08-27T20:15:17.283Z",
+        "updatedBy": 528,
+        "updatedByName": "Apolline Julie"
+      },
+      {
+        "id": 2,
+        "noteDetails": "notes number 2",
+        "createdDate": "2020-08-27T05:15:17.283Z",
+        "createdBy": 528,
+        "createdByName": "Apolline Julie",
+        "updatedDate": "2021-02-27T11:15:17.283Z",
+        "updatedBy": 863,
+        "updatedByName": "Arun Arumugam"
+      },
+      {
+        "id": 3,
+        "noteDetails": "note number 3 with a very long text lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium pellentesque neque. Donec lacinia sit amet augue ac egestas. Proin a metus odio. In dapibus risus felis, et rutrum sapien pulvinar ac.",
+        "createdDate": "2021-03-27T05:35:17.283Z",
+        "createdBy": 719,
+        "createdByName": "Anitha M",
+        "updatedDate": "2021-09-27T08:25:17.283Z",
+        "updatedBy": 531,
+        "updatedByName": "Anitha Moorthy"
+      },
+      {
+        "id": 4,
+        "noteDetails": "notes number 4 with a medium size text",
+        "createdDate": "2021-08-07T05:15:17.283Z",
+        "createdBy": 719,
+        "createdByName": "Anitha M",
+        "updatedDate": "2021-08-21T05:15:17.283Z",
+        "updatedBy": 863,
+        "updatedByName": "Arun Arumugam"
+      },
+      {
+        "id": 5,
+        "noteDetails": "notes number 5",
+        "createdDate": "2019-08-27T23:15:17.283Z",
+        "createdBy": 528,
+        "createdByName": "Apolline Julie",
+        "updatedDate": "2019-10-27T23:55:17.283Z",
+        "updatedBy": 773,
+        "updatedByName": "Bhavanasi Meghana"
+      },
+      {
+        "id": 6,
+        "noteDetails": "notes number 6",
+        "createdDate": "2021-02-27T10:15:17.283Z",
+        "createdBy": 719,
+        "createdByName": "Anitha M",
+        "updatedDate": "2021-02-27T12:15:17.283Z",
+        "updatedBy": 863,
+        "updatedByName": "Arun Arumugam"
+      },
+      {
+        "id": 7,
+        "noteDetails": "notes number 7 with a medium size text",
+        "createdDate": "2021-08-25T05:15:17.283Z",
+        "createdBy": 531,
+        "createdByName": "Anitha Moorthy",
+        "updatedDate": "2021-08-26T05:15:17.283Z",
+        "updatedBy": 863,
+        "updatedByName": "Arun Arumugam"
+      },
+      {
+        "id": 8,
+        "noteDetails": "notes number 8 with a medium size text but a bit longer",
+        "createdDate": "2021-03-01T05:15:17.283Z",
+        "createdBy": 773,
+        "createdByName": "Bhavanasi Meghana",
+        "updatedDate": "2021-03-02T05:15:17.283Z",
+        "updatedBy": 528,
+        "updatedByName": "Apolline Julie"
+      }
+    ],
+    "pagination": {
+      "direction": "desc",
+      "orderBy": "updatedDate",
+      "page": 1,
+      "search": "bar",
+      "size": 5,
+      "totalElements": 8,
+      "totalPages": 2
+    },
+    "status": "OK",
+    "message": "Notes data found successfully."
+  },
+  "getFileUploadDocuments": {
+    "status": "OK",
+    "data": [
+      {
+        "documentId": 1,
+        "spdocumentID": 1,
+        "documentName": "filename 1.jpg",
+        "documentTypeDescription": "Bordereaux",
+        "documentVersion": 1,
+        "policyRef": "policy 34",
+        "uploadedby": "John Smith",
+        "uploadeddate": 1619534238861,
+        "insuredName": "Lloyd's Syndicate 1234",
+        "inceptionDate": 1619531238861,
+        "departmentName": "Property",
+        "xbinstance": "London"
+      },
+      {
+        "documentId": 2,
+        "spdocumentID": 2,
+        "documentName": "filename 2.jpg",
+        "documentTypeDescription": "Bordereaux",
+        "documentVersion": 1,
+        "policyRef": "policy 4434",
+        "uploadedby": "John",
+        "uploadeddate": 1619534238861,
+        "insuredName": "",
+        "inceptionDate": 1619531233861,
+        "departmentName": "Aviation",
+        "xbinstance": "London"
+      },
+      {
+        "documentId": 3,
+        "spdocumentID": 3,
+        "documentName": "filename 3.jpg",
+        "documentTypeDescription": "Claims",
+        "documentVersion": 1,
+        "policyRef": "policy 3",
+        "uploadedby": "Sam",
+        "uploadeddate": 1611534238861,
+        "insuredName": "Beecher Carlson",
+        "inceptionDate": 1619531232861,
+        "departmentName": "Cargo",
+        "xbinstance": "UAE"
+      },
+      {
+        "documentId": 4,
+        "spdocumentID": 4,
+        "documentName": "filename 4.jpg",
+        "documentTypeDescription": "Claims",
+        "documentVersion": 1,
+        "policyRef": "policy 23",
+        "uploadedby": "Steve Spencer",
+        "uploadeddate": 1612534238861,
+        "insuredName": "",
+        "inceptionDate": 1619531231861,
+        "departmentName": "Cargo",
+        "xbinstance": "Bermuda"
+      },
+      {
+        "documentId": 5,
+        "spdocumentID": 5,
+        "documentName": "filename 5.jpg",
+        "documentTypeDescription": "Claims",
+        "documentVersion": 3,
+        "policyRef": "policy 100",
+        "uploadedby": "Jimmy Graham",
+        "uploadeddate": 1613534238861,
+        "insuredName": "USI New York",
+        "inceptionDate": 1619531228861,
+        "departmentName": "Property",
+        "xbinstance": "Europe"
+      },
+      {
+        "documentId": 6,
+        "spdocumentID": 6,
+        "documentName": "filename 6.jpg",
+        "documentTypeDescription": "Document",
+        "documentVersion": 1,
+        "policyRef": "",
+        "uploadedby": "Tom Brady",
+        "uploadeddate": 1614534238861,
+        "insuredName": "USI New York",
+        "inceptionDate": 1619531268861,
+        "departmentName": "Property",
+        "xbinstance": "Europe"
+      },
+      {
+        "documentId": 7,
+        "spdocumentID": 7,
+        "documentName": "filename 7.jpg",
+        "documentTypeDescription": "Document",
+        "documentVersion": 1,
+        "policyRef": "policy 4238",
+        "uploadedby": "Vince Jackson",
+        "uploadeddate": 1615534238861,
+        "insuredName": "USI Miami",
+        "inceptionDate": 1619531138861,
+        "departmentName": "Aviation",
+        "xbinstance": "Europe"
+      },
+      {
+        "documentId": 8,
+        "spdocumentID": 8,
+        "documentName": "filename 8.jpg",
+        "documentTypeDescription": "Email",
+        "documentVersion": 2,
+        "policyRef": "",
+        "uploadedby": "Tommy Tebbutt",
+        "uploadeddate": 1616534238861,
+        "insuredName": "HDI",
+        "inceptionDate": 1619531138861,
+        "departmentName": "Cargo",
+        "xbinstance": "Europe"
+      },
+      {
+        "documentId": 9,
+        "spdocumentID": 9,
+        "documentName": "filename 9.jpg",
+        "documentTypeDescription": "Email",
+        "documentVersion": 2,
+        "policyRef": "",
+        "uploadedby": "Jamie Oliver",
+        "uploadeddate": 1617534238861,
+        "insuredName": "Las Vegas City",
+        "inceptionDate": 1619533238861,
+        "departmentName": "Aviation",
+        "xbinstance": "Europe"
+      },
+      {
+        "documentId": 10,
+        "spdocumentID": 10,
+        "documentName": "filename 10.jpg",
+        "documentTypeDescription": "File",
+        "documentVersion": 1,
+        "policyRef": "policy 4238",
+        "uploadedby": "Dennis Rodman",
+        "uploadeddate": 1618534238861,
+        "insuredName": "Holiday Inn Express",
+        "inceptionDate": 1619541238861,
+        "departmentName": "Property",
+        "xbinstance": "London"
+      }
+    ],
+    "pagination": {
+      "direction": "asc",
+      "orderBy": "id",
+      "page": 1,
+      "query": "",
+      "size": 10,
+      "totalElements": 12,
+      "totalPages": 2
+    }
+  },
+  "getFileUploadRiskReference": {
+    "status": "OK",
+    "data": [
+      {
+        "id": 1,
+        "policyRef": "policy 34",
+        "insuredName": "Lloyd's Syndicate 1234",
+        "xbInstanceId": 1,
+        "xbInstance": "London"
+      },
+      {
+        "id": 2,
+        "policyRef": "policy 4434",
+        "insuredName": "",
+        "xbInstanceId": 2,
+        "xbInstance": "London"
+      },
+      {
+        "id": 3,
+        "policyRef": "policy 3",
+        "insuredName": "Beecher Carlson",
+        "xbInstanceId": 3,
+        "xbInstance": "UAE"
+      },
+      {
+        "id": 4,
+        "policyRef": "policy 23",
+        "insuredName": "",
+        "xbInstanceId": 4,
+        "xbInstance": "Bermuda"
+      }
+    ],
+    "pagination": {
+      "direction": "asc",
+      "orderBy": "id",
+      "page": 1,
+      "query": "",
+      "size": 10,
+      "totalElements": 12,
+      "totalPages": 2
+    }
+  },
+  "getDmsSearchDocuments": {
+    "status": "OK",
+    "data": [
+      {
+        "sectionType": "Policy",
+        "referenceId": 123,
+        "departmentName": "US Energy",
+        "documentName": "Naming convention.txt",
+        "insuredName": "Clos Du Val Vineyard",
+        "year": 2018,
+        "documentTypeDescription": "Test Doc",
+        "uploadedName": "ABC",
+        "srcApplication": "Edge",
+        "documentVersion": "1.0",
+        "isLinked": 1,
+        "createdByName": "Alex Alexei",
+        "uploadedDate": "2021-09-22 11:07:07.853",
+        "metadataFields": [
+          { "prop": "lossPayee", "value": "100" },
+          { "prop": "amount", "value": "100000" }
+        ]
+      },
+      {
+        "sectionType": "Policy",
+        "referenceId": 456,
+        "departmentName": "US Energy",
+        "documentName": "Filename.txt",
+        "insuredName": "Beecher London",
+        "year": 2019,
+        "documentTypeDescription": "Another dummy filename...",
+        "uploadedName": "DEF",
+        "srcApplication": "Edge",
+        "documentVersion": "1.0",
+        "isLinked": 1,
+        "createdByName": "Bob Boughner",
+        "uploadedDate": "2020-06-10 11:07:07.853",
+        "metadataFields": [
+          { "prop": "lossPayee", "value": "200" },
+          { "prop": "amount", "value": "200000" }
+        ]
+      },
+      {
+        "sectionType": "Policy",
+        "referenceId": 789,
+        "departmentName": "Property",
+        "documentName": "Text.txt",
+        "insuredName": "Virgin Media",
+        "year": 2021,
+        "documentTypeDescription": "",
+        "uploadedName": "DEF",
+        "srcApplication": "Edge",
+        "documentVersion": "3.0",
+        "isLinked": 1,
+        "createdByName": "Chris Christy",
+        "uploadedDate": "2021-02-22 11:07:07.853",
+        "metadataFields": [
+          { "prop": "paymentDate", "value": "2020-12-31" },
+          { "prop": "lossPayee", "value": "300" },
+          { "prop": "amount", "value": "300000" }
+        ]
+      }
+    ],
+    "pagination": {
+      "direction": "asc",
+      "orderBy": "id",
+      "page": 1,
+      "query": "",
+      "size": 10,
+      "totalElements": 12,
+      "totalPages": 2
+    }
+  }
+}

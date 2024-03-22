@@ -1,0 +1,17 @@
+{
+  "/api/cases/gridSummary": "/gridSummary",
+  "/api/cases/progress": "/caseProgressList",
+  "/api/technicians": "/technicians",
+  "/api/claimInfo": "/claimInfo",
+  "/api/issueDocuments": "/issueDocuments",
+  "/api/rfiHistory": "/rfiHistory",
+  "/api/rfiQueryCodes": "/rfiQueryCodes",
+  "/api/getCaseTeam": "/getCaseTeam",
+  "/api/users": "/getUsers",
+  "/api/data/gui/interest": "/selectInterest",
+  "/api/workflow/claims/process/search": "/getClaimsProcessing",
+  "/api/data/claim/notes": "/getClaimNotes",
+  "/data/search/document": "/getFileUploadDocuments",
+  "/data/risk/reference/*": "/getFileUploadRiskReference",
+  "/dms/search/documents*": "/getDmsSearchDocuments"
+}

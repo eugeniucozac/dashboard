@@ -1,0 +1,31 @@
+{
+  "env": "local",
+  "type": "development",
+  "build": "00000000.0",
+  "release": "",
+  "auth0": {
+    "audience": "https://edgedev1springboot.azurewebsites.net/api"
+  },
+  "endpoint": {
+    "auth": "https://edge-auth-service.azurewebsites.net",
+    "edge": "https://edgedev1springboot.azurewebsites.net",
+    "emailNotification": "https://edge-email-service-dev1.azurewebsites.net/graph-service",
+    "bpmService": "https://son-bpm-service-dev1.azurewebsites.net/bpmservice",
+    "authService": "https://son-auth-service-dev1.azurewebsites.net/authservice",
+    "dataService": "https://son-data-service-dev1.azurewebsites.net/dataservice",
+    "notificationService": "https://son-notification-service-dev1.azurewebsites.net/notification-service-api",
+    "ppService": "https://son-pp-service-dev1.azurewebsites.net/premium-processing",
+    "dmsService": "https://son-dms-service-dev1.azurewebsites.net/dms-service-api",
+    "odsService": "https://son-ods-service-dev1.azurewebsites.net/odsservice",
+    "whitespace": "https://edgewhitespacedev1.azurewebsites.net",
+    "location": "https://priceforbeslocationboot.azurewebsites.net",
+    "dtc": "https://edge-dtc-service-dev.azurewebsites.net",
+    "document": "https://priceforbesdocumentboot.azurewebsites.net",
+    "slipcase": "https://widget.slipcase.com",
+    "claimService": "https://son-claims-service-dev1.azurewebsites.net/claims-service",
+    "gxbService": "https://son-gxb-service-dev1.azurewebsites.net"
+  },
+  "url": {
+    "analytics": "https://analytics.priceforbes.com/login/"
+  }
+}
